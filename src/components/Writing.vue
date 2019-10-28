@@ -115,3 +115,14 @@ body {
   background-color: pink;
 }
 </style>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+#writing-drawer {
+  margin: 40px;
+}
+
+#writing-drawer b-card {
+  background-color: greenyellow;
+}
+</style>

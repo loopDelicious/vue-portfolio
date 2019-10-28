@@ -1,6 +1,6 @@
 <template>
   <div class="jumbo">
-    <b-jumbotron bg-variant="info" text-variant="white" border-variant="dark">
+    <b-jumbotron bg-variant="info" text-variant="white" fluid>
         <template v-slot:header>Joyce Lin</template>
 
         <template v-slot:lead>
@@ -16,12 +16,6 @@
         <b-button variant="primary" href="#speaking-drawer">Speaking</b-button>
         <b-button variant="success" href="#writing-drawer">Writing</b-button>
         <b-button variant="primary" href="#">Do Something</b-button>
-
-        <div class="social-media">
-            <b-link href="https://github.com/loopDelicious" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></b-link>
-            <b-link href="https://twitter.com/petuniagray" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']" /></b-link>
-            <b-link href="https://www.linkedin.com/in/joyce-lin/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></b-link>
-        </div>
 
     </b-jumbotron>
   </div>
@@ -45,8 +39,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-.social-media {
-  height: 20px;
 }
 </style>

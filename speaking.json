@@ -1,0 +1,64 @@
+{
+    "speaking": [
+        {
+            "eventName": "API World",
+            "eventLink": "https://apiworld.co/",
+            "eventLocation": "San Jose, CA",
+            "eventDate": "October 2019",
+            "imgSrc": "https://pbs.twimg.com/media/EGdIEpeVAAUk7qb.jpg:large",
+            "talks": [
+                {
+                    "talkTitle": "Standing on the Shoulders of APIs",
+                    "talkLink": "https://sched.co/Vn3p",
+                    "talkVideo": null
+                }
+            ]
+
+        },
+        {
+            "eventName": "Nordic APIs",
+            "eventLink": "https://nordicapis.com/events/austin-api-summit-2019/",
+            "eventLocation": "Austin, TX",
+            "eventDate": "May 2019",
+            "imgSrc": "https://i.imgur.com/zW0trRP.jpg",
+            "talks": [
+                {
+                    "talkTitle": "Fake it till you make it: mock servers for agile development",
+                    "talkLink": "https://nordicapis.com/sessions/fake-it-till-you-make-it-mock-servers-for-agile-development/",
+                    "talkVideo": "https://www.youtube.com/watch?v=FI6IDPpBPQ0&feature=youtu.be"
+                },
+                {
+                    "talkTitle": "Simplify and Optimize Your Workflow – How an API-first Approach Can Help",
+                    "talkLink": "https://nordicapis.com/sessions/simplify-and-optimize-your-workflow-how-an-api-first-approach-can-help/",
+                    "talkVideo:": null
+                }
+            ]
+
+        },
+        {
+            "eventName": "DevNet Create",
+            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
+            "eventLocation": "Mountain View, CA",
+            "eventDate": "April 2019",
+            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "talks": [
+                {
+                    "talkTitle": "Interview about Postman with SiliconANGLE theCUBE",
+                    "talkLink": null,
+                    "talkVideo": "https://youtu.be/GTfLGXi9LDg"
+                },
+                {
+                    "talkTitle": "Creating a Community of 6 Million +",
+                    "talkLink": null,
+                    "talkVideo:": "https://youtu.be/mFww5YaDkZo"
+                },
+                {
+                    "talkTitle": "Fake APIs for Real Developers: Mock Servers for Agile Development",
+                    "talkLink": null,
+                    "talkVideo:": null
+                }
+            ]
+
+        }
+    ]
+}

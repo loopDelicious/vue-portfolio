@@ -8,7 +8,7 @@
     <!-- </div> -->
     <h2>Speaking</h2>
     
-    <b-card-group columns>
+    <b-card-group deck>
       <b-card v-b-toggle.collapse-1
           title="Nordic APIs"
           img-src="https://i.imgur.com/zW0trRP.jpg"
@@ -18,7 +18,6 @@
           style="max-width: 20rem;"
           class="mb-2"
       >
-
           <b-collapse id="collapse-1" class="mt-2">
             <b-card>
               <b-card-text><b-link href="https://nordicapis.com/events/austin-api-summit-2019/" target="_blank">Austin API Summit</b-link> in Austin, Texas</b-card-text>
@@ -122,6 +121,6 @@ export default {
 }
 
 #speaking-drawer b-card {
-  background-color: whitesmoke;
+  background-color: chartreuse;
 }
 </style>
