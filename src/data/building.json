@@ -1,0 +1,12 @@
+{
+    "building": [
+        {
+            "projectTitle": "catURL",
+            "projectLink": "https://os.meowsergirl.com/",
+            "projectArticle": null,
+            "githubLink": "https://github.com/loopDelicious/cat-url-mangler",
+            "projectDescription": "🐱 URL shortener using cat verbs, cat adjectives, and cat emojis",
+            "imgSrc": "https://github.com/loopDelicious/cat-url-mangler/blob/master/static/screenshot.png"
+        }
+    ]
+}

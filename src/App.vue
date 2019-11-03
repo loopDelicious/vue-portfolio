@@ -4,6 +4,7 @@
     <Jumbotron />
     <Speaking />
     <Writing />
+    <Building />
     <Contact />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
@@ -14,6 +15,7 @@
 import Jumbotron from './components/Jumbotron.vue'
 import Speaking from './components/Speaking.vue'
 import Writing from './components/Writing.vue'
+import Building from './components/Building.vue'
 import Contact from './components/Contact.vue'
 
 export default {
@@ -23,6 +25,7 @@ export default {
     Jumbotron,
     Speaking,
     Writing,
+    Building,
     Contact
   }
 }
