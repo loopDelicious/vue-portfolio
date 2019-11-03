@@ -4,7 +4,7 @@
         <template v-slot:header>Joyce Lin</template>
 
         <template v-slot:lead>
-        Full Stack Engineer with Product experience
+        Developer Relations
         </template>
 
         <hr class="my-4">

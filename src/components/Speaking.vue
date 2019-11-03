@@ -7,11 +7,14 @@
       </button> -->
     <!-- </div> -->
     <h2>Speaking</h2>
-    
-    <b-card-group deck>
+    <div>{{events}}</div>
+    <b-card-group deck v-for="(event, index) in events" 
+      v-bind:item="event"
+      v-bind:key="index"
+    >
       <b-card v-b-toggle.collapse-1
-          title="Nordic APIs"
-          img-src="https://i.imgur.com/zW0trRP.jpg"
+          :title="event.eventName"
+          :img-src="event.imgSrc"
           img-alt="Image"
           img-top
           tag="article"
@@ -20,25 +23,25 @@
       >
           <b-collapse id="collapse-1" class="mt-2">
             <b-card>
-              <b-card-text><b-link href="https://nordicapis.com/events/austin-api-summit-2019/" target="_blank">Austin API Summit</b-link> in Austin, Texas</b-card-text>
-              <b-card-text>May 2019</b-card-text>
-
-              <b-card-text>
-                <b-link href="https://nordicapis.com/sessions/fake-it-till-you-make-it-mock-servers-for-agile-development/" target="_blank" class="card-link">
-                  Fake it till you make it: mock servers for agile development
-                </b-link>
-                <b-link href="https://www.youtube.com/watch?v=FI6IDPpBPQ0&feature=youtu.be" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'video']" /></b-link>
-              </b-card-text>
-
-              <b-card-text>
-                <b-link href="https://nordicapis.com/sessions/simplify-and-optimize-your-workflow-how-an-api-first-approach-can-help/" target="_blank" class="card-link">
-                  Simplify and Optimize Your Workflow – How an API-first Approach Can Help
-                </b-link>
-              </b-card-text>
+              <b-card-text><b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link> in {{event.eventLocation}}</b-card-text>
+              <b-card-text>{{event.eventDate}}</b-card-text>
+              <template v-if="event.talks.length">
+                <b-card-text v-for="(talk, index) in event.talks" 
+                  v-bind:item="talk"
+                  v-bind:key="index"
+                >
+                  <b-link v-bind:href="talk.talkLink" target="_blank" class="card-link">
+                    {{talk.talkTitle}}
+                  </b-link>
+                  <template v-if="talk.talkVideo">
+                    <b-link v-bind:href="talk.talkVideo" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'video']" /></b-link>
+                  </template>
+                </b-card-text>
+              </template>
             </b-card>
           </b-collapse>
       </b-card>
-
+<!-- 
       <b-card v-b-toggle.collapse-1
           title="DevNet Create"
           img-src="https://i.imgur.com/vi5OLmE.jpg"
@@ -89,8 +92,8 @@
               </b-card-text>
             </b-card>
           </b-collapse>
-      </b-card>
-    </b-card-group>
+      </b-card>-->
+    </b-card-group> 
 
     <div>
       <b-card v-b-toggle.collapse-1 variant="primary">Other events</b-card>
@@ -108,11 +111,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Speaking'
-}
-</script>
+<script src="./speaking.js"></script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
