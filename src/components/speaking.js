@@ -1,11 +1,11 @@
 // import axios from 'axios'
-import data from '../../speaking.json'
+import data from '../data/speaking.json'
 
 export default {
   name: 'Speaking',
   data () {
     return {
-      events: data.speaking
+      events: data
     }
   }
 //   mounted () {

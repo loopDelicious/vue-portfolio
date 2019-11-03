@@ -60,5 +60,17 @@
             ]
 
         }
+    ],
+    "otherEvents": [
+        {
+            "otherEventLink": "https://apiworld.co/",
+            "otherEventName": "API World",
+            "otherEventLocation": "San Jose, CA"
+        },
+        {
+            "otherEventLink": "https://apiworld.co/",
+            "otherEventName": "API World",
+            "otherEventLocation": "San Jose, CA"
+        }
     ]
 }
