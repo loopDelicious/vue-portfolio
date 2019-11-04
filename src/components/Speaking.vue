@@ -1,18 +1,50 @@
 <template>
   <div id="speaking-drawer" class="speaking">
-    <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
-      I am Speaking!
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button> -->
-    <!-- </div> -->
     <h2>Speaking</h2>
-    <div>{{events.speaking}}</div>
-    <b-card-group deck v-for="(event, index) in events.speaking" 
-      v-bind:item="event"
-      v-bind:key="index"
-    >
-      <b-card v-b-toggle.collapse-1
+    <div role="tablist">
+      <b-card-group deck v-for="(event, index) in events.speaking" 
+        v-bind:item="event"
+        v-bind:index="event.id"
+        v-bind:key="index"
+      >
+        <b-card no-body class="mb-1">
+          <b-card-header header-tag="header" class="p-1" role="tab">
+            <b-button block href="#" v-b-toggle="'accordion-' + index" variant="info">{{event.eventName}} in {{event.eventLocation}}</b-button>
+          </b-card-header>
+            <b-collapse :id="'accordion-' + index" accordion="my-accordion" role="tabpanel">
+              <b-card-body>
+                <b-card v-b-toggle="'collapse' + index"
+                  :title="event.eventName"
+                  :href="event.eventLink"
+                  :img-src="event.imgSrc"
+                  :img-alt="event.eventName"
+                  img-top
+                  tag="article"
+                  style="max-width: 20rem;"
+                  class="mb-3"
+                ></b-card>
+                <b-card-text><b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link></b-card-text>
+                
+                <template v-if="event.talks.length">
+                  <b-card-text v-for="(talk, index) in event.talks" 
+                    v-bind:item="talk"
+                    v-bind:key="index"
+                  >
+                    <b-link v-bind:href="talk.talkLink" target="_blank" class="card-link">
+                      {{talk.talkTitle}}
+                    </b-link>
+                    <template v-if="talk.talkVideo">
+                      <b-link v-bind:href="talk.talkVideo" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'video']" /></b-link>
+                    </template>
+                  </b-card-text>
+                </template>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+    
+
+<!-- 
+      <b-card v-b-toggle="'collapse' + index"
           :title="event.eventName"
           :img-src="event.imgSrc"
           img-alt="Image"
@@ -20,8 +52,10 @@
           tag="article"
           style="max-width: 20rem;"
           class="mb-2"
+          header-tag="header"
+          role="tab"
       >
-          <b-collapse id="collapse-1" class="mt-2">
+          <b-collapse :id="'collapse' + index" class="mt-2">
             <b-card>
               <b-card-text><b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link> in {{event.eventLocation}}</b-card-text>
               <b-card-text>{{event.eventDate}}</b-card-text>
@@ -40,9 +74,9 @@
               </template>
             </b-card>
           </b-collapse>
-      </b-card>
+      </b-card> -->
     </b-card-group> 
-
+    </div>
     <div>
       <b-card v-b-toggle.collapse-1 variant="primary">Other events</b-card>
       <b-collapse id="collapse-1" class="mt-2">
@@ -66,7 +100,7 @@
   margin: 40px;
 }
 
-#speaking-drawer b-card {
+#speaking-drawer.b-card {
   background-color: chartreuse;
 }
 </style>
