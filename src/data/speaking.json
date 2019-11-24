@@ -1,6 +1,25 @@
 {
     "speaking": [
         {
+            "eventName": "Web Unleashed",
+            "eventLink": "https://fitc.ca/event/webu19/",
+            "eventLocation": "Toronto, CAN",
+            "eventDate": "September 2019",
+            "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg",
+            "talks": [
+                {
+                    "talkTitle": "Standing on the Shoulders of APIs",
+                    "talkLink": "https://fitc.ca/presentation/standing-on-the-shoulders-of-apis/",
+                    "talkVideo": "https://youtu.be/bU6X4ZQtkAs"
+                },
+                {
+                    "talkTitle": "Getting rid of Bad Documentation",
+                    "talkLink": "https://fitc.ca/presentation/roundtable-getting-rid-of-bad-documentation/",
+                    "talkVideo": null
+                }
+            ]
+        },
+        {
             "eventName": "API World",
             "eventLink": "https://apiworld.co/",
             "eventLocation": "San Jose, CA",

@@ -1,12 +1,13 @@
 module.exports = {
   presets: [
     '@vue/cli-plugin-babel/preset'
-  ],
-  transformToRequire: {
-    'video': 'src',
-    'source': 'src',
-    'img': 'src',
-    'image': 'xlink:href',
-    'b-card': 'img-src'
-  }
+  ]
+  // ],
+  // transformToRequire: {
+  //   'video': 'src',
+  //   'source': 'src',
+  //   'img': 'src',
+  //   'image': 'xlink:href',
+  //   'b-card': 'img-src'
+  // }
 }

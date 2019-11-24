@@ -22,6 +22,8 @@
                   tag="article"
                   style="max-width: 20rem;"
                   class="mb-3"
+                  bg-variant="dark" 
+                  text-variant="white"
                 ></b-card>
                 <b-card-text><b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link></b-card-text>
                 
@@ -30,12 +32,16 @@
                     v-bind:item="talk"
                     v-bind:key="index"
                   >
-                    <b-link v-bind:href="talk.talkLink" target="_blank" class="card-link">
-                      {{talk.talkTitle}}
-                    </b-link>
-                    <template v-if="talk.talkVideo">
-                      <b-link v-bind:href="talk.talkVideo" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'video']" /></b-link>
-                    </template>
+                    <b-list-group flush>
+                      <b-list-group-item>
+                        <b-link v-bind:href="talk.talkLink" target="_blank" class="card-link">
+                          {{talk.talkTitle}}
+                        </b-link>
+                        <template v-if="talk.talkVideo">
+                          <b-link v-bind:href="talk.talkVideo" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'video']" /></b-link>
+                        </template>
+                      </b-list-group-item>
+                    </b-list-group>
                   </b-card-text>
                 </template>
             </b-card-body>
