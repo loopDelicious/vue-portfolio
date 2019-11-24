@@ -1,32 +1,33 @@
 <template>
   <div id="building-drawer" class="building">
     <h2>Building</h2>
-
-    <b-card-group deck v-for="(project, index) in building" 
-            v-bind:item="project"
-            v-bind:key="index"
-        >
-            <b-card
-                :title="project.projectTitle"
-                :img-src="project.imgSrc"
-                img-alt="Image"
-                img-top
-                tag="article"
-                style="max-width: 20rem;"
-                class="mb-2"
-            >
-            <b-link 
-                :href="project.projectLink" target="_blank">
-                <b-card-text>
+    <div class="mt-3">
+      <b-card-group deck v-for="(project, index) in building" 
+              v-bind:item="project"
+              v-bind:key="index"
+          >
+        <b-card no-body class="overflow-hidden" style="max-width: 540px;">
+          <b-row no-gutters>
+            <b-col md="6">
+              <b-card-img :src="project.imgSrc" class="rounded-0"></b-card-img>
+            </b-col>
+            <b-col md="6">
+              <b-card-body :title="project.projectTitle">
+                <b-link 
+                  :href="project.projectLink" target="_blank">
+                  <b-card-text>
                     {{project.projectDescription}}
-                </b-card-text>
-            </b-link>
-            <template v-if="project.githubLink">
-                <b-link v-bind:href="project.githubLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fab', 'github']" /></b-link>
-            </template>
-            </b-card>
-    </b-card-group>
-
+                  </b-card-text>
+                </b-link>
+                <template v-if="project.githubLink">
+                  <b-link v-bind:href="project.githubLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fab', 'github']" /></b-link>
+              </template>
+              </b-card-body>
+            </b-col>
+          </b-row>
+        </b-card>
+      </b-card-group>
+    </div>
   </div>
 </template>
 
