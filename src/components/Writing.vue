@@ -1,14 +1,14 @@
 <template>
   <div id="writing-drawer" class="writing">
     <h2>Writing</h2>
+
     <div class="mt-3">
-      <b-card-group deck v-for="(article, index) in writing" 
-              v-bind:item="article"
-              v-bind:key="index"
-              class="text-left mb-3"
-          >
-          <b-link 
-              :href="article.articleLink" target="_blank">
+        <b-card-group deck>
+          <b-link v-for="(article, index) in data.featured" 
+              :key="index"
+              :href="article.articleLink" 
+              target="_blank"
+              >
               <b-card
                   :title="article.articleTitle"
                   :img-src="article.imgSrc"
@@ -16,7 +16,31 @@
                   img-top
                   tag="article"
                   style="max-width: 20rem;"
-                  class="mb-2"
+                  class="text-left mb-3"
+              >
+                  <b-card-text>
+                      {{article.articleBlurb}}
+                  </b-card-text>
+              </b-card>
+          </b-link>
+      </b-card-group>
+    </div>
+
+    <div class="mt-3">
+      <b-card-group deck>
+          <b-link v-for="(article, index) in data.writing" 
+              :key="index"
+              :href="article.articleLink" 
+              target="_blank"
+              >
+              <b-card
+                  :title="article.articleTitle"
+                  :img-src="article.imgSrc"
+                  img-alt="Image"
+                  img-top
+                  tag="article"
+                  style="max-width: 20rem;"
+                  class="text-left mb-3"
               >
                   <b-card-text>
                       {{article.articleBlurb}}
@@ -48,4 +72,4 @@ body {
 }
 </style>
 
-// TODO - embedded videos (if any), icon for external link, add pipe to separate video icon, accordion is weird - make smaller thumbnails in a grid
+// TODO - embedded videos (if any), icon for external link, add pipe to separate video icon

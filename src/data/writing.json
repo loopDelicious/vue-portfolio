@@ -1,11 +1,11 @@
 {
-    "writing": [
+    "featured": [
         {
-            "articleTitle": "Bringing law and order to APIs with OpenAPI Specifications",
-            "articleLink": "https://medium.com/better-practices/api-specifications-d87588ac874",
+            "articleTitle": "Deploying a scalable web application with Docker and Kubernetes",
+            "articleLink": "https://medium.com/better-practices/deploying-a-scalable-web-application-with-docker-and-kubernetes-a5000a06c4e9",
             "articlePublication": "Better Practices",
-            "imgSrc": "https://miro.medium.com/max/12000/1*RSb13ih-eWr9crmpmFKVxw.jpeg",
-            "articleBlurb": "A better way to build and manage APIs using schemas, descriptions, and style guides"
+            "imgSrc": "https://miro.medium.com/max/7982/1*_z6K0v2SvBINFuFzWhAHQA.jpeg",
+            "articleBlurb": "Learn how to test and deploy a Node.js app using containers and an orchestration engine"
         },
         {
             "articleTitle": "Learn how your Kubernetes clusters respond to failure using Gremlin and Grafana",
@@ -15,18 +15,20 @@
             "articleBlurb": "Building resilient APIs with chaos engineering"
         },
         {
+            "articleTitle": "Bringing law and order to APIs with OpenAPI Specifications",
+            "articleLink": "https://medium.com/better-practices/api-specifications-d87588ac874",
+            "articlePublication": "Better Practices",
+            "imgSrc": "https://miro.medium.com/max/12000/1*RSb13ih-eWr9crmpmFKVxw.jpeg",
+            "articleBlurb": "A better way to build and manage APIs using schemas, descriptions, and style guides"
+        }
+    ],
+    "writing": [
+        {
             "articleTitle": "Introducing Better Practices",
             "articleLink": "https://medium.com/better-practices/introducing-better-practices-e9cf14cf0c88",
             "articlePublication": "Better Practices",
             "imgSrc": "https://miro.medium.com/max/3076/1*vOBMJyHlysk2xuVoszs0vw.png",
             "articleBlurb": "A new technical blog to share better software engineering practices with the Postman community"
-        },
-        {
-            "articleTitle": "Deploying a scalable web application with Docker and Kubernetes",
-            "articleLink": "https://medium.com/better-practices/deploying-a-scalable-web-application-with-docker-and-kubernetes-a5000a06c4e9",
-            "articlePublication": "Better Practices",
-            "imgSrc": "https://miro.medium.com/max/7982/1*_z6K0v2SvBINFuFzWhAHQA.jpeg",
-            "articleBlurb": "Learn how to test and deploy a Node.js app using containers and an orchestration engine"
         },
         {
             "articleTitle": "Reverse engineering an API",
@@ -111,20 +113,6 @@
             "articlePublication": "Postman Blog",
             "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/04/2826ou.jpg",
             "articleBlurb": "Postman introductory series for beginners"
-        },
-        {
-            "articleTitle": "First 5 things to try if you’re new to Postman",
-            "articleLink": "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/",
-            "articlePublication": "Postman Blog",
-            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/04/2826ou.jpg",
-            "articleBlurb": "Postman introductory series for beginners"
-        },
-        {
-            "articleTitle": "Looping through a data file in the Postman Collection Runner",
-            "articleLink": "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/",
-            "articlePublication": "Postman Blog",
-            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ramen-running.png",
-            "articleBlurb": "Postman recipe using an external data file to automate scenario testing"
         },
         {
             "articleTitle": "Looping through a data file in the Postman Collection Runner",

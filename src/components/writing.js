@@ -4,7 +4,7 @@ export default {
   name: 'Writing',
   data () {
     return {
-      writing: data.writing
+      data: data
     }
   }
 }

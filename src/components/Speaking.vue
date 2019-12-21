@@ -2,7 +2,7 @@
   <div id="speaking-drawer" class="speaking">
     <h2>Speaking</h2>
 
-    <div>
+    <div class="mt-3">
       <b-card-group deck>
         <b-card 
           :title="events.featured[0].eventName"
@@ -27,26 +27,26 @@
     </div>
 
     <div class="mt-3">
-        <b-card-group deck >
-            <b-link v-for="(event,index) in events.speaking"
-                :key="index"
-                :href="event.eventLink" target="_blank">
-                <b-card 
-                    :img-src="event.imgSrc"
-                    :href="event.eventLink" target="_blank"
-                    img-alt="event"
-                    img-top
-                    tag="event"
-                    style="max-width: 20rem; min-width: 200px"
-                    class="mb-2"
-                >
-                    <b-card-text>
-                        {{event.eventName}}
-                    </b-card-text>
-                </b-card>
-            </b-link>
-        </b-card-group>
-      </div>
+      <b-card-group deck >
+          <b-link v-for="(event,index) in events.speaking"
+              :key="index"
+              :href="event.eventLink" target="_blank">
+              <b-card 
+                  :img-src="event.imgSrc"
+                  :href="event.eventLink" target="_blank"
+                  img-alt="event"
+                  img-top
+                  tag="event"
+                  style="max-width: 20rem; min-width: 200px"
+                  class="mb-2"
+              >
+                  <b-card-text>
+                      {{event.eventName}}
+                  </b-card-text>
+              </b-card>
+          </b-link>
+      </b-card-group>
+    </div>
 
 
     <!-- <div role="tablist">
