@@ -3,6 +3,7 @@
     <h2>Speaking</h2>
 
     <div class="mt-3">
+      <!-- FEATURED -->
       <b-card-group deck>
         <b-card 
           :title="events.featured[0].eventName"
@@ -27,6 +28,7 @@
     </div>
 
     <div class="mt-3">
+      <!-- GENERAL SPEAKING ENGAGEMENTS -->
       <b-card-group deck >
           <b-link v-for="(event,index) in events.speaking"
               :key="index"
@@ -46,6 +48,31 @@
               </b-card>
           </b-link>
       </b-card-group>
+    </div>
+
+    <div class="mt-3">
+      <b-button v-b-toggle.collapse-1 >Other events</b-button>
+      <b-collapse id="collapse-1" class="mt-2">
+        <b-list-group v-for="(event,index) in events.otherEvents"
+            :key="index"
+            style="display: flex; align-items: center; text-align: left">
+          
+            <template v-if="event.otherEventLink">
+              <b-list-group-item button
+                style="max-width: 500px">
+                <b-link :href="event.otherEventLink" target="_blank">{{event.otherEventName}}</b-link>
+                | {{event.otherEventLocation}}
+              </b-list-group-item>
+            </template> 
+
+            <template v-else>
+              <b-list-group-item button disabled style="max-width: 500px">
+                {{event.otherEventName}} | {{event.otherEventLocation}}
+              </b-list-group-item>
+            </template>   
+
+        </b-list-group>
+        </b-collapse>
     </div>
 
 

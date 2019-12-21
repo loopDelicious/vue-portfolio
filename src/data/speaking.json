@@ -21,6 +21,25 @@
     ],
     "speaking": [
         {
+            "eventName": "APIdays Paris",
+            "eventLink": "hhttps://www.apidays.co/paris",
+            "eventLocation": "Paris",
+            "eventDate": "December 2019",
+            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "talks": [
+                {
+                    "talkTitle": "10 things you didn't know about Postman",
+                    "talkLink": null,
+                    "talkVideo": null
+                },
+                {
+                    "talkTitle": "Bringing Law and Order to those untamed APIs",
+                    "talkLink": null,
+                    "talkVideo:": null
+                }
+            ]
+        },
+        {
             "eventName": "DevNet Create",
             "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
             "eventLocation": "Mountain View, CA",
@@ -124,20 +143,6 @@
 
         },
         {
-            "eventName": "ChaosConf",
-            "eventLink": "https://chaosconf.io/",
-            "eventLocation": "San Francisco, CA",
-            "eventDate": "September 2019",
-            "imgSrc": null,
-            "talks": [
-                {
-                    "talkTitle": "Who is responsible for chaos?",
-                    "talkLink": "https://chaosconf.io/#g-618506977",
-                    "talkVideo": null
-                }
-            ]
-        },
-        {
             "eventName": "API The Docs",
             "eventLink": "https://apithedocs.org/london-2018",
             "eventLocation": "London",
@@ -160,19 +165,19 @@
             "otherEventLocation": "Vancouver"
         },
         {
+            "otherEventLink": "https://chaosconf.io/",
+            "otherEventName": "ChaosConf",
+            "otherEventLocation": "San Francisco"
+        },
+        {
             "otherEventLink": "https://2019.apicity.io/",
-            "otherEventName": "API City",
+            "otherEventName": "API City 2019",
             "otherEventLocation": "Seattle, WA"
         },
         {
             "otherEventLink": "https://www.apidays.co/sanfrancisco",
-            "otherEventName": "APIDays",
+            "otherEventName": "APIDays SF 2018",
             "otherEventLocation": "San Francisco, CA"
-        },
-        {
-            "otherEventLink": "https://docs.google.com/spreadsheets/d/1mA0FDySf2t2sSjKKG2VOta8vDDiGsQytgxJ2iHBeDIs/edit#gid=0",
-            "otherEventName": "GlueCon",
-            "otherEventLocation": "Denver, CO"
         },
         {
             "otherEventLink": "https://docs.google.com/spreadsheets/d/1mA0FDySf2t2sSjKKG2VOta8vDDiGsQytgxJ2iHBeDIs/edit#gid=0",
@@ -186,17 +191,17 @@
         },
         {
             "otherEventLink": "https://www.getpostman.com/post-con-2018",
-            "otherEventName": "POST/CON",
+            "otherEventName": "POST/CON 2018",
             "otherEventLocation": "San Francisco, CA"
         },
         {
             "otherEventLink": "http://sched.co/EtFN",
-            "otherEventName": "API World",
+            "otherEventName": "API World 2017",
             "otherEventLocation": "San Jose, CA"
         },
         {
             "otherEventLink": "http://www.apidays.io/events/paris-2017#speakers",
-            "otherEventName": "APIDays",
+            "otherEventName": "APIDays 2017",
             "otherEventLocation": "Paris"
         },
         {
@@ -206,12 +211,12 @@
         },
         {
             "otherEventLink": "https://www.eventbrite.com/e/building-and-testing-apis-with-loopback-postman-tickets-41326237890",
-            "otherEventName": "Building and testing APIs with Loopback and Postman",
+            "otherEventName": "Build and test with Loopback and Postman",
             "otherEventLocation": "San Francisco, CA"
         },
         {
             "otherEventLink": "https://www.meetup.com/Auth0-Online-Meetup/events/254483725/",
-            "otherEventName": "Using JSON Web Tokens (JWT) to authenticate requests",
+            "otherEventName": "Using JWT to authenticate requests",
             "otherEventLocation": "San Francisco, CA"
         },
         {
@@ -226,7 +231,7 @@
         },
         {
             "otherEventLink": null,
-            "otherEventName": "Mountain View Cloud Native Computing Meetup Group",
+            "otherEventName": "Cloud Native Computing Group",
             "otherEventLocation": "Mountain View, CA"
         },
         {
