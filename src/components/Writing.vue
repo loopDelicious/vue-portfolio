@@ -47,3 +47,5 @@ body {
   background-color: greenyellow;
 }
 </style>
+
+// TODO - embedded videos (if any), icon for external link, add pipe to separate video icon, accordion is weird - make smaller thumbnails in a grid

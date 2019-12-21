@@ -1,6 +1,13 @@
 {
     "writing": [
         {
+            "articleTitle": "Bringing law and order to APIs with OpenAPI Specifications",
+            "articleLink": "https://medium.com/better-practices/api-specifications-d87588ac874",
+            "articlePublication": "Better Practices",
+            "imgSrc": "https://miro.medium.com/max/12000/1*RSb13ih-eWr9crmpmFKVxw.jpeg",
+            "articleBlurb": "A better way to build and manage APIs using schemas, descriptions, and style guides"
+        },
+        {
             "articleTitle": "Learn how your Kubernetes clusters respond to failure using Gremlin and Grafana",
             "articleLink": "https://medium.com/better-practices/chaos-d3ef238ec328",
             "articlePublication": "Better Practices",
@@ -41,6 +48,104 @@
             "articlePublication": "Better Practices",
             "imgSrc": "https://miro.medium.com/max/3120/1*HW-r4Stc052Sn381sIRMHQ.png",
             "articleBlurb": "Using AWS Lambda to run concurrent functions with Newman"
+        },
+        {
+            "articleTitle": "Tuck in your APIs safe and sound with these guiding principles for API security",
+            "articleLink": "https://medium.com/better-practices/tuck-in-your-apis-safe-and-sound-with-these-guiding-principles-for-api-security-cd69f71c291e",
+            "articlePublication": "Better Practices",
+            "imgSrc": "https://miro.medium.com/max/2560/1*QRZUaJYGp3h_n4Jfq24OVQ.jpeg",
+            "articleBlurb": "how to build secure APIs"
+        },
+        {
+            "articleTitle": "The Ultimate API Publisher’s Guide",
+            "articleLink": "https://medium.com/better-practices/the-ultimate-api-publishers-guide-be74a2692326",
+            "articlePublication": "Better Practices",
+            "imgSrc": "https://miro.medium.com/max/9792/1*KuZ_U9Yr4KuOuKNZSJysXQ.jpeg",
+            "articleBlurb": "best practices for documenting your API"
+        },
+        {
+            "articleTitle": "API-first software development for modern organizations",
+            "articleLink": "https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3",
+            "articlePublication": "Better Practices",
+            "imgSrc": "https://miro.medium.com/max/12000/1*tjvQ8XV65JcxIETD53CNDg.jpeg",
+            "articleBlurb": "an API-first approach can help you manage the complexity of working in the cloud"
+        },
+        {
+            "articleTitle": "Fake it till you make it: mocks for agile development",
+            "articleLink": "https://medium.com/better-practices/https-medium-com-postman-engineering-fake-it-till-you-make-it-mocks-for-agile-development-f4d050cad694",
+            "articlePublication": "Better Practices",
+            "imgSrc": "https://miro.medium.com/max/4080/1*FekJAVlovNnqQZ8uOVjlUQ.png",
+            "articleBlurb": "Learn how to use mock servers for continuous planning, continuous development, and continuous testing"
+        },
+        {
+            "articleTitle": "Postman – a beacon of hope in a world of API darkness",
+            "articleLink": "https://blog.getpostman.com/2018/06/22/postman-a-beacon-of-hope-in-a-world-of-api-darkness-%f0%9f%92%a1/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/IMG_20180507_192407.jpg",
+            "articleBlurb": "Postman recipe for Nanoleaf and other IOT workflows"
+        },
+        {
+            "articleTitle": "Newman: run and test your collections from the command line",
+            "articleLink": "https://blog.getpostman.com/2018/06/21/newman-run-and-test-your-collections-from-the-command-line/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.jpg",
+            "articleBlurb": "Good, better, and best practices for working with Newman"
+        },
+        {
+            "articleTitle": "The lazy dev’s guide to API automation: Airtable to SurveyMonkey uploader",
+            "articleLink": "https://blog.getpostman.com/2018/06/05/airtable-to-surveymonkey/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/lazycat.jpg",
+            "articleBlurb": "Postman recipe for loading SurveyMonkey data into Airtable"
+        },
+        {
+            "articleTitle": "How Postman feeds my sushi addiction",
+            "articleLink": "https://blog.getpostman.com/2018/04/25/how-postman-feeds-my-sushi-addiction/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/twitterAuthPostman.png",
+            "articleBlurb": "Postman recipe for recommending a nearby sushi spot using Google Places and Twitter APIs"
+        },
+        {
+            "articleTitle": "First 5 things to try if you’re new to Postman",
+            "articleLink": "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/04/2826ou.jpg",
+            "articleBlurb": "Postman introductory series for beginners"
+        },
+        {
+            "articleTitle": "First 5 things to try if you’re new to Postman",
+            "articleLink": "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/04/2826ou.jpg",
+            "articleBlurb": "Postman introductory series for beginners"
+        },
+        {
+            "articleTitle": "Looping through a data file in the Postman Collection Runner",
+            "articleLink": "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ramen-running.png",
+            "articleBlurb": "Postman recipe using an external data file to automate scenario testing"
+        },
+        {
+            "articleTitle": "Looping through a data file in the Postman Collection Runner",
+            "articleLink": "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ramen-running.png",
+            "articleBlurb": "Postman recipe using an external data file to automate scenario testing"
+        },
+        {
+            "articleTitle": "How to make money using Postman: chaining requests",
+            "articleLink": "https://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/03/26byy8.jpg",
+            "articleBlurb": "Postman recipe to control your workflow with Bitcoin and Twilio APIs"
+        },
+        {
+            "articleTitle": "The Good Collection",
+            "articleLink": "https://blog.getpostman.com/2018/03/08/the-good-collection/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/03/subway.png",
+            "articleBlurb": "Better practices for using Postman collections"
         }
     ]
 }

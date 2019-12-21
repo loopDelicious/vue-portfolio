@@ -1,7 +1,55 @@
 <template>
   <div id="speaking-drawer" class="speaking">
     <h2>Speaking</h2>
-    <div role="tablist">
+
+    <div>
+      <b-card-group deck>
+        <b-card 
+          :title="events.featured[0].eventName"
+          :img-src="events.featured[0].imgSrc"
+          :href="events.featured[0].talkLink"
+        >
+          <b-card-text>{{events.featured[0].talkTitle}} |  
+            <b-link v-bind:href="events.featured[0].talkLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
+          </b-card-text>
+        </b-card>
+
+        <b-card 
+          :title="events.featured[1].eventName"
+          :img-src="events.featured[1].imgSrc"
+          :href="events.featured[1].talkLink"
+        >
+          <b-card-text>{{events.featured[1].talkTitle}} |  
+            <b-link v-bind:href="events.featured[1].talkLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
+          </b-card-text>
+        </b-card>
+      </b-card-group>
+    </div>
+
+    <div class="mt-3">
+        <b-card-group deck >
+            <b-link v-for="(event,index) in events.speaking"
+                :key="index"
+                :href="event.eventLink" target="_blank">
+                <b-card 
+                    :img-src="event.imgSrc"
+                    :href="event.eventLink" target="_blank"
+                    img-alt="event"
+                    img-top
+                    tag="event"
+                    style="max-width: 20rem; min-width: 200px"
+                    class="mb-2"
+                >
+                    <b-card-text>
+                        {{event.eventName}}
+                    </b-card-text>
+                </b-card>
+            </b-link>
+        </b-card-group>
+      </div>
+
+
+    <!-- <div role="tablist">
       <b-card-group deck v-for="(event, index) in events.speaking" 
         v-bind:item="event"
         v-bind:index="event.id"
@@ -46,7 +94,7 @@
                 </template>
             </b-card-body>
           </b-collapse>
-        </b-card>
+        </b-card> -->
     
 
 <!-- 
@@ -81,9 +129,9 @@
             </b-card>
           </b-collapse>
       </b-card> -->
-    </b-card-group> 
-    </div>
-    <div>
+    <!-- </b-card-group> 
+    </div> -->
+    <!-- <div>
       <b-card v-b-toggle.collapse-1 variant="primary">Other events</b-card>
       <b-collapse id="collapse-1" class="mt-2">
         <b-card v-for="(event, index) in events.otherEvents"
@@ -93,7 +141,7 @@
           <b-card-text><b-link v-bind:href="event.otherEventLink" target="_blank">{{event.otherEventName}}</b-link> in {{event.otherEventLocation}}</b-card-text>
         </b-card>
       </b-collapse>
-    </div>
+    </div> -->
 
   </div>
 </template>

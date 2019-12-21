@@ -1,5 +1,49 @@
 {
+    "featured": [
+        {
+            "eventName": "DevNet Create",
+            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
+            "eventLocation": "Mountain View, CA",
+            "eventDate": "April 2019",
+            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "talkTitle": "SiliconANGLE theCUBE",
+            "talkLink": "https://youtu.be/GTfLGXi9LDg"
+        },
+        {
+            "eventName": "Web Unleashed",
+            "eventLink": "https://fitc.ca/event/webu19/",
+            "eventLocation": "Toronto, CAN",
+            "eventDate": "September 2019",
+            "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg",
+            "talkTitle": "Standing on the Shoulders of APIs",
+            "talkLink": "https://youtu.be/bU6X4ZQtkAs"
+        }
+    ],
     "speaking": [
+        {
+            "eventName": "DevNet Create",
+            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
+            "eventLocation": "Mountain View, CA",
+            "eventDate": "April 2019",
+            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "talks": [
+                {
+                    "talkTitle": "Postman interview with SiliconANGLE theCUBE",
+                    "talkLink": null,
+                    "talkVideo": "https://youtu.be/GTfLGXi9LDg"
+                },
+                {
+                    "talkTitle": "Creating a Community of 6 Million +",
+                    "talkLink": null,
+                    "talkVideo:": "https://youtu.be/mFww5YaDkZo"
+                },
+                {
+                    "talkTitle": "Fake APIs for Real Developers: Mock Servers for Agile Development",
+                    "talkLink": null,
+                    "talkVideo:": null
+                }
+            ]
+        },
         {
             "eventName": "Web Unleashed",
             "eventLink": "https://fitc.ca/event/webu19/",
@@ -30,6 +74,11 @@
                     "talkTitle": "Standing on the Shoulders of APIs",
                     "talkLink": "https://sched.co/Vn3p",
                     "talkVideo": null
+                },
+                {
+                    "talkTitle": "Escaping the microservices dependency hell",
+                    "talkLink": "https://sched.co/Sk2z",
+                    "talkVideo": null
                 }
             ]
 
@@ -55,26 +104,50 @@
 
         },
         {
-            "eventName": "DevNet Create",
-            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
-            "eventLocation": "Mountain View, CA",
-            "eventDate": "April 2019",
-            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "eventName": "Software Test Professionals Conference",
+            "eventLink": "https://fall2019.stpcon.com/",
+            "eventLocation": "Boston, MA",
+            "eventDate": "September 2019",
+            "imgSrc": "https://fall2019.stpcon.com/wp-content/uploads/2019/05/Lin.Joyce-WebPhoto.jpg",
             "talks": [
                 {
-                    "talkTitle": "Postman interview with SiliconANGLE theCUBE",
-                    "talkLink": null,
-                    "talkVideo": "https://youtu.be/GTfLGXi9LDg"
+                    "talkTitle": "Test Automation",
+                    "talkLink": "https://fall2019.stpcon.com/sessions/workshop-test-automation-with-postman/",
+                    "talkVideo": null
                 },
                 {
-                    "talkTitle": "Creating a Community of 6 Million +",
-                    "talkLink": null,
-                    "talkVideo:": "https://youtu.be/mFww5YaDkZo"
-                },
+                    "talkTitle": "Postman Automation Workshoppin with Joyce Lin",
+                    "talkLink": "https://www.spreaker.com/user/softwaretestpro/stpcon-fall-2019-joyce-lin",
+                    "talkVideo": null
+                }
+            ]
+
+        },
+        {
+            "eventName": "ChaosConf",
+            "eventLink": "https://chaosconf.io/",
+            "eventLocation": "San Francisco, CA",
+            "eventDate": "September 2019",
+            "imgSrc": null,
+            "talks": [
                 {
-                    "talkTitle": "Fake APIs for Real Developers: Mock Servers for Agile Development",
-                    "talkLink": null,
-                    "talkVideo:": null
+                    "talkTitle": "Who is responsible for chaos?",
+                    "talkLink": "https://chaosconf.io/#g-618506977",
+                    "talkVideo": null
+                }
+            ]
+        },
+        {
+            "eventName": "API The Docs",
+            "eventLink": "https://apithedocs.org/london-2018",
+            "eventLocation": "London",
+            "eventDate": "November 2018",
+            "imgSrc": "https://pbs.twimg.com/media/DrkyuMkX0AI0e6c.jpg",
+            "talks": [
+                {
+                    "talkTitle": "The Ultimate API Publisher’s Guide",
+                    "talkLink": "https://pronovix.com/event/api-docs-london-2018#joyce",
+                    "talkVideo": "https://youtu.be/6Q3Cc1z-t5U"
                 }
             ]
 
@@ -82,14 +155,84 @@
     ],
     "otherEvents": [
         {
-            "otherEventLink": "https://apiworld.co/",
+            "otherEventLink": "https://events19.linuxfoundation.org/events/asc-2019/",
+            "otherEventName": "API Specifications Conference",
+            "otherEventLocation": "Vancouver"
+        },
+        {
+            "otherEventLink": "https://2019.apicity.io/",
+            "otherEventName": "API City",
+            "otherEventLocation": "Seattle, WA"
+        },
+        {
+            "otherEventLink": "https://www.apidays.co/sanfrancisco",
+            "otherEventName": "APIDays",
+            "otherEventLocation": "San Francisco, CA"
+        },
+        {
+            "otherEventLink": "https://docs.google.com/spreadsheets/d/1mA0FDySf2t2sSjKKG2VOta8vDDiGsQytgxJ2iHBeDIs/edit#gid=0",
+            "otherEventName": "GlueCon",
+            "otherEventLocation": "Denver, CO"
+        },
+        {
+            "otherEventLink": "https://docs.google.com/spreadsheets/d/1mA0FDySf2t2sSjKKG2VOta8vDDiGsQytgxJ2iHBeDIs/edit#gid=0",
+            "otherEventName": "GlueCon",
+            "otherEventLocation": "Denver, CO"
+        },
+        {
+            "otherEventLink": "https://sched.co/FTQb",
+            "otherEventName": "API Strategy and Practice",
+            "otherEventLocation": "Nashville, TN"
+        },
+        {
+            "otherEventLink": "https://www.getpostman.com/post-con-2018",
+            "otherEventName": "POST/CON",
+            "otherEventLocation": "San Francisco, CA"
+        },
+        {
+            "otherEventLink": "http://sched.co/EtFN",
             "otherEventName": "API World",
             "otherEventLocation": "San Jose, CA"
         },
         {
-            "otherEventLink": "https://apiworld.co/",
-            "otherEventName": "API World",
-            "otherEventLocation": "San Jose, CA"
+            "otherEventLink": "http://www.apidays.io/events/paris-2017#speakers",
+            "otherEventName": "APIDays",
+            "otherEventLocation": "Paris"
+        },
+        {
+            "otherEventLink": "https://www.meetup.com/DeveloperAdvocates/events/249435388/",
+            "otherEventName": "Scaling your content strategy",
+            "otherEventLocation": "San Francisco, CA"
+        },
+        {
+            "otherEventLink": "https://www.eventbrite.com/e/building-and-testing-apis-with-loopback-postman-tickets-41326237890",
+            "otherEventName": "Building and testing APIs with Loopback and Postman",
+            "otherEventLocation": "San Francisco, CA"
+        },
+        {
+            "otherEventLink": "https://www.meetup.com/Auth0-Online-Meetup/events/254483725/",
+            "otherEventName": "Using JSON Web Tokens (JWT) to authenticate requests",
+            "otherEventLocation": "San Francisco, CA"
+        },
+        {
+            "otherEventLink": null,
+            "otherEventName": "Slice of APIs",
+            "otherEventLocation": "San Francisco, CA"
+        },
+        {
+            "otherEventLink": null,
+            "otherEventName": "IPAs and APIs",
+            "otherEventLocation": "Seattle, WA"
+        },
+        {
+            "otherEventLink": null,
+            "otherEventName": "Mountain View Cloud Native Computing Meetup Group",
+            "otherEventLocation": "Mountain View, CA"
+        },
+        {
+            "otherEventLink": null,
+            "otherEventName": "???",
+            "otherEventLocation": "Chico, CA"
         }
     ]
 }
