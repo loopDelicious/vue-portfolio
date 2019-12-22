@@ -13,9 +13,9 @@
         Joyce is a developer advocate with Postman, an API Development Environment (ADE) used by 8M+ users around the world. When she's not building things, writing, or speaking about tech, she enjoys laughing at her own jokes.
         </p>
 
-        <b-button variant="primary" href="#speaking-drawer">Speaking</b-button>
-        <b-button variant="success" href="#writing-drawer">Writing</b-button>
-        <b-button variant="primary" href="#building-drawer">Building</b-button>
+        <b-button class="nav-butt" squared variant="light" href="#speaking-drawer">Speaking</b-button>
+        <b-button class="nav-butt" squared variant="secondary" href="#writing-drawer">Writing</b-button>
+        <b-button class="nav-butt" squared variant="dark" href="#building-drawer">Building</b-button>
 
     </b-jumbotron>
   </div>
@@ -39,5 +39,9 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+
+.nav-butt {
+  padding: .375rem 3rem;
 }
 </style>

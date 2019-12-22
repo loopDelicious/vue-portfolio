@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <Nav />
     <Jumbotron />
     <Speaking />
     <Writing />
@@ -12,6 +13,7 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import Nav from './components/Nav.vue'
 import Jumbotron from './components/Jumbotron.vue'
 import Speaking from './components/Speaking.vue'
 import Writing from './components/Writing.vue'
@@ -22,6 +24,7 @@ export default {
   name: 'app',
   components: {
     // HelloWorld,
+    Nav,
     Jumbotron,
     Speaking,
     Writing,
@@ -39,5 +42,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: whitesmoke;
 }
 </style>
