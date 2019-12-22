@@ -38,8 +38,14 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
+.jumbotron {
+  background: url("https://apod.nasa.gov/apod/image/1912/ElectricMilkyWay_Pedretti_1920.jpg") no-repeat center center;
+  background-size: cover;
+  color: lightgray;
+  margin: 10px 0 0 0;
+}
 .social-media a {
-  color: whitesmoke;
+  color: darkgray;
   margin: 20px;
 }
 </style>
