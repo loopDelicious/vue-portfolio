@@ -25,10 +25,10 @@
             "eventLink": "hhttps://www.apidays.co/paris",
             "eventLocation": "Paris",
             "eventDate": "December 2019",
-            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "imgSrc": "https://i.imgur.com/tXeIiUT.jpg",
             "talks": [
                 {
-                    "talkTitle": "10 things you didn't know about Postman",
+                    "talkTitle": "10 things you didn't know",
                     "talkLink": null,
                     "talkVideo": null
                 },
@@ -44,17 +44,17 @@
             "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
             "eventLocation": "Mountain View, CA",
             "eventDate": "April 2019",
-            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "imgSrc": "http://i3.ytimg.com/vi/mFww5YaDkZo/hqdefault.jpg",
             "talks": [
+                {
+                    "talkTitle": "Community of 6 Million +",
+                    "talkLink": null,
+                    "talkVideo:": "https://youtu.be/mFww5YaDkZo"
+                },
                 {
                     "talkTitle": "Postman interview with SiliconANGLE theCUBE",
                     "talkLink": null,
                     "talkVideo": "https://youtu.be/GTfLGXi9LDg"
-                },
-                {
-                    "talkTitle": "Creating a Community of 6 Million +",
-                    "talkLink": null,
-                    "talkVideo:": "https://youtu.be/mFww5YaDkZo"
                 },
                 {
                     "talkTitle": "Fake APIs for Real Developers: Mock Servers for Agile Development",
@@ -68,17 +68,17 @@
             "eventLink": "https://fitc.ca/event/webu19/",
             "eventLocation": "Toronto, CAN",
             "eventDate": "September 2019",
-            "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg",
+            "imgSrc": "https://i.imgur.com/WPASk5S.png",
             "talks": [
-                {
-                    "talkTitle": "Standing on the Shoulders of APIs",
-                    "talkLink": "https://fitc.ca/presentation/standing-on-the-shoulders-of-apis/",
-                    "talkVideo": "https://youtu.be/bU6X4ZQtkAs"
-                },
                 {
                     "talkTitle": "Getting rid of Bad Documentation",
                     "talkLink": "https://fitc.ca/presentation/roundtable-getting-rid-of-bad-documentation/",
                     "talkVideo": null
+                },
+                {
+                    "talkTitle": "Standing on the Shoulders of APIs",
+                    "talkLink": "https://fitc.ca/presentation/standing-on-the-shoulders-of-apis/",
+                    "talkVideo": "https://youtu.be/bU6X4ZQtkAs"
                 }
             ]
         },
@@ -90,17 +90,16 @@
             "imgSrc": "https://pbs.twimg.com/media/EGdIEpeVAAUk7qb.jpg:large",
             "talks": [
                 {
-                    "talkTitle": "Standing on the Shoulders of APIs",
-                    "talkLink": "https://sched.co/Vn3p",
+                    "talkTitle": "Escaping the microservices hell",
+                    "talkLink": "https://sched.co/Sk2z",
                     "talkVideo": null
                 },
                 {
-                    "talkTitle": "Escaping the microservices dependency hell",
-                    "talkLink": "https://sched.co/Sk2z",
+                    "talkTitle": "Standing on the Shoulders of APIs",
+                    "talkLink": "https://sched.co/Vn3p",
                     "talkVideo": null
                 }
             ]
-
         },
         {
             "eventName": "Nordic APIs",
@@ -110,7 +109,7 @@
             "imgSrc": "https://i.imgur.com/zW0trRP.jpg",
             "talks": [
                 {
-                    "talkTitle": "Fake it till you make it: mock servers for agile development",
+                    "talkTitle": "Mock servers for agile development",
                     "talkLink": "https://nordicapis.com/sessions/fake-it-till-you-make-it-mock-servers-for-agile-development/",
                     "talkVideo": "https://www.youtube.com/watch?v=FI6IDPpBPQ0&feature=youtu.be"
                 },
@@ -130,13 +129,13 @@
             "imgSrc": "https://fall2019.stpcon.com/wp-content/uploads/2019/05/Lin.Joyce-WebPhoto.jpg",
             "talks": [
                 {
-                    "talkTitle": "Test Automation",
-                    "talkLink": "https://fall2019.stpcon.com/sessions/workshop-test-automation-with-postman/",
+                    "talkTitle": "Test Automation Podcast",
+                    "talkLink": "https://www.spreaker.com/user/softwaretestpro/stpcon-fall-2019-joyce-lin",
                     "talkVideo": null
                 },
                 {
-                    "talkTitle": "Postman Automation Workshoppin with Joyce Lin",
-                    "talkLink": "https://www.spreaker.com/user/softwaretestpro/stpcon-fall-2019-joyce-lin",
+                    "talkTitle": "Test Automation",
+                    "talkLink": "https://fall2019.stpcon.com/sessions/workshop-test-automation-with-postman/",
                     "talkVideo": null
                 }
             ]
@@ -190,18 +189,23 @@
             "otherEventLocation": "Nashville, TN"
         },
         {
+            "otherEventLink": "https://www.papercall.io/apicity2018",
+            "otherEventName": "API City 2018",
+            "otherEventLocation": "Bremerton, WA"
+        },
+        {
             "otherEventLink": "https://www.getpostman.com/post-con-2018",
             "otherEventName": "POST/CON 2018",
             "otherEventLocation": "San Francisco, CA"
         },
         {
             "otherEventLink": "http://sched.co/EtFN",
-            "otherEventName": "API World 2017",
+            "otherEventName": "API World 2018",
             "otherEventLocation": "San Jose, CA"
         },
         {
             "otherEventLink": "http://www.apidays.io/events/paris-2017#speakers",
-            "otherEventName": "APIDays 2017",
+            "otherEventName": "APIDays Paris 2017",
             "otherEventLocation": "Paris"
         },
         {
@@ -217,26 +221,41 @@
         {
             "otherEventLink": "https://www.meetup.com/Auth0-Online-Meetup/events/254483725/",
             "otherEventName": "Using JWT to authenticate requests",
-            "otherEventLocation": "San Francisco, CA"
+            "otherEventLocation": "webinar"
         },
         {
-            "otherEventLink": null,
+            "otherEventLink": "https://www.meetup.com/sliceofapis/events/258611940/",
             "otherEventName": "Slice of APIs",
             "otherEventLocation": "San Francisco, CA"
         },
         {
-            "otherEventLink": null,
+            "otherEventLink": "https://www.meetup.com/IBM-Developer-SF-Bay-Area-Meetup/events/263650029/",
+            "otherEventName": "Build serverless APIs",
+            "otherEventLocation": "webinar"
+        },
+        {
+            "otherEventLink": "https://go.experitest.com/postman-webinar-p",
+            "otherEventName": "UI and API testing",
+            "otherEventLocation": "webinar"
+        },
+        {
+            "otherEventLink": "https://www.meetup.com/DeveloperAdvocates/events/260256799/",
+            "otherEventName": "Scaling your event strategy",
+            "otherEventLocation": "San Francisco,CA"
+        },
+        {
+            "otherEventLink": "https://www.meetup.com/seattle-api/events/259657038/",
             "otherEventName": "IPAs and APIs",
             "otherEventLocation": "Seattle, WA"
         },
         {
-            "otherEventLink": null,
+            "otherEventLink": "https://www.meetup.com/Mountain-View-Cloud-Native-Meetup-Group/events/265349266/",
             "otherEventName": "Cloud Native Computing Group",
             "otherEventLocation": "Mountain View, CA"
         },
         {
-            "otherEventLink": null,
-            "otherEventName": "???",
+            "otherEventLink": "https://www.eventbrite.com/e/postman-developer-advocate-joyce-lin-speaking-tickets-58749136248#",
+            "otherEventName": "Open technical session",
             "otherEventLocation": "Chico, CA"
         }
     ]

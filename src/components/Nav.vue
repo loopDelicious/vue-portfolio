@@ -1,5 +1,5 @@
 <template>
-    <b-navbar class="navigation" toggleable="sm" type="light" variant="transparent" fixed="top">
+    <b-navbar class="navigation" toggleable="sm" type="dark" variant="transparent" fixed="top">
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
         <b-collapse is-nav id="nav_collapse">
             <b-navbar-nav class="pl-5" inline>
@@ -23,6 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .navigation {
+    /* padding: 4rem 2rem; */
     /* margin: 0 0 0 0; */
 }
 </style>

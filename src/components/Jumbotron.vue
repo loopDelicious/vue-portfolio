@@ -1,26 +1,24 @@
 <template>
-  <div class="jumbo mt-3">
+  <div class="jumbo">
     <b-jumbotron bg-variant="secondary" text-variant="white" fluid >
+        <Nav />
         <template v-slot:header>Joyce Lin</template>
         <template v-slot:lead><p style="color: palegreen;">Developer Relations</p></template>
         <div class="joyce-list">
-          <p><font-awesome-icon :icon="['fas', 'map-marker-alt']" />  San Francisco, CA</p>
+          <p><font-awesome-icon :icon="['fas', 'location-arrow']" />  San Francisco, CA</p>
           <p><font-awesome-icon :icon="['fas', 'check-square']" />  Full Stack Engineer with Product Experience</p>
         </div>
-<!-- 
-        <hr class="my-4">
-
-        <p>
-        Joyce is a developer advocate with Postman, an API Development Environment (ADE) used by 8M+ users around the world. When she's not building things, writing, or speaking about tech, she enjoys laughing at her own jokes.
-        </p> -->
-
     </b-jumbotron>
   </div>
 </template>
 
 <script>
+import Nav from './Nav.vue'
 export default {
-  name: 'Jumbo'
+  name: 'Jumbotron',
+  components: {
+    Nav
+  }
 }
 </script>
 
@@ -37,22 +35,22 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-
+.mt-3 {
+  margin-top: 0;
+}
 .jumbotron {
   background: url("https://apod.nasa.gov/apod/image/1912/ElectricMilkyWay_Pedretti_1920.jpg") no-repeat center center;
   background-size: cover;
   height: 600px;
   text-align: left;
-  /* margin: 0 0 10px 0; */
+  margin: 0 0 0 0;
   /* background-image: url(../assets/cube-thumb.jpg); */
 }
-
 .joyce-list {
   color: darkgray;
   margin: 50px 0;
   font-weight: bold;
 }
-
 .joyce-list * {
   margin: 5px 15px 0 0;
 }
