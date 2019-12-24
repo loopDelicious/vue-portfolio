@@ -4,7 +4,7 @@ export default {
   name: 'Building',
   data () {
     return {
-      building: data.building
+      building: data
     }
   }
 }

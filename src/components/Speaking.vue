@@ -7,13 +7,14 @@
       <b-card-group deck >
         <b-link v-for="(event,index) in events.featured"
           :key="index"
-          :href="event.eventLink" target="_blank">
+          :href="event.talkLink" target="_blank">
           <div class="card-wrapper">
             <b-card overlay
-              :title="event.eventName"
               :img-src="event.imgSrc">
-              <b-card-text>{{event.talkTitle}} |  
-                <b-link v-bind:href="event.talkLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
+              <b-card-text>
+                <b-link :href="event.eventLink" target="_blank" class="card-link"><h3>{{event.eventName}}</h3></b-link>
+                <b-link :href="event.talkLink" target="_blank" class="card-link">{{event.talkTitle}}</b-link><br>
+                <b-link :href="event.talkLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
               </b-card-text>
             </b-card>
           </div>
@@ -26,14 +27,15 @@
       <b-card-group deck>
           <b-link v-for="(event,index) in events.speaking"
               :key="index"
-              :href="event.eventLink" target="_blank">
+              :href="event.talks[0].talkVideo ? event.talks[0].talkVideo : event.eventLink" target="_blank">
               <div class="card-wrapper">
                 <b-card overlay
-                    :title="event.eventName"
                     :img-src="event.imgSrc"
                     class="mb-2">
-                <b-card-text>{{event.talks[0].talkTitle}} |  
-                    <b-link v-bind:href="event.talks[0].talkVideo ? event.talks[0].talkVideo : event.talks[0].talkLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
+                <b-card-text>
+                  <b-link :href="event.eventLink" target="_blank" class="card-link"><h3>{{event.eventName}}</h3></b-link>
+                  <b-link :href="event.talks[0].talkLink ? event.talks[0].talkLink : event.eventLink" target="_blank" class="card-link">{{event.talks[0].talkTitle}}</b-link><br>
+                  <b-link :href="event.talks[0].talkVideo ? event.talks[0].talkVideo : event.eventLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
                  </b-card-text>
                 </b-card>
               </div>
@@ -48,20 +50,10 @@
         <b-list-group v-for="(event,index) in events.otherEvents"
             :key="index"
             style="display: flex; align-items: center; text-align: left">
-          
-            <template v-if="event.otherEventLink">
-              <b-list-group-item button class="b-list-events" >
-                <b-link :href="event.otherEventLink" target="_blank">{{event.otherEventName}}</b-link>
-                | {{event.otherEventLocation}}
-              </b-list-group-item>
-            </template> 
-
-            <template v-else>
-              <b-list-group-item button disabled >
-                {{event.otherEventName}} | {{event.otherEventLocation}}
-              </b-list-group-item>
-            </template>   
-
+            <b-list-group-item button class="b-list-events" >
+              <b-link :href="event.otherEventLink" target="_blank">{{event.otherEventName}}</b-link>
+              | {{event.otherEventLocation}}
+            </b-list-group-item>
           </b-list-group>
         </b-collapse>
       </div>
@@ -105,7 +97,6 @@
 /* } */
 .card-wrapper * {
   max-width: 20rem;
-  min-width: 45%;
 }
 #speaking-drawer .other .main-button {
   /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */
@@ -121,6 +112,8 @@
   border-bottom: 1px solid whitesmoke;
 }
 #speaking-drawer img {
+  height: 200px;
+  background-size: cover;
   -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -135,6 +128,16 @@
   opacity: 0.8;
 }
 #speaking-drawer .other a {
-  color: dimgray;
+  color: darkgreen;
+}
+#speaking-drawer .other a:hover{
+  color: limegreen;
+  text-decoration: none;
+}
+#speaking-drawer .b-list-events {
+  cursor: default;
+}
+#speaking-drawer .card-img {
+  width: initial;
 }
 </style>

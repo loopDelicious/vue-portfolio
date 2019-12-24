@@ -35,7 +35,7 @@
                 {
                     "talkTitle": "Bringing Law and Order to those untamed APIs",
                     "talkLink": null,
-                    "talkVideo:": null
+                    "talkVideo": null
                 }
             ]
         },
@@ -48,8 +48,8 @@
             "talks": [
                 {
                     "talkTitle": "Community of 6 Million +",
-                    "talkLink": null,
-                    "talkVideo:": "https://youtu.be/mFww5YaDkZo"
+                    "talkLink": "https://developer.cisco.com/devnetcreate/2019/agenda",
+                    "talkVideo": "https://youtu.be/mFww5YaDkZo"
                 },
                 {
                     "talkTitle": "Postman interview with SiliconANGLE theCUBE",
@@ -59,7 +59,7 @@
                 {
                     "talkTitle": "Fake APIs for Real Developers: Mock Servers for Agile Development",
                     "talkLink": null,
-                    "talkVideo:": null
+                    "talkVideo": null
                 }
             ]
         },
@@ -116,13 +116,13 @@
                 {
                     "talkTitle": "Simplify and Optimize Your Workflow – How an API-first Approach Can Help",
                     "talkLink": "https://nordicapis.com/sessions/simplify-and-optimize-your-workflow-how-an-api-first-approach-can-help/",
-                    "talkVideo:": null
+                    "talkVideo": null
                 }
             ]
 
         },
         {
-            "eventName": "Software Test Professionals Conference",
+            "eventName": "STP Conference",
             "eventLink": "https://fall2019.stpcon.com/",
             "eventLocation": "Boston, MA",
             "eventDate": "September 2019",

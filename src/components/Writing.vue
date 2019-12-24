@@ -57,12 +57,10 @@
         <b-list-group v-for="(article,index) in data.otherWriting"
             :key="index"
             style="display: flex; align-items: center; text-align: left">
-      
-            <b-list-group-item button class="b-list-events" >
+            <b-list-group-item button class="b-list-writings" >
               <b-link :href="article.articleLink" target="_blank">{{article.articleTitle}}</b-link>
               | {{article.articlePublication}}
             </b-list-group-item>
-
           </b-list-group>
         </b-collapse>
       </div>
@@ -89,6 +87,8 @@
   /* opacity: 0.8; */
 }
 #writing-drawer img {
+  height: 250px;
+  background-size: cover;
   -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -119,7 +119,17 @@
   border-bottom: 1px solid whitesmoke;
 }
 #writing-drawer .other a {
-  color: dimgray;
+  color: darkgreen;
   font-weight: bold;
+}
+#writing-drawer .other a:hover{
+  color: limegreen;
+  text-decoration: none;
+}
+#writing-drawer .b-list-writings {
+  cursor: default;
+}
+#writing-drawer .card-img-top {
+  width: initial;
 }
 </style>
