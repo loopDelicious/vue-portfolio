@@ -8,11 +8,11 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 import { faVideo, faExternalLinkAlt, faBars, faMapMarkerAlt, faCheckSquare, faLocationArrow } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faLinkedin, faGithub, faMedium, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.use(BootstrapVue)
-library.add(faFontAwesome, faTwitter, faLinkedin, faGithub, faVideo, faExternalLinkAlt, faBars, faMapMarkerAlt, faCheckSquare, faLocationArrow)
+library.add(faFontAwesome, faTwitter, faLinkedin, faGithub, faMedium, faYoutube, faVideo, faExternalLinkAlt, faBars, faMapMarkerAlt, faCheckSquare, faLocationArrow)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 

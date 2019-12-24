@@ -4,8 +4,9 @@
             "projectTitle": "catURL",
             "projectLink": "https://caturl.herokuapp.com/",
             "projectArticle": null,
+            "projectVideo": null,
             "githubLink": "https://github.com/loopDelicious/cat-url-mangler",
-            "projectDescription": "🐱 URL shortener using cat verbs, cat adjectives, and cat emojis",
+            "projectDescription": "URL shortener using cat verbs, cat adjectives, and cat emojis",
             "imgSrc": "https://miro.medium.com/max/2880/1*VdTT9MWoF4EdAFG5QPXfNQ.gif"
         },
         {
@@ -39,6 +40,33 @@
             "githubLink": "https://github.com/loopDelicious/operating-systems",
             "projectDescription": "Data visualization using React and D3 to illustrate web server operating systems by lineage and market share.",
             "imgSrc": "https://github.com/loopDelicious/operating-systems/blob/master/src/img/zoom.gif?raw=true"
+        },
+        {
+            "projectTitle": "Outside Lights",
+            "projectLink": null,
+            "projectArticle": null,
+            "projectVideo": null,
+            "githubLink": "https://github.com/loopDelicious/outsidehacks",
+            "projectDescription": "Node.js app using WebSockets and GPS enabling DJs to push color and animation updates to create a synchronized light show on audience phones.",
+            "imgSrc": "https://github.com/loopDelicious/joyce-portfolio/blob/master/src/img/lights-tablet.png?raw=true"
+        },
+        {
+            "projectTitle": "Christopher Walken",
+            "projectLink": null,
+            "projectArticle": null,
+            "projectVideo": "https://www.youtube.com/watch?v=T7kwK7rYwOY",
+            "githubLink": "https://github.com/loopDelicious/walking",
+            "projectDescription": "Geovisualization app using Flask, PostgreSQL, and machine learning to recommend walking destinations.",
+            "imgSrc": "https://github.com/loopDelicious/joyce-portfolio/blob/master/src/img/walking-desktop.png?raw=true"
+        },
+        {
+            "projectTitle": "Nitrous.io",
+            "projectLink": null,
+            "projectArticle": null,
+            "projectVideo": "https://youtu.be/xCDpXgWsuU4",
+            "githubLink": null,
+            "projectDescription": "Website rebrand using Node and React for a cloud-based IDE.",
+            "imgSrc": "https://github.com/loopDelicious/joyce-portfolio/blob/master/src/img/nitrousgiphy.gif?raw=true"
         }
     ]
 }
