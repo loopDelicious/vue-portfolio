@@ -3,29 +3,34 @@
     <h2>Building</h2>
     <div class="general mt-3">
       <b-card-group deck>
-        <b-link v-for="(project, index) in building" 
-          :key="index"
-          :href="project.projectLink" 
-          target="_blank">
-          <div class="card-wrapper">
+          <div class="card-wrapper" v-for="(project, index) in building" 
+            :key="index">
             <b-card no-body
                 style="max-width: 540px;"
                 class="overflow-hidden mb-3">
-                <template v-slot:header>
-                  <h3>{{project.projectTitle}}</h3>
+
+                <template v-if="project.projectLink">
+                  <b-link :href="project.projectLink" target="_blank">
+                    <b-card-img :src="project.imgSrc"></b-card-img>  
+                  </b-link>   
                 </template>
-                <b-card-img :src="project.imgSrc"></b-card-img>
+
+                <template v-else>
+                  <b-card-img :src="project.imgSrc"></b-card-img>
+                </template>
+
+                  <div class="carousel-caption"><h1>{{project.projectTitle}}</h1></div>
                 <template v-slot:footer>
                   <small class="text-muted text-left">{{project.projectDescription}}</small><br>
                     <div class="social-icons text-left">
-                      <b-link v-if="project.githubLink" :href="project.githubLink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></b-link>
-                      <b-link v-if="project.projectArticle" :href="project.projectArticle" target="_blank"><font-awesome-icon :icon="['fab', 'medium']" /></b-link>
-                      <b-link v-if="project.projectVideo" :href="project.projectVideo" target="_blank"><font-awesome-icon :icon="['fab', 'youtube']" /></b-link>
+                      <b-link v-if="project.projectLink" :href="project.projectLink" target="_blank"><font-awesome-icon :icon="['fas', 'external-link-alt']" class="fa-lg" /></b-link>
+                      <b-link v-if="project.githubLink" :href="project.githubLink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" class="fa-lg" /></b-link>
+                      <b-link v-if="project.projectArticle" :href="project.projectArticle" target="_blank"><font-awesome-icon :icon="['fab', 'medium']" class="fa-lg" /></b-link>
+                      <b-link v-if="project.projectVideo" :href="project.projectVideo" target="_blank"><font-awesome-icon :icon="['fab', 'youtube']" class="fa-lg" /></b-link>
                     </div>
                 </template>
             </b-card>
           </div>
-        </b-link>
       </b-card-group>
     </div>
   </div>
@@ -61,5 +66,22 @@
 .social-icons a:last-child:after { 
   content: ""; 
   padding: 0; 
+}
+#building-drawer img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+#building-drawer img:hover {
+  -webkit-filter: brightness(100%);
+}
+#building-drawer .carousel-caption {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 </style>

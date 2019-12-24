@@ -69,7 +69,6 @@
 #writing-drawer a:hover {
   /* text-decoration: none; */
   /* opacity: 0.8; */
-  -webkit-filter: brightness(100%);
 }
 #writing-drawer img {
   -webkit-filter: brightness(50%);
@@ -79,7 +78,7 @@
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-.featured img:hover {
+#writing-drawer img:hover {
   -webkit-filter: brightness(100%);
 }
 .general * {

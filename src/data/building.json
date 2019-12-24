@@ -6,8 +6,16 @@
             "projectArticle": null,
             "projectVideo": null,
             "githubLink": "https://github.com/loopDelicious/cat-url-mangler",
-            "projectDescription": "URL shortener using cat verbs, cat adjectives, and cat emojis",
+            "projectDescription": "URL shortener using cat verbs, cat adjectives, and cat emojis.",
             "imgSrc": "https://miro.medium.com/max/2880/1*VdTT9MWoF4EdAFG5QPXfNQ.gif"
+        },
+        {
+            "projectTitle": "Regional Differences in Programming",
+            "projectLink": "http://indeed.meowsergirl.com/",
+            "projectArticle": "https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.76xivr9nh",
+            "githubLink": "https://github.com/loopDelicious/indeed",
+            "projectDescription": "Data visualization of job postings by programming language by US city.",
+            "imgSrc": "https://github.com/loopDelicious/indeed/blob/master/radar.png?raw=true"
         },
         {
             "projectTitle": "30 Days of Coding",
@@ -16,22 +24,6 @@
             "githubLink": "https://github.com/loopDelicious/dataviz",
             "projectDescription": "Data visualization using Chart.js to demonstrate the dropout rate from 30 days of coding challenge - only 8.2% make it to the last day.",
             "imgSrc": "https://miro.medium.com/max/4832/1*Ze5JYej8xxpeJM9i0G3WiQ.png"
-        },
-        {
-            "projectTitle": "Regional Differences in Programming",
-            "projectLink": "http://indeed.meowsergirl.com/",
-            "projectArticle": "https://medium.com/@joycelin.codes/always-be-coding-regional-differences-in-programming-languages-9957785dd4e6#.76xivr9nh",
-            "githubLink": "https://github.com/loopDelicious/indeed",
-            "projectDescription": "Data visualization using React-Chart.JS to illustrate job postings by programming language by US city.",
-            "imgSrc": "https://github.com/loopDelicious/indeed/blob/master/radar.png?raw=true"
-        },
-        {
-            "projectTitle": "Fitness Generator",
-            "projectLink": "http://catfit.meowsergirl.com/",
-            "projectArticle": "https://medium.com/@joycelin.codes/feline-good-a-crud-fitness-app-623d15bd5775#.uztvmpbrn",
-            "githubLink": "https://github.com/loopDelicious/feline-good",
-            "projectDescription": "Generate workouts based on random selection from MongoDB, with an admin view to add, edit and delete exercises, using RESTful APIs.",
-            "imgSrc": "https://github.com/loopDelicious/feline-good/blob/master/src/pushup2.png?raw=true"
         },
         {
             "projectTitle": "Evolution of Web Server Operating Systems",
@@ -58,6 +50,14 @@
             "githubLink": "https://github.com/loopDelicious/walking",
             "projectDescription": "Geovisualization app using Flask, PostgreSQL, and machine learning to recommend walking destinations.",
             "imgSrc": "https://github.com/loopDelicious/joyce-portfolio/blob/master/src/img/walking-desktop.png?raw=true"
+        },
+        {
+            "projectTitle": "Fitness Generator",
+            "projectLink": "http://catfit.meowsergirl.com/",
+            "projectArticle": "https://medium.com/@joycelin.codes/feline-good-a-crud-fitness-app-623d15bd5775#.uztvmpbrn",
+            "githubLink": "https://github.com/loopDelicious/feline-good",
+            "projectDescription": "Generate random workouts from MongoDB with a RESTful API.",
+            "imgSrc": "https://github.com/loopDelicious/joyce-portfolio/blob/master/src/img/pushup-tablet.png?raw=true"
         },
         {
             "projectTitle": "Nitrous.io",
