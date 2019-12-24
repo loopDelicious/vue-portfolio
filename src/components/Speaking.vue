@@ -21,7 +21,7 @@
         </b-link>
       </b-card-group>
     </div>
-
+    <hr>
     <!-- GENERAL -->
     <div class="general mt-3">
       <b-card-group deck>
@@ -31,7 +31,8 @@
               <div class="card-wrapper">
                 <b-card overlay
                     :title="event.eventName"
-                    :img-src="event.imgSrc">
+                    :img-src="event.imgSrc"
+                    class="mb-2">
                 <b-card-text>{{event.talks[0].talkTitle}} |  
                     <b-link v-bind:href="event.talks[0].talkVideo ? event.talks[0].talkVideo : event.talks[0].talkLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
                  </b-card-text>
@@ -40,7 +41,7 @@
           </b-link>
       </b-card-group>
     </div>
-
+    <hr>
     <!-- OTHER -->
     <div class="other mt-3">
       <b-button class="main-button" block v-b-toggle.collapse-1 >Other Talks</b-button>
@@ -65,7 +66,7 @@
         </b-list-group>
       </b-collapse>
     </div>
-
+    <hr>
   </div>
 </template>
 
