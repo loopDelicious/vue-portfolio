@@ -1,7 +1,7 @@
 <template>
   <div id="writing-drawer" class="writing">
     <h2>Writing</h2>
-
+    <!-- FEATURED -->
     <div class="featured mt-3">
       <h5 style="color: silver; text-align: left;">PINNED</h5>
         <b-card-group deck>
@@ -26,6 +26,7 @@
       </b-card-group>
     </div>
     <hr>
+    <!-- GENERAL -->
     <div class="general mt-3">
       <b-card-group deck>
           <b-link v-for="(article, index) in data.writing" 
@@ -49,6 +50,23 @@
       </b-card-group>
     </div>
     <hr>
+    <!-- OTHER -->
+    <div class="other mt-3">
+      <b-button class="main-button" block v-b-toggle="'collapse2'" >Other Writings</b-button>
+      <b-collapse id="collapse2" class="mt-2">
+        <b-list-group v-for="(article,index) in data.otherWriting"
+            :key="index"
+            style="display: flex; align-items: center; text-align: left">
+      
+            <b-list-group-item button class="b-list-events" >
+              <b-link :href="article.articleLink" target="_blank">{{article.articleTitle}}</b-link>
+              | {{article.articlePublication}}
+            </b-list-group-item>
+
+          </b-list-group>
+        </b-collapse>
+      </div>
+      <hr>
   </div>
 </template>
 
@@ -81,7 +99,27 @@
 #writing-drawer img:hover {
   -webkit-filter: brightness(100%);
 }
+.card-wrapper:hover img {
+  opacity: 0.8;
+}
 .general * {
   display: inline-block;
+}
+#writing-drawer .other .main-button {
+  /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */
+  border-radius: 0;
+  border: 0;
+  background-color: silver;
+  color: dimgray;
+  font-weight: bolder;
+}
+.list-group-item:last-child {
+  border-radius: 0;
+  border-color: transparent;
+  border-bottom: 1px solid whitesmoke;
+}
+#writing-drawer .other a {
+  color: dimgray;
+  font-weight: bold;
 }
 </style>

@@ -49,7 +49,7 @@
             "articleLink": "https://medium.com/better-practices/dont-get-techcrunched-performance-testing-for-your-http-apis-3196e40f6b70",
             "articlePublication": "Better Practices",
             "imgSrc": "https://miro.medium.com/max/3120/1*HW-r4Stc052Sn381sIRMHQ.png",
-            "articleBlurb": "Using AWS Lambda to run concurrent functions with Newman"
+            "articleBlurb": "AWS Lambda to run concurrent functions"
         },
         {
             "articleTitle": "Tuck in your APIs safe and sound with these guiding principles for API security",
@@ -73,13 +73,6 @@
             "articleBlurb": "An API-first approach can help you manage the complexity of working in the cloud"
         },
         {
-            "articleTitle": "Fake it till you make it: mocks for agile development",
-            "articleLink": "https://medium.com/better-practices/https-medium-com-postman-engineering-fake-it-till-you-make-it-mocks-for-agile-development-f4d050cad694",
-            "articlePublication": "Better Practices",
-            "imgSrc": "https://miro.medium.com/max/4080/1*FekJAVlovNnqQZ8uOVjlUQ.png",
-            "articleBlurb": "Learn how to use mock servers for continuous planning, development, and testing"
-        },
-        {
             "articleTitle": "Postman – a beacon of hope in a world of API darkness",
             "articleLink": "https://blog.getpostman.com/2018/06/22/postman-a-beacon-of-hope-in-a-world-of-api-darkness-%f0%9f%92%a1/",
             "articlePublication": "Postman Blog",
@@ -101,11 +94,32 @@
             "articleBlurb": "Postman recipe for loading SurveyMonkey data into Airtable"
         },
         {
+            "articleTitle": "How to make money using Postman: chaining requests",
+            "articleLink": "https://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/03/26byy8.jpg",
+            "articleBlurb": "Postman recipe to control your workflow with Bitcoin and Twilio APIs"
+        },
+        {
             "articleTitle": "How Postman feeds my sushi addiction",
             "articleLink": "https://blog.getpostman.com/2018/04/25/how-postman-feeds-my-sushi-addiction/",
             "articlePublication": "Postman Blog",
             "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/twitterAuthPostman.png",
             "articleBlurb": "Postman recipe for recommending a nearby sushi spot using Google Places and Twitter APIs"
+        },
+        {
+            "articleTitle": "Looping through a data file in the Postman Collection Runner",
+            "articleLink": "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ramen-running.png",
+            "articleBlurb": "Data file to automate scenario testing"
+        },
+        {
+            "articleTitle": "The Good Collection",
+            "articleLink": "https://blog.getpostman.com/2018/03/08/the-good-collection/",
+            "articlePublication": "Postman Blog",
+            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/03/subway.png",
+            "articleBlurb": "Better practices for using Postman collections"
         },
         {
             "articleTitle": "First 5 things to try if you’re new to Postman",
@@ -115,25 +129,263 @@
             "articleBlurb": "Postman introductory series for beginners"
         },
         {
-            "articleTitle": "Looping through a data file in the Postman Collection Runner",
-            "articleLink": "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/",
-            "articlePublication": "Postman Blog",
-            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ramen-running.png",
-            "articleBlurb": "Postman recipe using an external data file to automate scenario testing"
+            "articleTitle": "Fake it till you make it: mocks for agile development",
+            "articleLink": "https://medium.com/better-practices/https-medium-com-postman-engineering-fake-it-till-you-make-it-mocks-for-agile-development-f4d050cad694",
+            "articlePublication": "Better Practices",
+            "imgSrc": "https://miro.medium.com/max/4080/1*FekJAVlovNnqQZ8uOVjlUQ.png",
+            "articleBlurb": "Mock servers for continuous planning, development, and testing"
+        }
+    ],
+    "otherWriting": [
+        {
+            "articleTitle": "Sweet cosmic karma for your public profile",
+            "articleLink": "https://blog.getpostman.com/2019/10/25/sweet-cosmic-karma-for-your-public-profile/",
+            "articlePublication": "Postman Feature Announcements"
         },
         {
-            "articleTitle": "How to make money using Postman: chaining requests",
-            "articleLink": "https://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/",
-            "articlePublication": "Postman Blog",
-            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/03/26byy8.jpg",
-            "articleBlurb": "Postman recipe to control your workflow with Bitcoin and Twilio APIs"
+            "articleTitle": "It’s a Postman May Mashup!",
+            "articleLink": "https://blog.getpostman.com/2019/04/15/its-a-postman-may-mashup/",
+            "articlePublication": "Postman Blog"
         },
         {
-            "articleTitle": "The Good Collection",
-            "articleLink": "https://blog.getpostman.com/2018/03/08/the-good-collection/",
-            "articlePublication": "Postman Blog",
-            "imgSrc": "https://blog.getpostman.com/wp-content/uploads/2018/03/subway.png",
-            "articleBlurb": "Better practices for using Postman collections"
+            "articleTitle": "Share your API with 5 million developers in the Postman community",
+            "articleLink": "https://blog.getpostman.com/2018/06/04/share-your-api-with-5-million-developers-in-the-postman-community/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Postman monitors help The League sleep better at night",
+            "articleLink": "https://blog.getpostman.com/2018/05/24/postman-monitors-help-the-league-sleep-better-at-night/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Announcing private workspaces for Postman Enterprise",
+            "articleLink": "https://blog.getpostman.com/2018/05/22/announcing-private-workspaces-for-postman-enterprise/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Cisco DevNet uses Postman to grow their developer community",
+            "articleLink": "https://blog.getpostman.com/2018/05/18/cisco-devnet-uses-postman-to-grow-their-developer-community/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Integrations: how Postman plays with some of your favorite tools",
+            "articleLink": "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Workspaces! What are they good for?",
+            "articleLink": "https://blog.getpostman.com/2018/04/07/workspaces-the-biggest-thing-to-hit-postman-this-month/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Healthwise uses Postman Pro to share collections with the team and company",
+            "articleLink": "https://blog.getpostman.com/2018/04/06/healthwise-uses-postman-pro-to-share-collections-with-the-team-and-company/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Turn your Postman Collection into models with Quicktype.io",
+            "articleLink": "https://blog.getpostman.com/2018/04/05/turn-your-postman-collection-into-models-with-quicktype-io/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Monetary uses millions of monitors with Postman Pro",
+            "articleLink": "https://blog.getpostman.com/2018/04/03/monetary-uses-millions-of-monitors-with-postman-pro/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "The Eureka team counts on Postman Pro to stay in sync",
+            "articleLink": "https://blog.getpostman.com/2018/03/27/the-eureka-team-counts-on-postman-pro-to-stay-in-sync/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Sync your specs",
+            "articleLink": "https://blog.getpostman.com/2018/03/02/sync-your-specs/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Spotinst uses Postman for everyday development",
+            "articleLink": "https://blog.getpostman.com/2018/02/23/spotinst-uses-postman-for-everyday-development/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Raygun reduces tedious API tasks with Postman",
+            "articleLink": "https://blog.getpostman.com/2018/02/13/raygun-reduces-tedious-api-tasks-with-postman/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Read and write to REST-enabled databases",
+            "articleLink": "https://blog.getpostman.com/2018/02/09/read-and-write-to-rest-enabled-databases/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "HarperDB uses Postman Pro as an IDE for their product",
+            "articleLink": "https://blog.getpostman.com/2018/02/06/harperdb-uses-postman-pro-as-an-ide-for-their-product/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Postman Pro gives Movember confidence to upgrade their tech",
+            "articleLink": "https://blog.getpostman.com/2018/01/25/postman-pro-gives-movember-confidence-to-upgrade-their-tech/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Building and testing APIs with LoopBack and Postman",
+            "articleLink": "https://blog.getpostman.com/2018/01/12/building-and-testing-apis-with-loopback-and-postman/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "10 tips for working with Postman variables",
+            "articleLink": "https://blog.getpostman.com/2017/12/29/10-tips-for-working-with-postman-variables/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Keep it DRY with collection and folder elements",
+            "articleLink": "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Microsoft Education uses Postman Pro for integration testing",
+            "articleLink": "https://blog.getpostman.com/2017/12/12/microsoft-education-uses-postman-pro-for-integration-testing/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Set and view SSL certificates with Postman",
+            "articleLink": "https://blog.getpostman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Postman makes SOAP requests too",
+            "articleLink": "https://blog.getpostman.com/2017/11/18/postman-makes-soap-requests-too/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Level up your Postman game to land your dream job",
+            "articleLink": "https://blog.getpostman.com/2017/11/15/level-up-your-postman-game-to-land-your-dream-job/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Using a Postman monitor to water my plants",
+            "articleLink": "https://blog.getpostman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Goodbye Postman Chrome app",
+            "articleLink": "https://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Writing tests in Postman",
+            "articleLink": "https://blog.getpostman.com/2017/10/25/writing-tests-in-postman/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Send asynchronous requests with Postman’s PM API",
+            "articleLink": "https://blog.getpostman.com/2017/10/03/send-asynchronous-requests-with-postmans-pm-api/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Client proxy settings in Postman",
+            "articleLink": "https://blog.getpostman.com/2017/09/29/client-proxy-settings-in-postman/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Team collaboration with Postman mock servers",
+            "articleLink": "https://blog.getpostman.com/2017/09/20/team-collaboration-with-postman-mock-servers/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Postman is a quickstart for QuickBooks Online API endpoints",
+            "articleLink": "https://blog.getpostman.com/2017/09/05/postman-is-a-quickstart-for-quickbooks-online-api-endpoints/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Write to your local file system using a Postman Collection",
+            "articleLink": "https://blog.getpostman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Sikka uses Postman Pro for continuous deployment and monitoring",
+            "articleLink": "https://blog.getpostman.com/2017/08/29/sikka-uses-postman-pro-for-continuous-deployment-and-monitoring/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Hotelbeds Group relies on Postman Pro for real-time API collaboration",
+            "articleLink": "https://blog.getpostman.com/2017/08/24/hotelbeds-group-relies-on-postman-pro-for-real-time-api-collaboration/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Integrate API tests with Postman, Newman, and Travis CI",
+            "articleLink": "https://blog.getpostman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Shopify relies on Postman for more than just development",
+            "articleLink": "https://blog.getpostman.com/2017/08/16/shopify-relies-on-postman-for-more-than-just-development/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Square simplifies API docs with the Run in Postman button",
+            "articleLink": "https://blog.getpostman.com/2017/07/21/square-simplifies-api-docs-with-the-run-in-postman-button/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Lucid relies on Postman throughout the entire sales cycle",
+            "articleLink": "https://blog.getpostman.com/2017/07/07/lucid-relies-on-postman-throughout-the-entire-sales-cycle/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "Check for broken links on your website using a Postman Collection",
+            "articleLink": "https://blog.getpostman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Custom team URLs for Pro and Enterprise",
+            "articleLink": "https://blog.getpostman.com/2017/06/06/custom-team-urls-for-pro-and-enterprise/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Not your Grandma’s Postman",
+            "articleLink": "https://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Multi-level folders and folder reordering",
+            "articleLink": "https://blog.getpostman.com/2017/05/19/multi-level-folders-and-folder-reordering/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Postman Pro is the single source of truth for Imgur endpoints",
+            "articleLink": "https://blog.getpostman.com/2017/05/13/postman-pro-is-the-single-source-of-truth-for-imgur-endpoints/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "See what’s coming soon on Postman’s product roadmap",
+            "articleLink": "https://blog.getpostman.com/2017/04/20/see-whats-coming-soon-on-postmans-product-roadmap/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Clarifai turns to Postman Pro for API development, testing and support",
+            "articleLink": "https://blog.getpostman.com/2017/03/30/clarifai-turns-to-postman-pro-for-api-development-testing-and-support/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "BigCommerce uses Postman before a single line of code is written",
+            "articleLink": "https://blog.getpostman.com/2017/03/21/bigcommerce-uses-postman-before-a-single-line-of-code-is-written/",
+            "articlePublication": "Postman Case Studies"
+        },
+        {
+            "articleTitle": "The Importance of 3rd Party Integrations for Postman Pro",
+            "articleLink": "https://blog.getpostman.com/2017/03/21/the-importance-of-3rd-party-integrations-for-postman-pro/",
+            "articlePublication": "Postman Feature Announcements"
+        },
+        {
+            "articleTitle": "Going native",
+            "articleLink": "https://blog.getpostman.com/2017/03/14/going-native/",
+            "articlePublication": "Postman Blog"
+        },
+        {
+            "articleTitle": "Backup and Sync your Postman Collections on GitHub",
+            "articleLink": "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/",
+            "articlePublication": "Postman Feature Announcements"
         }
     ]
 }
