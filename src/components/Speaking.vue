@@ -51,8 +51,8 @@
             :key="index"
             style="display: flex; align-items: center; text-align: left">
             <b-list-group-item button class="b-list-events" >
-              <b-link :href="event.otherEventLink" target="_blank">{{event.otherEventName}}</b-link>
-              | {{event.otherEventLocation}}
+              <b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link>
+              | {{event.eventLocation}}
             </b-list-group-item>
           </b-list-group>
         </b-collapse>
