@@ -102,6 +102,12 @@
   content: "|"; 
   padding: 0 1em; 
 }
+.social-icons svg {
+  color: darkgreen;
+}
+.social-icons svg:hover {
+  color: limegreen;
+}
 .social-icons a:last-child:after { 
   content: ""; 
   padding: 0; 

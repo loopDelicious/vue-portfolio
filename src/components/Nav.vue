@@ -26,4 +26,7 @@ export default {
     /* padding: 4rem 2rem; */
     /* margin: 0 0 0 0; */
 }
+.dropdown-menu li:first-child {
+    border-bottom: 1px solid gainsboro;
+}
 </style>

@@ -52,7 +52,7 @@
     <hr>
     <!-- OTHER -->
     <div class="other mt-3">
-      <b-button class="main-button" block v-b-toggle="'collapse2'" >Other Writings</b-button>
+      <b-button class="main-button" block v-b-toggle="'collapse2'" ><font-awesome-icon :icon="['fas', 'pencil-alt']" /> Other Writings </b-button>
       <b-collapse id="collapse2" class="mt-2">
         <b-list-group v-for="(article,index) in data.otherWriting"
             :key="index"
@@ -105,13 +105,24 @@
 .general * {
   display: inline-block;
 }
-#writing-drawer .other .main-button {
+.other .main-button {
   /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */
   border-radius: 0;
-  border: 0;
-  background-color: silver;
-  color: dimgray;
+  border: none;
+  background-color: gainsboro;
+  color: darkgreen;
   font-weight: bolder;
+  padding: 15px;
+}
+.other .main-button:hover {
+  color: limegreen;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+.other .main-button svg {
+  margin-right: 10px;
 }
 .list-group-item:last-child {
   border-radius: 0;

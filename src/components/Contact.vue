@@ -46,4 +46,7 @@ li {
   color: darkgray;
   margin: 20px;
 }
+.social-media a:hover {
+  opacity: 0.6;
+}
 </style>

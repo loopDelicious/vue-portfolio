@@ -45,7 +45,7 @@
     <hr>
     <!-- OTHER -->
     <div class="other mt-3">
-      <b-button class="main-button" block v-b-toggle.collapse-1 >Other Talks</b-button>
+      <b-button class="main-button" block v-b-toggle.collapse-1 ><font-awesome-icon :icon="['fas', 'microphone']" /> Other Talks</b-button>
       <b-collapse id="collapse-1" class="mt-2">
         <b-list-group v-for="(event,index) in events.otherEvents"
             :key="index"
@@ -98,13 +98,24 @@
 .card-wrapper * {
   max-width: 20rem;
 }
-#speaking-drawer .other .main-button {
+.other .main-button {
   /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */
   border-radius: 0;
   border: 0;
-  background-color: silver;
-  color: dimgray;
+  background-color: gainsboro;
+  color: darkgreen;
   font-weight: bolder;
+  padding: 15px;
+}
+.other .main-button:hover {
+  color: limegreen;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+.other .main-button svg {
+  margin-right: 10px;
 }
 .list-group-item:last-child {
   border-radius: 0;
