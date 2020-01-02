@@ -1,6 +1,27 @@
 <template>
   <div id="speaking-drawer" class="speaking">
     <h2>Speaking</h2>
+    <!-- UPCOMING -->
+    <div class="featured mt-3">
+      <h5 style="color: silver; text-align: left;">UPCOMING</h5>
+      <b-card-group deck >
+        <b-link v-for="(event,index) in events.upcoming"
+          :key="index"
+          :href="event.talkLink" target="_blank">
+          <div class="card-wrapper">
+            <b-card overlay
+              :img-src="event.imgSrc">
+              <b-card-text>
+                <b-link :href="event.eventLink" target="_blank" class="card-link"><h3>{{event.eventName}}</h3></b-link>
+                <h3>{{event.eventDate[0]}} {{event.eventDate[1]}}</h3>
+                <h3>{{event.eventLocation.split(',')[0]}}</h3>
+              </b-card-text>
+            </b-card>
+          </div>
+        </b-link>
+      </b-card-group>
+    </div>
+    <hr>
     <!-- FEATURED -->
     <div class="featured mt-3">
       <h5 style="color: silver; text-align: left;">PINNED</h5>
@@ -51,7 +72,7 @@
             :key="index"
             style="display: flex; align-items: center; text-align: left">
             <b-list-group-item button class="b-list-events" >
-              <b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link>
+              {{event.eventDate[1]}} | <b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link>
               | {{event.eventLocation}}
             </b-list-group-item>
           </b-list-group>
@@ -69,14 +90,17 @@
   margin: 40px;
 }
 #speaking-drawer a {
-  color: whitesmoke;
+  color: gainsboro;
   font-weight: bold;
+}
+#speaking-drawer a:hover {
+  color: mediumaquamarine;
 }
 .featured {
   display: inline-block;
 }
 .featured .card-text {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .general * {
   display: inline-block;
@@ -103,12 +127,12 @@
   border-radius: 0;
   border: 0;
   background-color: gainsboro;
-  color: darkgreen;
+  color: #2c3e50;
   font-weight: bolder;
   padding: 15px;
 }
 .other .main-button:hover {
-  color: limegreen;
+  color: mediumaquamarine;
 }
 .btn:focus,.btn:active {
    outline: none !important;
@@ -125,7 +149,7 @@
 #speaking-drawer img {
   height: 200px;
   background-size: cover;
-  -webkit-filter: brightness(50%);
+  -webkit-filter: brightness(30%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -139,10 +163,10 @@
   opacity: 0.8;
 }
 #speaking-drawer .other a {
-  color: darkgreen;
+  color: #2c3e50;
 }
 #speaking-drawer .other a:hover{
-  color: limegreen;
+  color: mediumaquamarine;
   text-decoration: none;
 }
 #speaking-drawer .b-list-events {

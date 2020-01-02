@@ -5,6 +5,7 @@
             "eventName": "DevNet Create",
             "eventLocation": "Mountain View, CA",
             "eventDate": ["April", "2019"],
+            "eventType": "conference",
             "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
             "talkTitle": "SiliconANGLE theCUBE",
             "talkLink": "https://youtu.be/GTfLGXi9LDg"
@@ -14,9 +15,32 @@
             "eventName": "Web Unleashed",
             "eventLocation": "Toronto, CAN",
             "eventDate": ["September", "2019"],
+            "eventType": "conference",
             "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg",
             "talkTitle": "Standing on the Shoulders of APIs",
             "talkLink": "https://youtu.be/bU6X4ZQtkAs"
+        }
+    ],
+    "upcoming": [
+        {
+            "eventLink": "https://www.conf42.com/",
+            "eventName": "conf42",
+            "eventLocation": "London",
+            "eventDate": ["January", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/dQPyNY1.png",
+            "talkTitle": "Chaos engineering",
+            "talkLink": "https://www.conf42.com/"
+        },
+        {
+            "eventLink": "https://midwestphp.org/",
+            "eventName": "Midwest PHP",
+            "eventLocation": "Minneapolis, MN",
+            "eventDate": ["April", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/ZazS6Jg.png",
+            "talkTitle": "Postman workshop",
+            "talkLink": "https://midwestphp.org/schedule"
         }
     ],
     "speaking": [
@@ -25,6 +49,7 @@
             "eventName": "APIdays Paris 2019",
             "eventLocation": "Paris",
             "eventDate": ["December", "2019"],
+            "eventType": "conference",
             "imgSrc": "https://i.imgur.com/tXeIiUT.jpg",
             "talks": [
                 {
@@ -44,6 +69,7 @@
             "eventName": "DevNet Create",
             "eventLocation": "Mountain View, CA",
             "eventDate": ["April", "2019"],
+            "eventType": "conference",
             "imgSrc": "http://i3.ytimg.com/vi/mFww5YaDkZo/hqdefault.jpg",
             "talks": [
                 {
@@ -69,6 +95,7 @@
             "eventName": "Web Unleashed",
             "eventLocation": "Toronto, CAN",
             "eventDate": ["September", "2019"],
+            "eventType": "conference",
             "imgSrc": "https://i.imgur.com/WPASk5S.png",
             "talks": [
                 {
@@ -89,6 +116,7 @@
             "eventName": "API World",
             "eventLocation": "San Jose, CA",
             "eventDate": ["October", "2019"],
+            "eventType": "conference",
             "imgSrc": "https://pbs.twimg.com/media/EGdIEpeVAAUk7qb.jpg:large",
             "talks": [
                 {
@@ -108,6 +136,7 @@
             "eventName": "Nordic APIs",
             "eventLocation": "Austin, TX",
             "eventDate": ["May", "2019"],
+            "eventType": "conference",
             "imgSrc": "https://i.imgur.com/zW0trRP.jpg",
             "talks": [
                 {
@@ -127,6 +156,7 @@
             "eventName": "STP Conference",
             "eventLocation": "Boston, MA",
             "eventDate": ["September", "2019"],
+            "eventType": "conference",
             "imgSrc": "https://fall2019.stpcon.com/wp-content/uploads/2019/05/Lin.Joyce-WebPhoto.jpg",
             "talks": [
                 {
@@ -146,6 +176,7 @@
             "eventName": "API The Docs",
             "eventLocation": "London",
             "eventDate": ["November", "2018"],
+            "eventType": "conference",
             "imgSrc": "https://pbs.twimg.com/media/DrkyuMkX0AI0e6c.jpg",
             "talks": [
                 {
@@ -161,121 +192,141 @@
             "eventLink": "https://events19.linuxfoundation.org/events/asc-2019/",
             "eventName": "API Specifications Conference",
             "eventLocation": "Vancouver",
-            "eventDate": ["October", "2019"]
-        },
-        {
-            "eventLink": "https://chaosconf.io/",
-            "eventName": "ChaosConf",
-            "eventLocation": "San Francisco",
-            "eventDate": ["September", "2019"]
-        },
-        {
-            "eventLink": "https://2019.apicity.io/",
-            "eventName": "API City 2019",
-            "eventLocation": "Seattle, WA",
-            "eventDate": ["September", "2019"]
-        },
-        {
-            "eventLink": "https://www.apidays.co/sanfrancisco",
-            "eventName": "APIDays SF 2018",
-            "eventLocation": "San Francisco, CA",
-            "eventDate": ["July", "2019"]
-        },
-        {
-            "eventLink": "https://docs.google.com/spreadsheets/d/1mA0FDySf2t2sSjKKG2VOta8vDDiGsQytgxJ2iHBeDIs/edit#gid=0",
-            "eventName": "GlueCon",
-            "eventLocation": "Denver, CO",
-            "eventDate": ["May", "2019"]
-        },
-        {
-            "eventLink": "https://www.papercall.io/apicity2018",
-            "eventName": "API City 2018",
-            "eventLocation": "Bremerton, WA",
-            "eventDate": ["October", "2018"]
-        },
-        {
-            "eventLink": "https://sched.co/FTQb",
-            "eventName": "API Strategy and Practice",
-            "eventLocation": "Nashville, TN",
-            "eventDate": ["September", "2018"]
-        },
-        {
-            "eventLink": "https://www.getpostman.com/post-con-2018",
-            "eventName": "POST/CON 2018",
-            "eventLocation": "San Francisco, CA",
-            "eventDate": ["June", "2018"]
-        },
-        {
-            "eventLink": "http://sched.co/EtFN",
-            "eventName": "API World 2018",
-            "eventLocation": "San Jose, CA",
-            "eventDate": ["September", "2018"]
-        },
-        {
-            "eventLink": "https://www.apidays.co/paris",
-            "eventName": "APIDays Paris 2017",
-            "eventLocation": "Paris",
-            "eventDate": ["January", "2018"]
+            "eventDate": ["October", "2019"],
+            "eventType": "conference"
         },
         {
             "eventLink": "https://www.meetup.com/Mountain-View-Cloud-Native-Meetup-Group/events/265349266/",
             "eventName": "Cloud Native Computing Group",
             "eventLocation": "Mountain View, CA",
-            "eventDate": ["October", "2019"]
+            "eventDate": ["October", "2019"],
+            "eventType": "meetup"
+        },
+        {
+            "eventLink": "https://chaosconf.io/",
+            "eventName": "ChaosConf",
+            "eventLocation": "San Francisco",
+            "eventDate": ["September", "2019"],
+            "eventType": "conference"
+        },
+        {
+            "eventLink": "https://2019.apicity.io/",
+            "eventName": "API City 2019",
+            "eventLocation": "Seattle, WA",
+            "eventDate": ["September", "2019"],
+            "eventType": "conference"
         },
         {
             "eventLink": "https://www.meetup.com/IBM-Developer-SF-Bay-Area-Meetup/events/263650029/",
             "eventName": "Build serverless APIs",
             "eventLocation": "webinar",
-            "eventDate": ["August", "2019"]
+            "eventDate": ["August", "2019"],
+            "eventType": "webinar"
+        },
+        {
+            "eventLink": "https://www.apidays.co/sanfrancisco",
+            "eventName": "APIDays SF 2018",
+            "eventLocation": "San Francisco, CA",
+            "eventDate": ["July", "2019"],
+            "eventType": "conference"
         },
         {
             "eventLink": "https://go.experitest.com/postman-webinar-p",
             "eventName": "UI and API testing",
             "eventLocation": "webinar",
-            "eventDate": ["July", "2019"]
+            "eventDate": ["July", "2019"],
+            "eventType": "webinar"
+        },
+        {
+            "eventLink": "https://docs.google.com/spreadsheets/d/1mA0FDySf2t2sSjKKG2VOta8vDDiGsQytgxJ2iHBeDIs/edit#gid=0",
+            "eventName": "GlueCon",
+            "eventLocation": "Denver, CO",
+            "eventDate": ["May", "2019"],
+            "eventType": "conference"
         },
         {
             "eventLink": "https://www.meetup.com/DeveloperAdvocates/events/260256799/",
             "eventName": "Scaling your event strategy",
             "eventLocation": "San Francisco,CA",
-            "eventDate": ["April", "2019"]
+            "eventDate": ["April", "2019"],
+            "eventType": "meetup"
         },
         {
             "eventLink": "https://www.eventbrite.com/e/postman-developer-advocate-joyce-lin-speaking-tickets-58749136248#",
             "eventName": "growTech open technical session",
             "eventLocation": "Chico, CA",
-            "eventDate": ["April", "2019"]
+            "eventDate": ["April", "2019"],
+            "eventType": "meetup"
         },
         {
             "eventLink": "https://www.meetup.com/seattle-api/events/259657038/",
             "eventName": "IPAs and APIs",
             "eventLocation": "Seattle, WA",
-            "eventDate": ["March", "2019"]
+            "eventDate": ["March", "2019"],
+            "eventType": "meetup"
         },
         {
             "eventLink": "https://www.meetup.com/sliceofapis/events/258611940/",
             "eventName": "Slice of APIs",
             "eventLocation": "San Francisco, CA",
-            "eventDate": ["February", "2019"]
+            "eventDate": ["February", "2019"],
+            "eventType": "meetup"
         },
         {
             "eventLink": "https://www.eventbrite.com/e/building-and-testing-apis-with-loopback-postman-tickets-41326237890",
             "eventName": "Build and test with Loopback and Postman",
             "eventLocation": "San Francisco, CA",
-            "eventDate": ["January", "2019"]
+            "eventDate": ["January", "2019"],
+            "eventType": "meetup"
+        },
+        {
+            "eventLink": "https://www.papercall.io/apicity2018",
+            "eventName": "API City 2018",
+            "eventLocation": "Bremerton, WA",
+            "eventDate": ["October", "2018"],
+            "eventType": "conference"
+        },
+        {
+            "eventLink": "https://sched.co/FTQb",
+            "eventName": "API Strategy and Practice",
+            "eventLocation": "Nashville, TN",
+            "eventDate": ["September", "2018"],
+            "eventType": "conference"
+        },
+        {
+            "eventLink": "https://www.getpostman.com/post-con-2018",
+            "eventName": "POST/CON 2018",
+            "eventLocation": "San Francisco, CA",
+            "eventDate": ["June", "2018"],
+            "eventType": "conference"
+        },
+        {
+            "eventLink": "http://sched.co/EtFN",
+            "eventName": "API World 2018",
+            "eventLocation": "San Jose, CA",
+            "eventDate": ["September", "2018"],
+            "eventType": "conference"
         },
         {
             "eventLink": "https://www.meetup.com/Auth0-Online-Meetup/events/254483725/",
             "eventName": "Using JWT to authenticate requests",
             "eventLocation": "webinar",
-            "eventDate": ["September", "2018"]
+            "eventDate": ["September", "2018"],
+            "eventType": "webinar"
         },
         {
             "eventLink": "https://www.meetup.com/DeveloperAdvocates/events/249435388/",
             "eventName": "Scaling your content strategy",
             "eventLocation": "San Francisco, CA",
-            "eventDate": ["April", "2018"]
+            "eventDate": ["April", "2018"],
+            "eventType": "meetup"
+        },
+        {
+            "eventLink": "https://www.apidays.co/paris",
+            "eventName": "APIDays Paris 2017",
+            "eventLocation": "Paris",
+            "eventDate": ["January", "2018"],
+            "eventType": "conference"
         }
     ]
 }

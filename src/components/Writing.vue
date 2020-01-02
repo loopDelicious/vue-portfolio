@@ -58,7 +58,7 @@
             :key="index"
             style="display: flex; align-items: center; text-align: left">
             <b-list-group-item button class="b-list-writings" >
-              <b-link :href="article.articleLink" target="_blank">{{article.articleTitle}}</b-link>
+              {{article.articleDate[1]}} | <b-link :href="article.articleLink" target="_blank">{{article.articleTitle}}</b-link>
               | {{article.articlePublication}}
             </b-list-group-item>
           </b-list-group>
@@ -110,12 +110,12 @@
   border-radius: 0;
   border: none;
   background-color: gainsboro;
-  color: darkgreen;
+  color: #2c3e50;
   font-weight: bolder;
   padding: 15px;
 }
 .other .main-button:hover {
-  color: limegreen;
+  color: mediumaquamarine;
 }
 .btn:focus,.btn:active {
    outline: none !important;
@@ -130,11 +130,11 @@
   border-bottom: 1px solid whitesmoke;
 }
 #writing-drawer .other a {
-  color: darkgreen;
+  color: #2c3e50;
   font-weight: bold;
 }
 #writing-drawer .other a:hover{
-  color: limegreen;
+  color: mediumaquamarine;
   text-decoration: none;
 }
 #writing-drawer .b-list-writings {

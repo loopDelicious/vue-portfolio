@@ -23,7 +23,7 @@
 
                 <div class="carousel-caption"><h1>{{project.projectTitle}}</h1></div>
                 <template v-slot:footer>
-                  <small class="text-muted text-left">{{project.projectDescription}}</small><br>
+                  <small class="text-left">{{project.projectDescription}}</small>
                     <div class="social-icons text-left">
                       <b-link v-if="project.projectLink" :href="project.projectLink" target="_blank"><font-awesome-icon :icon="['fas', 'external-link-alt']" class="fa-lg" /></b-link>
                       <b-link v-if="project.githubLink" :href="project.githubLink" target="_blank"><font-awesome-icon :icon="['fab', 'github']" class="fa-lg" /></b-link>
@@ -94,23 +94,36 @@
 }
 .card-footer {
   text-align: left;
+} 
+.carousel-caption {
+  margin-bottom: 30px; 
 }
 .social-icons {
-  margin: 5px 0;
+  margin: 10px 0;
+}
+.social-icons svg {
+  color: gray;
+}
+.social-icons svg:hover {
+  color: mediumaquamarine;
+}
+.social-icons a {
+  /* display: inline-block;     
+  position: relative;    
+  z-index: 1;      */
+  /* padding: 2em;     
+  margin: -2em;  */
+}
+.social-icons a:hover {
+  color: mediumaquamarine;
 }
 .social-icons a:after { 
   content: "|"; 
-  padding: 0 1em; 
-}
-.social-icons svg {
-  color: darkgreen;
-}
-.social-icons svg:hover {
-  color: limegreen;
+  margin: 0 15px;
+  /* padding: 0 10px; */
 }
 .social-icons a:last-child:after { 
   content: ""; 
-  padding: 0; 
 }
 #building-drawer img {
   height: 400px;
