@@ -52,7 +52,15 @@
     <hr>
     <!-- OTHER -->
     <div class="other mt-3">
-      <b-button class="main-button" block v-b-toggle="'collapse2'" ><font-awesome-icon :icon="['fas', 'pencil-alt']" /> Other Writings </b-button>
+      <b-button class="main-button" block v-b-toggle="'collapse2'" > 
+        <span class="when-opened">
+         <font-awesome-icon :icon="['fas', 'chevron-circle-down']" />
+        </span>
+        <span class="when-closed">
+            <font-awesome-icon :icon="['fas', 'chevron-circle-right']" />
+        </span>
+        Other Writings 
+      </b-button>
       <b-collapse id="collapse2" class="mt-2">
         <b-list-group v-for="(article,index) in data.otherWriting"
             :key="index"
@@ -142,5 +150,9 @@
 }
 #writing-drawer .card-img-top {
   width: initial;
+}
+.collapsed > .when-opened,
+:not(.collapsed) > .when-closed {
+    display: none;
 }
 </style>

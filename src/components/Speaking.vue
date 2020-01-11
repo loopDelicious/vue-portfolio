@@ -66,7 +66,15 @@
     <hr>
     <!-- OTHER -->
     <div class="other mt-3">
-      <b-button class="main-button" block v-b-toggle.collapse-1 ><font-awesome-icon :icon="['fas', 'microphone']" /> Other Talks</b-button>
+      <b-button class="main-button" block v-b-toggle.collapse-1 >
+        <span class="when-opened">
+         <font-awesome-icon :icon="['fas', 'chevron-circle-down']" />
+        </span>
+        <span class="when-closed">
+            <font-awesome-icon :icon="['fas', 'chevron-circle-right']" />
+        </span>
+         Other Talks
+      </b-button>
       <b-collapse id="collapse-1" class="mt-2">
         <b-list-group v-for="(event,index) in events.otherEvents"
             :key="index"
@@ -174,5 +182,9 @@
 }
 #speaking-drawer .card-img {
   width: initial;
+}
+.collapsed > .when-opened,
+:not(.collapsed) > .when-closed {
+    display: none;
 }
 </style>

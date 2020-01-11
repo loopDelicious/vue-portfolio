@@ -8,6 +8,11 @@
           <p><font-awesome-icon :icon="['fas', 'location-arrow']" />  San Francisco, CA</p>
           <p><font-awesome-icon :icon="['fas', 'check-square']" />  Full Stack Engineer with Product Experience</p>
         </div>
+        <a class="scroll-button" href="#speaking-drawer">
+          <div class="scroll-to-anchor">
+            <font-awesome-icon :icon="['fas', 'chevron-down']" size="2x" />
+          </div>
+        </a>
     </b-jumbotron>
   </div>
 </template>
@@ -47,6 +52,7 @@ li {
   height: 600px;
   text-align: left;
   margin: 0 0 0 0;
+  position: relative;
   /* background-image: url(../assets/cube-thumb.jpg); */
 }
 .joyce-list {
@@ -57,5 +63,13 @@ li {
 .joyce-list * {
   margin: 5px 15px 0 0;
 }
-
+.scroll-to-anchor {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    color: darkgray;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
 </style>
