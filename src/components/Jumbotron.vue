@@ -3,7 +3,7 @@
     <b-jumbotron bg-variant="secondary" text-variant="white" fluid >
         <Nav />
         <template v-slot:header>Joyce Lin</template>
-        <template v-slot:lead><p style="color: palegreen;">Developer Relations</p></template>
+        <template v-slot:lead><p class="secondary-text">Developer Relations</p></template>
         <div class="joyce-list">
           <p><font-awesome-icon :icon="['fas', 'location-arrow']" />  San Francisco, CA</p>
           <p><font-awesome-icon :icon="['fas', 'check-square']" />  Full Stack Engineer with Product Experience</p>
@@ -54,6 +54,9 @@ li {
   margin: 0 0 0 0;
   position: relative;
   /* background-image: url(../assets/cube-thumb.jpg); */
+}
+.secondary-text {
+  color: aquamarine;
 }
 .joyce-list {
   color: darkgray;

@@ -34,7 +34,7 @@
       </b-card-group>
     </div>
     <hr>
-    <!-- OTHER -->
+    <!-- OTHER TALKS -->
     <div class="other mt-3">
       <b-button class="main-button" block v-b-toggle.collapse-1 >
         <span class="when-opened">
@@ -55,7 +55,27 @@
           </b-list-group>
         </b-collapse>
       </div>
-      <hr>
+      <!-- OTHER VIDEOS -->
+      <div class="other mt-3">
+        <b-button class="main-button" block v-b-toggle.collapse-3 aria-controls="collapse-3" >
+          <span class="when-opened">
+          <font-awesome-icon :icon="['fas', 'chevron-circle-down']" />
+          </span>
+          <span class="when-closed">
+              <font-awesome-icon :icon="['fas', 'chevron-circle-right']" />
+          </span>
+          Other Videos
+        </b-button>
+        <b-collapse id="collapse-3" class="mt-2">
+          <b-list-group v-for="(video,index) in events.otherVideos"
+              :key="index">
+              <b-list-group-item button class="b-list-events" >
+                {{video.videoDate[1]}} | <b-link :href="video.videoLink" target="_blank">{{video.videoTitle}}</b-link>
+              </b-list-group-item>
+            </b-list-group>
+          </b-collapse>
+        </div>
+        <hr>
   </div>
 </template>
 

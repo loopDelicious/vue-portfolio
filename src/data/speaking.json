@@ -324,5 +324,121 @@
             "eventDate": ["January", "2018"],
             "eventType": "conference"
         }
+    ],
+    "otherVideos": [
+        {
+            "videoLink": "https://youtu.be/BnDfggH_Wi8",
+            "videoTitle": "Jump start your API skills",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2019"]
+        },
+        {
+            "videoLink": "https://youtu.be/2VKVPB5USgU",
+            "videoTitle": "Reverse engineering an API",
+            "videoLocation": "YouTube",
+            "videoDate": ["January", "2019"]
+        },
+        {
+            "videoLink": "https://youtu.be/pi9MxX0HSHU",
+            "videoTitle": "Writing tests in Postman -- with examples! Part 1 of 2",
+            "videoLocation": "YouTube",
+            "videoDate": ["November", "2018"]
+        },        
+        {
+            "videoLink": "https://youtu.be/nhY481EGMro",
+            "videoTitle": "Writing tests in Postman -- with examples! Part 2 of 2",
+            "videoLocation": "YouTube",
+            "videoDate": ["November", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/pi9MxX0HSHU",
+            "videoTitle": "Working with sessions",
+            "videoLocation": "YouTube",
+            "videoDate": ["September", "2018"]
+        },        
+        {
+            "videoLink": "https://youtu.be/tXjoya11RAg",
+            "videoTitle": "POST/CON 2018 workshop in review: Mock servers",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/oghRpqBj7Hg",
+            "videoTitle": "POST/CON 2018 workshop in review: Sharing collections and environments",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/wz0lizrGZz8",
+            "videoTitle": "POST/CON 2018 workshop in review: Communication using Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/OuH4kmPV3bE",
+            "videoTitle": "POST/CON 2018 workshop in review: Running Postman Collections",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/3pMyO5ggq8I",
+            "videoTitle": "Newman: run and test collections from the command line",
+            "videoLocation": "YouTube",
+            "videoDate": ["June", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/YKalL1rVDOE",
+            "videoTitle": "New to Postman Part 1: sending a request",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/d519r1stILE",
+            "videoTitle": "New to Postman Part 2: authorizing a request",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/6Cp4Ez5dwbM",
+            "videoTitle": "New to Postman Part 3: writing a test",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/oZHd226DZPU",
+            "videoTitle": "New to Postman Part 4: running a collection",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/shYn3Ys3ygE",
+            "videoTitle": "New to Postman Part 5: chaining requests",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/8tLvvQ-3Nx0",
+            "videoTitle": "Team collaboration with Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/fgtDZPOPzLU",
+            "videoTitle": "Fake APIs for Real Developers",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/3nOP_TYTuA8",
+            "videoTitle": "API monitoring with Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2018"]
+        },
+        {
+            "videoLink": "https://youtu.be/Ayo_KdLLcTA",
+            "videoTitle": "API documentation with Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2018"]
+        }
     ]
 }
