@@ -2,16 +2,16 @@
   <div id="speaking-drawer" class="speaking">
     <h2>Speaking</h2>
     <!-- UPCOMING -->
-    <div class="featured mt-3">
-      <h5 style="color: silver; text-align: left;">UPCOMING</h5>
-      <b-card-group deck >
+    <div class="upcoming mt-3">
+      <h5>UPCOMING</h5>
+      <b-card-group deck class="upcoming-contents">
         <b-link v-for="(event,index) in events.upcoming"
           :key="index"
           :href="event.talkLink" target="_blank">
           <div class="card-wrapper">
             <b-card overlay
               :img-src="event.imgSrc">
-              <b-card-text>
+              <b-card-text class="card-wrapper-text">
                 <b-link :href="event.eventLink" target="_blank" class="card-link"><h3>{{event.eventName}}</h3></b-link>
                 <h3>{{event.eventDate[0]}} {{event.eventDate[1]}}</h3>
                 <h3>{{event.eventLocation.split(',')[0]}}</h3>
@@ -24,43 +24,13 @@
     <hr>
     <!-- FEATURED -->
     <div class="featured mt-3">
-      <h5 style="color: silver; text-align: left;">PINNED</h5>
-      <b-card-group deck >
-        <b-link v-for="(event,index) in events.featured"
-          :key="index"
-          :href="event.talkLink" target="_blank">
-          <div class="card-wrapper">
-            <b-card overlay
-              :img-src="event.imgSrc">
-              <b-card-text>
-                <b-link :href="event.eventLink" target="_blank" class="card-link"><h3>{{event.eventName}}</h3></b-link>
-                <b-link :href="event.talkLink" target="_blank" class="card-link">{{event.talkTitle}}</b-link><br>
-                <b-link :href="event.talkLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
-              </b-card-text>
-            </b-card>
-          </div>
-        </b-link>
-      </b-card-group>
-    </div>
-    <hr>
-    <!-- GENERAL -->
-    <div class="general mt-3">
-      <b-card-group deck>
-          <b-link v-for="(event,index) in events.speaking"
-              :key="index"
-              :href="event.talks[0].talkVideo ? event.talks[0].talkVideo : event.eventLink" target="_blank">
-              <div class="card-wrapper">
-                <b-card overlay
-                    :img-src="event.imgSrc"
-                    class="mb-2">
-                <b-card-text>
-                  <b-link :href="event.eventLink" target="_blank" class="card-link"><h3>{{event.eventName}}</h3></b-link>
-                  <b-link :href="event.talks[0].talkLink ? event.talks[0].talkLink : event.eventLink" target="_blank" class="card-link">{{event.talks[0].talkTitle}}</b-link><br>
-                  <b-link :href="event.talks[0].talkVideo ? event.talks[0].talkVideo : event.eventLink" target="_blank" class="card-link"><font-awesome-icon :icon="['fas', 'external-link-alt']" /></b-link>
-                 </b-card-text>
-                </b-card>
-              </div>
-          </b-link>
+      <h5>PINNED</h5>
+      <b-card-group deck class="featured-contents" v-for="(event,index) in events.featured" :key="index">
+        <div class="featured-card-wrapper">
+          <b-card>
+            <iframe width="560" height="315" :src="event.embedLink" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </b-card>
+        </div>
       </b-card-group>
     </div>
     <hr>
@@ -77,8 +47,7 @@
       </b-button>
       <b-collapse id="collapse-1" class="mt-2">
         <b-list-group v-for="(event,index) in events.otherEvents"
-            :key="index"
-            style="display: flex; align-items: center; text-align: left">
+            :key="index">
             <b-list-group-item button class="b-list-events" >
               {{event.eventDate[1]}} | <b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link>
               | {{event.eventLocation}}
@@ -104,31 +73,50 @@
 #speaking-drawer a:hover {
   color: mediumaquamarine;
 }
-.featured {
-  display: inline-block;
+.speaking h5 {
+  color: silver; 
+  text-align: left;
+  width: 100%;
 }
-.featured .card-text {
-  /* font-weight: bold; */
+.upcoming-contents {
+  display: flex;
+  justify-content: center;
 }
-.general * {
-  display: inline-block;
+.card-wrapper-text {
+  height: 100%;
+  padding: 20% 0;
 }
-.general img {
-  /* height: auto;
-  max-height: 230px;
-  /* background: transparent no-repeat center; */
-  /* background-size: cover; */
-}
-.general .card-text {
-  font-weight: normal;
-}
-/* .general .card-wrapper { */
-  /* background-color: #202020; */
-  /* position: relative; */
-  /* height: 200px; */
-/* } */
 .card-wrapper * {
   max-width: 20rem;
+}
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.featured-contents {
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+  width: auto;
+  margin: 10px;
+  /* flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 50%; */
+}
+.featured-card-wrapper * {
+  max-width: 30rem;
+}
+.featured-content>div:first-child {
+  /* flex: 0 1 100%; */
+}
+/* .featured-card-wrapper {
+  display: flex;
+} */
+.card-body {
+  padding: 0;
+  margin-bottom: -7px;
 }
 .other .main-button {
   /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */
@@ -148,6 +136,11 @@
 }
 .other .main-button svg {
   margin-right: 10px;
+}
+.other .list-group {
+  display: flex; 
+  align-items: center; 
+  text-align: left;
 }
 .list-group-item:last-child {
   border-radius: 0;
@@ -181,6 +174,9 @@
   cursor: default;
 }
 #speaking-drawer .card-img {
+  width: initial;
+}
+#speaking-drawer .card-body {
   width: initial;
 }
 .collapsed > .when-opened,

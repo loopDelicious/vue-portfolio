@@ -1,26 +1,4 @@
 {
-    "featured": [
-        {
-            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
-            "eventName": "DevNet Create",
-            "eventLocation": "Mountain View, CA",
-            "eventDate": ["April", "2019"],
-            "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
-            "talkTitle": "SiliconANGLE theCUBE",
-            "talkLink": "https://youtu.be/GTfLGXi9LDg"
-        },
-        {
-            "eventLink": "https://fitc.ca/event/webu19/",
-            "eventName": "Web Unleashed",
-            "eventLocation": "Toronto, CAN",
-            "eventDate": ["September", "2019"],
-            "eventType": "conference",
-            "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg",
-            "talkTitle": "Standing on the Shoulders of APIs",
-            "talkLink": "https://youtu.be/bU6X4ZQtkAs"
-        }
-    ],
     "upcoming": [
         {
             "eventLink": "https://www.conf42.com/",
@@ -43,26 +21,17 @@
             "talkLink": "https://midwestphp.org/schedule"
         }
     ],
-    "speaking": [
+    "featured": [
         {
-            "eventLink": "https://www.apidays.co/paris",
-            "eventName": "APIdays Paris 2019",
-            "eventLocation": "Paris",
-            "eventDate": ["December", "2019"],
+            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
+            "eventName": "DevNet Create",
+            "eventLocation": "Mountain View, CA",
+            "eventDate": ["April", "2019"],
             "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/tXeIiUT.jpg",
-            "talks": [
-                {
-                    "talkTitle": "10 things you didn't know",
-                    "talkLink": null,
-                    "talkVideo": null
-                },
-                {
-                    "talkTitle": "Bringing Law and Order to those untamed APIs",
-                    "talkLink": null,
-                    "talkVideo": null
-                }
-            ]
+            "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+            "talkTitle": "SiliconANGLE theCUBE",
+            "talkLink": "https://youtu.be/GTfLGXi9LDg",
+            "embedLink": "https://www.youtube.com/embed/GTfLGXi9LDg"
         },
         {
             "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
@@ -71,6 +40,7 @@
             "eventDate": ["April", "2019"],
             "eventType": "conference",
             "imgSrc": "http://i3.ytimg.com/vi/mFww5YaDkZo/hqdefault.jpg",
+            "embedLink": "https://www.youtube.com/embed/mFww5YaDkZo",
             "talks": [
                 {
                     "talkTitle": "Community of 6 Million +",
@@ -96,7 +66,10 @@
             "eventLocation": "Toronto, CAN",
             "eventDate": ["September", "2019"],
             "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/WPASk5S.png",
+            "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg",
+            "talkTitle": "Standing on the Shoulders of APIs",
+            "talkLink": "https://youtu.be/bU6X4ZQtkAs",
+            "embedLink": "https://www.youtube.com/embed/bU6X4ZQtkAs",
             "talks": [
                 {
                     "talkTitle": "Getting rid of Bad Documentation",
@@ -110,6 +83,73 @@
                     "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg"
                 }
             ]
+        },
+        {
+            "eventLink": "https://nordicapis.com/events/austin-api-summit-2019/",
+            "eventName": "Nordic APIs",
+            "eventLocation": "Austin, TX",
+            "eventDate": ["May", "2019"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/zW0trRP.jpg",
+            "embedLink": "https://www.youtube.com/embed/FI6IDPpBPQ0",
+            "talks": [
+                {
+                    "talkTitle": "Mock servers for agile development",
+                    "talkLink": "https://nordicapis.com/sessions/fake-it-till-you-make-it-mock-servers-for-agile-development/",
+                    "talkVideo": "https://www.youtube.com/watch?v=FI6IDPpBPQ0&feature=youtu.be"
+                },
+                {
+                    "talkTitle": "Simplify and Optimize Your Workflow – How an API-first Approach Can Help",
+                    "talkLink": "https://nordicapis.com/sessions/simplify-and-optimize-your-workflow-how-an-api-first-approach-can-help/",
+                    "talkVideo": null
+                }
+            ]
+        },
+        {
+            "eventLink": "https://apithedocs.org/london-2018",
+            "eventName": "API The Docs",
+            "eventLocation": "London",
+            "eventDate": ["November", "2018"],
+            "eventType": "conference",
+            "imgSrc": "https://pbs.twimg.com/media/DrkyuMkX0AI0e6c.jpg",
+            "embedLink": "https://www.youtube.com/embed/6Q3Cc1z-t5U",
+            "talks": [
+                {
+                    "talkTitle": "The Ultimate API Publisher’s Guide",
+                    "talkLink": "https://pronovix.com/event/api-docs-london-2018#joyce",
+                    "talkVideo": "https://youtu.be/6Q3Cc1z-t5U"
+                }
+            ]
+        }
+    ],
+    "speaking": [],
+    "otherEvents": [
+        {
+            "eventLink": "https://www.apidays.co/paris",
+            "eventName": "APIdays Paris 2019",
+            "eventLocation": "Paris",
+            "eventDate": ["December", "2019"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/tXeIiUT.jpg",
+            "talks": [
+                {
+                    "talkTitle": "10 things you didn't know",
+                    "talkLink": null,
+                    "talkVideo": null
+                },
+                {
+                    "talkTitle": "Bringing Law and Order to those untamed APIs",
+                    "talkLink": null,
+                    "talkVideo": null
+                }
+            ]
+        },
+        {
+            "eventLink": "https://events19.linuxfoundation.org/events/asc-2019/",
+            "eventName": "API Specifications Conference",
+            "eventLocation": "Vancouver",
+            "eventDate": ["October", "2019"],
+            "eventType": "conference"
         },
         {
             "eventLink": "https://apiworld.co/",
@@ -132,24 +172,18 @@
             ]
         },
         {
-            "eventLink": "https://nordicapis.com/events/austin-api-summit-2019/",
-            "eventName": "Nordic APIs",
-            "eventLocation": "Austin, TX",
-            "eventDate": ["May", "2019"],
-            "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/zW0trRP.jpg",
-            "talks": [
-                {
-                    "talkTitle": "Mock servers for agile development",
-                    "talkLink": "https://nordicapis.com/sessions/fake-it-till-you-make-it-mock-servers-for-agile-development/",
-                    "talkVideo": "https://www.youtube.com/watch?v=FI6IDPpBPQ0&feature=youtu.be"
-                },
-                {
-                    "talkTitle": "Simplify and Optimize Your Workflow – How an API-first Approach Can Help",
-                    "talkLink": "https://nordicapis.com/sessions/simplify-and-optimize-your-workflow-how-an-api-first-approach-can-help/",
-                    "talkVideo": null
-                }
-            ]
+            "eventLink": "https://www.meetup.com/Mountain-View-Cloud-Native-Meetup-Group/events/265349266/",
+            "eventName": "Cloud Native Computing Group",
+            "eventLocation": "Mountain View, CA",
+            "eventDate": ["October", "2019"],
+            "eventType": "meetup"
+        },
+        {
+            "eventLink": "https://chaosconf.io/",
+            "eventName": "ChaosConf",
+            "eventLocation": "San Francisco",
+            "eventDate": ["September", "2019"],
+            "eventType": "conference"
         },
         {
             "eventLink": "https://fall2019.stpcon.com/",
@@ -170,44 +204,6 @@
                     "talkVideo": null
                 }
             ]
-        },
-        {
-            "eventLink": "https://apithedocs.org/london-2018",
-            "eventName": "API The Docs",
-            "eventLocation": "London",
-            "eventDate": ["November", "2018"],
-            "eventType": "conference",
-            "imgSrc": "https://pbs.twimg.com/media/DrkyuMkX0AI0e6c.jpg",
-            "talks": [
-                {
-                    "talkTitle": "The Ultimate API Publisher’s Guide",
-                    "talkLink": "https://pronovix.com/event/api-docs-london-2018#joyce",
-                    "talkVideo": "https://youtu.be/6Q3Cc1z-t5U"
-                }
-            ]
-        }
-    ],
-    "otherEvents": [
-        {
-            "eventLink": "https://events19.linuxfoundation.org/events/asc-2019/",
-            "eventName": "API Specifications Conference",
-            "eventLocation": "Vancouver",
-            "eventDate": ["October", "2019"],
-            "eventType": "conference"
-        },
-        {
-            "eventLink": "https://www.meetup.com/Mountain-View-Cloud-Native-Meetup-Group/events/265349266/",
-            "eventName": "Cloud Native Computing Group",
-            "eventLocation": "Mountain View, CA",
-            "eventDate": ["October", "2019"],
-            "eventType": "meetup"
-        },
-        {
-            "eventLink": "https://chaosconf.io/",
-            "eventName": "ChaosConf",
-            "eventLocation": "San Francisco",
-            "eventDate": ["September", "2019"],
-            "eventType": "conference"
         },
         {
             "eventLink": "https://2019.apicity.io/",
