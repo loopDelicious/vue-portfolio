@@ -87,7 +87,7 @@
   border-bottom-left-radius: 0;
   height: 200px;
 }
-.featured-contents {
+.featured-contents, .general-contents {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -118,11 +118,6 @@
 }
 .card-wrapper h4:hover {
   color: aquamarine;
-}
-.general-contents {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 .other .main-button {
   /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */

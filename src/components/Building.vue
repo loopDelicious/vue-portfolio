@@ -4,7 +4,7 @@
     <!-- FEATURED -->
     <div class="featured mt-3">
       <h5 style="color: silver; text-align: left;">PINNED</h5>
-      <b-card-group deck>
+      <b-card-group deck class="featured-contents">
           <div class="card-wrapper" v-for="(project, index) in building.featured" 
             :key="index">
             <b-card overlay
@@ -37,7 +37,7 @@
     <hr>
     <!-- GENERAL -->
     <div class="general mt-3">
-      <b-card-group deck>
+      <b-card-group deck class="general-contents">
           <div class="card-wrapper" v-for="(project, index) in building.building" 
             :key="index">
             <b-card overlay
@@ -83,11 +83,10 @@ body {
 #building-drawer {
   margin: 40px;
 }
-.featured {
-  display: inline-block;
-}
-.general * {
-  display: inline-block;
+.featured-contents, .general-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #building-drawer a {
   color: dimgray;
