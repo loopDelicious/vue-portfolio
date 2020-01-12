@@ -3,20 +3,17 @@
     <h2>Writing</h2>
     <!-- FEATURED -->
     <div class="featured mt-3">
-      <h5 style="color: silver; text-align: left;">PINNED</h5>
-        <b-card-group deck>
+      <h5>PINNED</h5>
+        <b-card-group deck class="featured-contents">
           <b-link v-for="(article, index) in data.featured" 
             :key="index"
             :href="article.articleLink" 
             target="_blank">
             <div class="card-wrapper">
               <b-card overlay img-top
-                  :title="article.articleTitle"
                   :img-src="article.imgSrc"
-                  img-alt="Image"
-                  tag="article"
-                  style="max-width: 20rem;"
                   class="text-left mb-3 card-contents">
+                  <div class="article-title"><h4>{{article.articleTitle}}</h4></div>
                   <template v-slot:footer>
                     <small class="text-muted">{{article.articleBlurb}}</small>
                   </template>
@@ -28,19 +25,16 @@
     <hr>
     <!-- GENERAL -->
     <div class="general mt-3">
-      <b-card-group deck>
+      <b-card-group deck class="general-contents">
           <b-link v-for="(article, index) in data.writing" 
             :key="index"
             :href="article.articleLink" 
             target="_blank">
             <div class="card-wrapper">
-              <b-card overlay img-top
-                  :title="article.articleTitle"
+              <b-card overlay
                   :img-src="article.imgSrc"
-                  img-alt="Image"
-                  tag="article"
-                  style="max-width: 20rem;"
                   class="text-left mb-3 card-contents">
+                  <div class="article-title"><h4>{{article.articleTitle}}</h4></div>
                   <template v-slot:footer>
                     <small class="text-muted">{{article.articleBlurb}}</small>
                   </template>
@@ -63,8 +57,7 @@
       </b-button>
       <b-collapse id="collapse2" class="mt-2">
         <b-list-group v-for="(article,index) in data.otherWriting"
-            :key="index"
-            style="display: flex; align-items: center; text-align: left">
+            :key="index">
             <b-list-group-item button class="b-list-writings" >
               {{article.articleDate[1]}} | <b-link :href="article.articleLink" target="_blank">{{article.articleTitle}}</b-link>
               | {{article.articlePublication}}
@@ -83,20 +76,26 @@
 #writing-drawer {
   margin: 40px;
 }
-.featured {
-  display: inline-block;
+#writing-drawer h5 {
+  color: silver; 
+  text-align: left;
+}
+#writing-drawer .card-img {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 200px;
+}
+.featured-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #writing-drawer a {
   color: whitesmoke;
-  /* color: dimgray; */
-}
-#writing-drawer a:hover {
-  /* text-decoration: none; */
-  /* opacity: 0.8; */
 }
 #writing-drawer img {
-  height: 250px;
-  background-size: cover;
   -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -110,8 +109,20 @@
 .card-wrapper:hover img {
   opacity: 0.8;
 }
-.general * {
-  display: inline-block;
+.card-wrapper * {
+  max-width: 20rem;
+  height: 288px;
+}
+.card-wrapper h4 {
+  color: whitesmoke;
+}
+.card-wrapper h4:hover {
+  color: aquamarine;
+}
+.general-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .other .main-button {
   /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */
@@ -132,6 +143,11 @@
 .other .main-button svg {
   margin-right: 10px;
 }
+.other .list-group {
+  display: flex; 
+  align-items: center; 
+  text-align: left;
+}
 .list-group-item:last-child {
   border-radius: 0;
   border-color: transparent;
@@ -149,7 +165,7 @@
   cursor: default;
 }
 #writing-drawer .card-img-top {
-  width: initial;
+  /* width: initial; */
 }
 .collapsed > .when-opened,
 :not(.collapsed) > .when-closed {

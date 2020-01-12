@@ -73,6 +73,6 @@ li {
     width: 100%;
 }
 .scroll-to-anchor svg:hover {
-  color: whitesmoke;
+  color: lightgray;
 }
 </style>
