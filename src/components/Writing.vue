@@ -45,27 +45,29 @@
     </div>
     <hr>
     <!-- OTHER -->
-    <div class="other mt-3">
-      <b-button class="main-button" block v-b-toggle="'collapse2'" > 
-        <span class="when-opened">
-         <font-awesome-icon :icon="['fas', 'chevron-circle-down']" />
-        </span>
-        <span class="when-closed">
-            <font-awesome-icon :icon="['fas', 'chevron-circle-right']" />
-        </span>
-        Other Writings 
-      </b-button>
-      <b-collapse id="collapse2" class="mt-2">
-        <b-list-group v-for="(article,index) in data.otherWriting"
-            :key="index">
-            <b-list-group-item button class="b-list-writings" >
-              {{article.articleDate[1]}} | <b-link :href="article.articleLink" target="_blank">{{article.articleTitle}}</b-link>
-              | {{article.articlePublication}}
-            </b-list-group-item>
-          </b-list-group>
-        </b-collapse>
+    <div id="other-articles">
+      <div class="other mt-3">
+        <b-button class="main-button" block v-b-toggle="'collapse2'" > 
+          <span class="when-opened">
+          <font-awesome-icon :icon="['fas', 'chevron-circle-down']" />
+          </span>
+          <span class="when-closed">
+              <font-awesome-icon :icon="['fas', 'chevron-circle-right']" />
+          </span>
+          Other Writings 
+        </b-button>
+        <b-collapse id="collapse2" class="mt-2">
+          <b-list-group v-for="(article,index) in data.otherWriting"
+              :key="index">
+              <b-list-group-item button class="b-list-writings" >
+                {{article.articleDate[1]}} | <b-link :href="article.articleLink" target="_blank">{{article.articleTitle}}</b-link>
+                | {{article.articlePublication}}
+              </b-list-group-item>
+            </b-list-group>
+          </b-collapse>
+        </div>
       </div>
-      <hr>
+    <hr>
   </div>
 </template>
 
@@ -152,10 +154,10 @@
   color: #2c3e50;
   font-weight: bold;
 }
-#writing-drawer .other a:hover{
+/* #writing-drawer .other a:hover{
   color: mediumaquamarine;
   text-decoration: none;
-}
+} */
 #writing-drawer .b-list-writings {
   cursor: default;
 }
@@ -165,5 +167,34 @@
 .collapsed > .when-opened,
 :not(.collapsed) > .when-closed {
     display: none;
+}
+/* animate link */
+/* https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+#other-articles a {
+  position: relative;
+  color: #2c3e50;
+  text-decoration: none;
+}
+#other-articles a:hover {
+  color: #2c3e50;
+}
+#other-articles a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #2c3e50;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#other-articles a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 </style>

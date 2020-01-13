@@ -35,23 +35,24 @@
     </div>
     <hr>
     <!-- OTHER TALKS -->
-    <div class="other mt-3">
-      <b-button class="main-button" block v-b-toggle.collapse-1 >
-        <span class="when-opened">
-         <font-awesome-icon :icon="['fas', 'chevron-circle-down']" />
-        </span>
-        <span class="when-closed">
-            <font-awesome-icon :icon="['fas', 'chevron-circle-right']" />
-        </span>
-         Other Talks
-      </b-button>
-      <b-collapse id="collapse-1" class="mt-2">
-        <b-list-group v-for="(event,index) in events.otherEvents"
-            :key="index">
-            <b-list-group-item button class="b-list-events" >
-              {{event.eventDate[1]}} | <b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link>
-              | {{event.eventLocation}}
-            </b-list-group-item>
+    <div id="other-talks">
+      <div class="other mt-3">
+        <b-button class="main-button" block v-b-toggle.collapse-1 >
+          <span class="when-opened">
+          <font-awesome-icon :icon="['fas', 'chevron-circle-down']" />
+          </span>
+          <span class="when-closed">
+              <font-awesome-icon :icon="['fas', 'chevron-circle-right']" />
+          </span>
+          Other Talks
+        </b-button>
+        <b-collapse id="collapse-1" class="mt-2">
+          <b-list-group v-for="(event,index) in events.otherEvents"
+              :key="index">
+              <b-list-group-item button class="b-list-events" >
+                {{event.eventDate[1]}} | <b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link>
+                | {{event.eventLocation}}
+              </b-list-group-item>
           </b-list-group>
         </b-collapse>
       </div>
@@ -68,14 +69,15 @@
         </b-button>
         <b-collapse id="collapse-3" class="mt-2">
           <b-list-group v-for="(video,index) in events.otherVideos"
-              :key="index">
-              <b-list-group-item button class="b-list-events" >
-                {{video.videoDate[1]}} | <b-link :href="video.videoLink" target="_blank">{{video.videoTitle}}</b-link>
-              </b-list-group-item>
-            </b-list-group>
-          </b-collapse>
-        </div>
-        <hr>
+            :key="index">
+            <b-list-group-item button class="b-list-events" >
+              {{video.videoDate[1]}} | <b-link :href="video.videoLink" target="_blank">{{video.videoTitle}}</b-link>
+            </b-list-group-item>
+          </b-list-group>
+        </b-collapse>
+      </div>
+    </div>
+    <hr>
   </div>
 </template>
 
@@ -186,10 +188,10 @@
 #speaking-drawer .other a {
   color: #2c3e50;
 }
-#speaking-drawer .other a:hover{
+/* #speaking-drawer .other a:hover{
   color: mediumaquamarine;
   text-decoration: none;
-}
+} */
 #speaking-drawer .b-list-events {
   cursor: default;
 }
@@ -202,5 +204,34 @@
 .collapsed > .when-opened,
 :not(.collapsed) > .when-closed {
     display: none;
+}
+/* animate link */
+/* https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+#other-talks a {
+  position: relative;
+  color: #2c3e50;
+  text-decoration: none;
+}
+#other-talks a:hover {
+  color: #2c3e50;
+}
+#other-talks a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #2c3e50;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#other-talks a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 </style>
