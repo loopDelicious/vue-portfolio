@@ -119,7 +119,7 @@
   color: whitesmoke;
 }
 .card-wrapper h4:hover {
-  color: aquamarine;
+  color: mediumaquamarine;
 }
 .other .main-button {
   /* box-shadow: 2px 3px rgba(0, 0, 0, 0.3); */

@@ -8,7 +8,17 @@
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/dQPyNY1.png",
             "talkTitle": "Chaos engineering",
-            "talkLink": "https://www.conf42.com/"
+            "talkLink": null
+        },
+        {
+            "eventLink": "https://www.getpostman.com/galaxy-tour-2020",
+            "eventName": "Postman Galaxy Tour",
+            "eventLocation": "Worldwide",
+            "eventDate": ["February", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/CVvysar.png",
+            "talkTitle": "Postman workshop",
+            "talkLink": null
         },
         {
             "eventLink": "https://midwestphp.org/",
@@ -59,6 +69,17 @@
                     "talkVideo": null
                 }
             ]
+        },
+        {
+            "eventLink": "https://chaosconf.io/",
+            "eventName": "ChaosConf",
+            "eventLocation": "San Francisco",
+            "eventDate": ["September", "2019"],
+            "eventType": "conference",
+            "imgSrc": "http://i3.ytimg.com/vi/xfzw1Pt8Mqw/hqdefault.jpg",
+            "talkTitle": "Who is responsible for chaos?",
+            "talkLink": "https://youtu.be/xfzw1Pt8Mqw",
+            "embedLink": "https://www.youtube.com/embed/xfzw1Pt8Mqw"
         },
         {
             "eventLink": "https://fitc.ca/event/webu19/",
@@ -179,13 +200,6 @@
             "eventType": "meetup"
         },
         {
-            "eventLink": "https://chaosconf.io/",
-            "eventName": "ChaosConf",
-            "eventLocation": "San Francisco",
-            "eventDate": ["September", "2019"],
-            "eventType": "conference"
-        },
-        {
             "eventLink": "https://fall2019.stpcon.com/",
             "eventName": "STP Conference",
             "eventLocation": "Boston, MA",
@@ -213,6 +227,41 @@
             "eventType": "conference"
         },
         {
+            "eventLink": "https://chaosconf.io/",
+            "eventName": "ChaosConf",
+            "eventLocation": "San Francisco",
+            "eventDate": ["September", "2019"],
+            "eventType": "conference",
+            "imgSrc": "http://i3.ytimg.com/vi/xfzw1Pt8Mqw/hqdefault.jpg",
+            "talkTitle": "Who is responsible for chaos?",
+            "talkLink": "https://youtu.be/xfzw1Pt8Mqw",
+            "embedLink": "https://www.youtube.com/embed/xfzw1Pt8Mqw"
+        },
+        {
+            "eventLink": "https://fitc.ca/event/webu19/",
+            "eventName": "Web Unleashed",
+            "eventLocation": "Toronto, CAN",
+            "eventDate": ["September", "2019"],
+            "eventType": "conference",
+            "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg",
+            "talkTitle": "Standing on the Shoulders of APIs",
+            "talkLink": "https://youtu.be/bU6X4ZQtkAs",
+            "embedLink": "https://www.youtube.com/embed/bU6X4ZQtkAs",
+            "talks": [
+                {
+                    "talkTitle": "Getting rid of Bad Documentation",
+                    "talkLink": "https://fitc.ca/presentation/roundtable-getting-rid-of-bad-documentation/",
+                    "talkVideo": null
+                },
+                {
+                    "talkTitle": "Standing on the Shoulders of APIs",
+                    "talkLink": "https://fitc.ca/presentation/standing-on-the-shoulders-of-apis/",
+                    "talkVideo": "https://youtu.be/bU6X4ZQtkAs",
+                    "imgSrc": "http://i3.ytimg.com/vi/bU6X4ZQtkAs/maxresdefault.jpg"
+                }
+            ]
+        },
+        {
             "eventLink": "https://www.meetup.com/IBM-Developer-SF-Bay-Area-Meetup/events/263650029/",
             "eventName": "Build serverless APIs",
             "eventLocation": "webinar",
@@ -234,11 +283,60 @@
             "eventType": "webinar"
         },
         {
+            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
+            "eventName": "DevNet Create",
+            "eventLocation": "Mountain View, CA",
+            "eventDate": ["April", "2019"],
+            "eventType": "conference",
+            "imgSrc": "http://i3.ytimg.com/vi/mFww5YaDkZo/hqdefault.jpg",
+            "embedLink": "https://www.youtube.com/embed/mFww5YaDkZo",
+            "talks": [
+                {
+                    "talkTitle": "Community of 6 Million +",
+                    "talkLink": "https://developer.cisco.com/devnetcreate/2019/agenda",
+                    "talkVideo": "https://youtu.be/mFww5YaDkZo"
+                },
+                {
+                    "talkTitle": "SiliconANGLE theCUBE",
+                    "talkLink": null,
+                    "talkVideo": "https://youtu.be/GTfLGXi9LDg",
+                    "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
+                    "embedLink": "https://www.youtube.com/embed/GTfLGXi9LDg"
+                },
+                {
+                    "talkTitle": "Fake APIs for Real Developers: Mock Servers for Agile Development",
+                    "talkLink": null,
+                    "talkVideo": null
+                }
+            ]
+        },
+        {
             "eventLink": "https://docs.google.com/spreadsheets/d/1mA0FDySf2t2sSjKKG2VOta8vDDiGsQytgxJ2iHBeDIs/edit#gid=0",
             "eventName": "GlueCon",
             "eventLocation": "Denver, CO",
             "eventDate": ["May", "2019"],
             "eventType": "conference"
+        },
+        {
+            "eventLink": "https://nordicapis.com/events/austin-api-summit-2019/",
+            "eventName": "Nordic APIs",
+            "eventLocation": "Austin, TX",
+            "eventDate": ["May", "2019"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/zW0trRP.jpg",
+            "embedLink": "https://www.youtube.com/embed/FI6IDPpBPQ0",
+            "talks": [
+                {
+                    "talkTitle": "Mock servers for agile development",
+                    "talkLink": "https://nordicapis.com/sessions/fake-it-till-you-make-it-mock-servers-for-agile-development/",
+                    "talkVideo": "https://www.youtube.com/watch?v=FI6IDPpBPQ0&feature=youtu.be"
+                },
+                {
+                    "talkTitle": "Simplify and Optimize Your Workflow – How an API-first Approach Can Help",
+                    "talkLink": "https://nordicapis.com/sessions/simplify-and-optimize-your-workflow-how-an-api-first-approach-can-help/",
+                    "talkVideo": null
+                }
+            ]
         },
         {
             "eventLink": "https://www.meetup.com/DeveloperAdvocates/events/260256799/",
@@ -249,7 +347,7 @@
         },
         {
             "eventLink": "https://www.eventbrite.com/e/postman-developer-advocate-joyce-lin-speaking-tickets-58749136248#",
-            "eventName": "growTech open technical session",
+            "eventName": "GrowTech open technical session",
             "eventLocation": "Chico, CA",
             "eventDate": ["April", "2019"],
             "eventType": "meetup"

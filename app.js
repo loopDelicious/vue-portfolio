@@ -1,2 +1,1 @@
-import './style.scss'
-// import './_custom.scss'
+// import './custom.scss'

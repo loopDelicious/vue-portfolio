@@ -31,7 +31,18 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+// Import custom SASS variable overrides, or alternatively
+// define your variable overrides here
+// possible variables to override: node_modules/bootstrap/scss/_variables.scss
+// @import './custom.scss';
+$green: mediumaquamarine;
+
+// Import Bootstrap and BootstrapVue source SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+// General style overrides and custom classes
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

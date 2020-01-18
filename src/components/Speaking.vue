@@ -7,7 +7,7 @@
       <b-card-group deck class="upcoming-contents">
         <b-link v-for="(event,index) in events.upcoming"
           :key="index"
-          :href="event.talkLink" target="_blank">
+          :href="event.talkLink ? event.talkLink : event.eventLink" target="_blank">
           <div class="card-wrapper">
             <b-card overlay
               :img-src="event.imgSrc">
