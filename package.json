@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build && webpack",
+    "deploy": "yarn build && rsync -avz build/ root@direct.meowsergirl.com",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

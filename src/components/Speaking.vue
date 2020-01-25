@@ -108,6 +108,9 @@
   height: 100%;
   padding: 20% 0;
 }
+.card-wrapper {
+  margin: 10px;
+}
 .card-wrapper * {
   max-width: 20rem;
 }

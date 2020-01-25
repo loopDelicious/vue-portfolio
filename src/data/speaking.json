@@ -29,6 +29,16 @@
             "imgSrc": "https://i.imgur.com/ZazS6Jg.png",
             "talkTitle": "Postman workshop",
             "talkLink": "https://midwestphp.org/schedule"
+        },
+        {
+            "eventLink": "https://nordicapis.com/events/austin-api-summit-2020/",
+            "eventName": "Nordic APIs",
+            "eventLocation": "Austin, TX",
+            "eventDate": ["April", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://nordicapis.com/wp-content/uploads/logo_small.jpg",
+            "talkTitle": "Democratization of APIs",
+            "talkLink": null
         }
     ],
     "featured": [
