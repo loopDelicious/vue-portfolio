@@ -1,16 +1,6 @@
 {
     "upcoming": [
         {
-            "eventLink": "https://www.conf42.com/",
-            "eventName": "conf42",
-            "eventLocation": "London",
-            "eventDate": ["January", "2020"],
-            "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/dQPyNY1.png",
-            "talkTitle": "Chaos engineering",
-            "talkLink": null
-        },
-        {
             "eventLink": "https://www.getpostman.com/galaxy-tour-2020",
             "eventName": "Postman Galaxy Tour",
             "eventLocation": "Worldwide",
@@ -155,6 +145,16 @@
     ],
     "speaking": [],
     "otherEvents": [
+        {
+            "eventLink": "https://www.conf42.com/",
+            "eventName": "conf42",
+            "eventLocation": "London",
+            "eventDate": ["January", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/dQPyNY1.png",
+            "talkTitle": "Chaos engineering",
+            "talkLink": null
+        },
         {
             "eventLink": "https://www.apidays.co/paris",
             "eventName": "APIdays Paris 2019",
