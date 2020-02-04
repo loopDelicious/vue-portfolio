@@ -104,6 +104,10 @@
   display: flex;
   justify-content: center;
 }
+.upcoming-contents .card-wrapper-text {
+  padding-right: 5px;
+  padding-left: 5px;
+}
 .card-wrapper-text {
   height: 100%;
   padding: 20% 0;
