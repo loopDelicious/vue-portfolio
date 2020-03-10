@@ -11,16 +11,6 @@
             "talkLink": null
         },
         {
-            "eventLink": "https://developer.cisco.com/devnetcreate/2020/",
-            "eventName": "DevNet Create",
-            "eventLocation": "Mountain View, CA",
-            "eventDate": ["March", "2020"],
-            "eventType": "conference",
-            "imgSrc": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2018/03/cc47f70e-1860-449b-a60a-a54cb739aaca-800x450.jpg",
-            "talkTitle": "Find out what’s so hot right now - in APIs",
-            "talkLink": null
-        },
-        {
             "eventLink": "https://midwestphp.org/",
             "eventName": "Midwest PHP",
             "eventLocation": "Minneapolis, MN",
