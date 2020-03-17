@@ -1,0 +1,15 @@
+version: 2.1
+orbs:
+  newman: postman/newman@1.0.0
+jobs:
+  newman-collection-run:
+    executor: newman/postman-newman-docker
+    steps:
+      - checkout
+      - newman/newman-run:
+          collection: ./staticSiteTesting.postman_collection.json
+          environment: ./static.postman_environment.json
+workflows:
+    build-and-test:
+      jobs:
+        - newman-collection-run
