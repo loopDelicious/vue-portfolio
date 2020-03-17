@@ -1,4 +1,6 @@
-# portfolio
+[![loopDelicious](https://circleci.com/gh/loopDelicious/vue-portfolio.svg?style=svg)](https://circleci.com/gh/loopDelicious/vue-portfolio)
+
+# portfolio 
 
 ## Project setup
 ```
