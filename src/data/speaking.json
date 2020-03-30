@@ -40,7 +40,7 @@
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/vi5OLmE.jpg",
             "talkTitle": "SiliconANGLE theCUBE",
-            "talkLink": "https://youtu.be/GTfLGXi9LDg",
+            "talkVideo": "https://youtu.be/GTfLGXi9LDg",
             "embedLink": "https://www.youtube.com/embed/GTfLGXi9LDg"
         },
         {
@@ -153,7 +153,8 @@
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/CVvysar.png",
             "talkTitle": "Postman workshop",
-            "talkLink": null
+            "talkLink": null,
+            "talkVideo": "hello"
         },
         {
             "eventLink": "https://www.conf42.com/",
