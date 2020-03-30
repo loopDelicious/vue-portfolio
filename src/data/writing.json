@@ -17,15 +17,23 @@
             "articleBlurb": "Building resilient APIs with chaos engineering"
         },
         {
+            "articleTitle": "How to book a campsite in Yosemite valley",
+            "articleLink": "hhttps://medium.com/@joycelin.codes/how-to-book-a-campsite-in-yosemite-valley-fe18ad5d4d63",
+            "articlePublication": "Medium",
+            "articleDate": ["March", "2020"],
+            "imgSrc": "https://miro.medium.com/max/2000/1*dWw6FE2un_ICzR0PSNe6EQ.jpeg",
+            "articleBlurb": "Building your own bot to co-opt natural resources"
+        }
+    ],
+    "writing": [
+        {
             "articleTitle": "Law and order for APIs with OpenAPI Specifications",
             "articleLink": "https://medium.com/better-practices/api-specifications-d87588ac874",
             "articlePublication": "Better Practices",
             "articleDate": ["November", "2019"],
             "imgSrc": "https://miro.medium.com/max/12000/1*RSb13ih-eWr9crmpmFKVxw.jpeg",
             "articleBlurb": "A better way to build and manage APIs using schemas, descriptions, and style guides"
-        }
-    ],
-    "writing": [
+        },
         {
             "articleTitle": "Introducing Better Practices",
             "articleLink": "https://medium.com/better-practices/introducing-better-practices-e9cf14cf0c88",

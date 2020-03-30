@@ -1,19 +1,9 @@
 {
     "upcoming": [
         {
-            "eventLink": "https://www.getpostman.com/galaxy-tour-2020",
-            "eventName": "Postman Galaxy Tour",
-            "eventLocation": "Worldwide",
-            "eventDate": ["February", "2020"],
-            "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/CVvysar.png",
-            "talkTitle": "Postman workshop",
-            "talkLink": null
-        },
-        {
             "eventLink": "https://midwestphp.org/",
             "eventName": "Midwest PHP",
-            "eventLocation": "Minneapolis, MN",
+            "eventLocation": "virtual",
             "eventDate": ["April", "2020"],
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/ZazS6Jg.png",
@@ -24,10 +14,20 @@
             "eventLink": "https://nordicapis.com/events/austin-api-summit-2020/",
             "eventName": "Nordic APIs",
             "eventLocation": "Austin, TX",
-            "eventDate": ["April", "2020"],
+            "eventDate": ["TBD"],
             "eventType": "conference",
             "imgSrc": "https://nordicapis.com/wp-content/uploads/logo_small.jpg",
             "talkTitle": "Democratization of APIs",
+            "talkLink": null
+        },
+        {
+            "eventLink": "https://sf2020.devrel.net/",
+            "eventName": "DevRelCon",
+            "eventLocation": "virtual",
+            "eventDate": ["TBD"],
+            "eventType": "conference",
+            "imgSrc": "https://sessionize.com/image?f=5e42ffe50e26482d15ae830c12f5d25f,1140,400,0,1,1f-8ff1-4fa9-ad54-e5187e3a9f0e.0c139136-b5dd-4180-be68-0706ccd81928.png",
+            "talkTitle": "What's hot with APIs",
             "talkLink": null
         }
     ],
@@ -145,6 +145,16 @@
     ],
     "speaking": [],
     "otherEvents": [
+        {
+            "eventLink": "https://www.getpostman.com/galaxy-tour-2020",
+            "eventName": "Postman Galaxy Tour",
+            "eventLocation": "Worldwide",
+            "eventDate": ["February", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/CVvysar.png",
+            "talkTitle": "Postman workshop",
+            "talkLink": null
+        },
         {
             "eventLink": "https://www.conf42.com/",
             "eventName": "conf42",
