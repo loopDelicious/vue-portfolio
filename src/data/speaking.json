@@ -1,16 +1,6 @@
 {
     "upcoming": [
         {
-            "eventLink": "https://midwestphp.org/",
-            "eventName": "Midwest PHP",
-            "eventLocation": "virtual",
-            "eventDate": ["April", "2020"],
-            "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/ZazS6Jg.png",
-            "talkTitle": "Postman workshop",
-            "talkLink": "https://midwestphp.org/schedule"
-        },
-        {
             "eventLink": "https://nordicapis.com/events/austin-api-summit-2020/",
             "eventName": "Nordic APIs",
             "eventLocation": "Austin, TX",
@@ -71,15 +61,15 @@
             ]
         },
         {
-            "eventLink": "https://chaosconf.io/",
-            "eventName": "ChaosConf",
-            "eventLocation": "San Francisco",
-            "eventDate": ["September", "2019"],
+            "eventLink": "https://www.conf42.com/",
+            "eventName": "conf42",
+            "eventLocation": "London",
+            "eventDate": ["January", "2020"],
             "eventType": "conference",
-            "imgSrc": "http://i3.ytimg.com/vi/xfzw1Pt8Mqw/hqdefault.jpg",
-            "talkTitle": "Who is responsible for chaos?",
-            "talkLink": "https://youtu.be/xfzw1Pt8Mqw",
-            "embedLink": "https://www.youtube.com/embed/xfzw1Pt8Mqw"
+            "imgSrc": "https://i.imgur.com/dQPyNY1.png",
+            "talkTitle": "Chaos engineering",
+            "talkLink": "https://youtu.be/ZTbrf47mCEU",
+            "embedLink": "https://www.youtube.com/embed/ZTbrf47mCEU"
         },
         {
             "eventLink": "https://fitc.ca/event/webu19/",
@@ -127,24 +117,29 @@
             ]
         },
         {
-            "eventLink": "https://apithedocs.org/london-2018",
-            "eventName": "API The Docs",
-            "eventLocation": "London",
-            "eventDate": ["November", "2018"],
+            "eventLink": "https://chaosconf.io/",
+            "eventName": "ChaosConf",
+            "eventLocation": "San Francisco",
+            "eventDate": ["September", "2019"],
             "eventType": "conference",
-            "imgSrc": "https://pbs.twimg.com/media/DrkyuMkX0AI0e6c.jpg",
-            "embedLink": "https://www.youtube.com/embed/6Q3Cc1z-t5U",
-            "talks": [
-                {
-                    "talkTitle": "The Ultimate API Publisher’s Guide",
-                    "talkLink": "https://pronovix.com/event/api-docs-london-2018#joyce",
-                    "talkVideo": "https://youtu.be/6Q3Cc1z-t5U"
-                }
-            ]
+            "imgSrc": "http://i3.ytimg.com/vi/xfzw1Pt8Mqw/hqdefault.jpg",
+            "talkTitle": "Who is responsible for chaos?",
+            "talkLink": "https://youtu.be/xfzw1Pt8Mqw",
+            "embedLink": "https://www.youtube.com/embed/xfzw1Pt8Mqw"
         }
     ],
     "speaking": [],
     "otherEvents": [
+        {
+            "eventLink": "https://midwestphp.org/",
+            "eventName": "Midwest PHP",
+            "eventLocation": "virtual",
+            "eventDate": ["April", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://i.imgur.com/ZazS6Jg.png",
+            "talkTitle": "Postman workshop",
+            "talkLink": "https://midwestphp.org/schedule"
+        },
         {
             "eventLink": "https://www.getpostman.com/galaxy-tour-2020",
             "eventName": "Postman Galaxy Tour",
@@ -164,7 +159,7 @@
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/dQPyNY1.png",
             "talkTitle": "Chaos engineering",
-            "talkLink": null
+            "talkLink": "https://youtu.be/ZTbrf47mCEU"
         },
         {
             "eventLink": "https://www.apidays.co/paris",
@@ -395,6 +390,23 @@
             "eventType": "meetup"
         },
         {
+            "eventLink": "https://apithedocs.org/london-2018",
+            "eventName": "API The Docs",
+            "eventLocation": "London",
+            "eventDate": ["November", "2018"],
+            "eventType": "conference",
+            "imgSrc": "https://pbs.twimg.com/media/DrkyuMkX0AI0e6c.jpg",
+            "embedLink": "https://www.youtube.com/embed/6Q3Cc1z-t5U",
+            "talkVideo": "https://youtu.be/6Q3Cc1z-t5U",
+            "talks": [
+                {
+                    "talkTitle": "The Ultimate API Publisher’s Guide",
+                    "talkLink": "https://pronovix.com/event/api-docs-london-2018#joyce",
+                    "talkVideo": "https://youtu.be/6Q3Cc1z-t5U"
+                }
+            ]
+        },
+        {
             "eventLink": "https://www.papercall.io/apicity2018",
             "eventName": "API City 2018",
             "eventLocation": "Bremerton, WA",
@@ -445,6 +457,12 @@
         }
     ],
     "otherVideos": [
+        {
+            "videoLink": "https://www.youtube.com/playlist?list=PL6yYBvW22vbqiyhb_U-RWfxuZNv0DKBP8",
+            "videoTitle": "How to visualize data in Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2020"]
+        },
         {
             "videoLink": "https://youtu.be/BnDfggH_Wi8",
             "videoTitle": "Jump start your API skills",

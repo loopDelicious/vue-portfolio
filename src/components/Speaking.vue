@@ -51,9 +51,9 @@
               :key="index">
               <b-list-group-item button class="b-list-events" >
                 {{event.eventDate[1]}} | <b-link :href="event.eventLink" target="_blank">{{event.eventName}}</b-link>
-                | {{event.eventLocation}} | 
+                | {{event.eventLocation}}  
                 <template v-if="event.talkVideo">
-                  <b-link :href="event.talkVideo" target="_blank">
+                  | <b-link :href="event.talkVideo" target="_blank">
                     <font-awesome-icon :icon="['fab', 'youtube']" />
                   </b-link>   
                 </template>
