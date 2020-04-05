@@ -9,13 +9,23 @@
             "articleBlurb": "Learn how to test and deploy a Node.js app using containers and an orchestration engine"
         },
         {
+            "articleTitle": "Graphing COVID time series data using Chart.js and Postman",
+            "articleLink": "https://medium.com/@joycelin.codes/graphing-covid-time-series-data-using-chart-js-and-postman-5d13eff44761?source=friends_link&sk=879ae5486a37a876ddf52c56e64f9b81",
+            "articlePublication": "Better Practices",
+            "articleDate": ["March", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1000/1*aVJ8kRX3wSgMWy9Pl4gquQ.jpeg",
+            "articleBlurb": "Learn to visualize API and other data using Postman’s visualizer"
+        },
+        {
             "articleTitle": "How your Kubernetes clusters respond to failure with Gremlin and Grafana",
             "articleLink": "https://medium.com/better-practices/chaos-d3ef238ec328",
             "articlePublication": "Better Practices",
             "articleDate": ["August", "2019"],
             "imgSrc": "https://miro.medium.com/max/10368/1*Yeu19v1w20PpePBBPISaJQ.jpeg",
             "articleBlurb": "Building resilient APIs with chaos engineering"
-        },
+        }
+    ],
+    "writing": [
         {
             "articleTitle": "How to book a campsite in Yosemite valley",
             "articleLink": "hhttps://medium.com/@joycelin.codes/how-to-book-a-campsite-in-yosemite-valley-fe18ad5d4d63",
@@ -23,9 +33,7 @@
             "articleDate": ["March", "2020"],
             "imgSrc": "https://miro.medium.com/max/2000/1*dWw6FE2un_ICzR0PSNe6EQ.jpeg",
             "articleBlurb": "Building your own bot to co-opt natural resources"
-        }
-    ],
-    "writing": [
+        },
         {
             "articleTitle": "Law and order for APIs with OpenAPI Specifications",
             "articleLink": "https://medium.com/better-practices/api-specifications-d87588ac874",

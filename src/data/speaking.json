@@ -159,7 +159,7 @@
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/dQPyNY1.png",
             "talkTitle": "Chaos engineering",
-            "talkLink": "https://youtu.be/ZTbrf47mCEU"
+            "talkVideo": "https://youtu.be/ZTbrf47mCEU"
         },
         {
             "eventLink": "https://www.apidays.co/paris",
@@ -251,7 +251,8 @@
             "imgSrc": "http://i3.ytimg.com/vi/xfzw1Pt8Mqw/hqdefault.jpg",
             "talkTitle": "Who is responsible for chaos?",
             "talkLink": "https://youtu.be/xfzw1Pt8Mqw",
-            "embedLink": "https://www.youtube.com/embed/xfzw1Pt8Mqw"
+            "embedLink": "https://www.youtube.com/embed/xfzw1Pt8Mqw",
+            "talkVideo": "https://youtu.be/xfzw1Pt8Mqw"
         },
         {
             "eventLink": "https://fitc.ca/event/webu19/",
@@ -263,6 +264,7 @@
             "talkTitle": "Standing on the Shoulders of APIs",
             "talkLink": "https://youtu.be/bU6X4ZQtkAs",
             "embedLink": "https://www.youtube.com/embed/bU6X4ZQtkAs",
+            "talkVideo": "https://youtu.be/bU6X4ZQtkAs",
             "talks": [
                 {
                     "talkTitle": "Getting rid of Bad Documentation",
@@ -341,6 +343,7 @@
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/zW0trRP.jpg",
             "embedLink": "https://www.youtube.com/embed/FI6IDPpBPQ0",
+            "talkVideo": "https://www.youtube.com/watch?v=FI6IDPpBPQ0&feature=youtu.be",
             "talks": [
                 {
                     "talkTitle": "Mock servers for agile development",
