@@ -1,6 +1,16 @@
 {
     "upcoming": [
         {
+            "eventLink": "https://www.learnwithjason.dev/protect-secret-keys-in-jamstack-apps",
+            "eventName": "Learn with Jason",
+            "eventLocation": "live stream",
+            "eventDate": ["May", "2020"],
+            "eventType": "live stream",
+            "imgSrc": "https://cdn.sanity.io/images/vnkupgyb/production/f8d232787a87ef050a774b71ab1ae52475769812-2560x1440.jpg?w=1600&h=900&fit=crop&fm=webp",
+            "talkTitle": "Protect Secret Keys in JAMstack Apps",
+            "talkLink": null
+        },
+        {
             "eventLink": "https://nordicapis.com/events/austin-api-summit-2020/",
             "eventName": "Nordic APIs",
             "eventLocation": "Austin, TX",
@@ -130,6 +140,16 @@
     ],
     "speaking": [],
     "otherEvents": [
+        {
+            "eventLink": "https://devchat.tv/js-jabber/",
+            "eventName": "JavaScript Jabber",
+            "eventLocation": "podcast",
+            "eventDate": ["April", "2020"],
+            "eventType": "podcast",
+            "imgSrc": "https://res.cloudinary.com/teepublic/image/private/s--MxR7oOmg--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_ffb81c,e_outline:48/co_ffb81c,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1535414323/production/designs/3075484_2.jpg",
+            "talkTitle": "Learn Postman",
+            "talkVideo": "https://devchat.tv/js-jabber/jsj-429-learning-about-postman-with-joyce-lin/"
+        },
         {
             "eventLink": "https://midwestphp.org/",
             "eventName": "Midwest PHP",
@@ -460,6 +480,30 @@
         }
     ],
     "otherVideos": [
+        {
+            "videoLink": "https://youtu.be/9Ll_HVHBZnE",
+            "videoTitle": "Postman Live stream: Slack notification for COVID data",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/SE6emqxYAZw",
+            "videoTitle": "Postman Live stream: Sentiment analysis of tweets",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/kZOwHyCl9sY",
+            "videoTitle": "Postman Live stream: Building a mock API",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/a8qDhFBQlWc",
+            "videoTitle": "Postman Live stream: COVID-19 visualizer",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2020"]
+        },
         {
             "videoLink": "https://www.youtube.com/playlist?list=PL6yYBvW22vbqiyhb_U-RWfxuZNv0DKBP8",
             "videoTitle": "How to visualize data in Postman",

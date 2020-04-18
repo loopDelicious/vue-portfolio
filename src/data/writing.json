@@ -27,8 +27,16 @@
     ],
     "writing": [
         {
+            "articleTitle": "Adding an Octopus to the Zsh Prompt",
+            "articleLink": "https://medium.com/@joycelin.codes/adding-an-octopus-to-the-zsh-prompt-56edf2e9bcad",
+            "articlePublication": "Medium",
+            "articleDate": ["April", "2020"],
+            "imgSrc": "https://miro.medium.com/max/2000/1*RjnYWD_mbYiSEBRsBmdtLA.jpeg",
+            "articleBlurb": "Transition from bash to zsh with custom settings, conditional emojis, and git prompt"
+        },
+        {
             "articleTitle": "How to book a campsite in Yosemite valley",
-            "articleLink": "hhttps://medium.com/@joycelin.codes/how-to-book-a-campsite-in-yosemite-valley-fe18ad5d4d63",
+            "articleLink": "https://medium.com/@joycelin.codes/how-to-book-a-campsite-in-yosemite-valley-fe18ad5d4d63?source=friends_link&sk=fa232b1c75345210a0e2505786ac4ad5",
             "articlePublication": "Medium",
             "articleDate": ["March", "2020"],
             "imgSrc": "https://miro.medium.com/max/2000/1*dWw6FE2un_ICzR0PSNe6EQ.jpeg",

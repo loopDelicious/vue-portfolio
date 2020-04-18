@@ -76,7 +76,7 @@
           <b-list-group v-for="(video,index) in events.otherVideos"
             :key="index">
             <b-list-group-item button class="b-list-events" >
-              {{video.videoDate[1]}} | <b-link :href="video.videoLink" target="_blank">{{video.videoTitle}}</b-link>
+              {{video.videoDate[1]}} | <font-awesome-icon :icon="['fab', 'youtube']" /> <b-link :href="video.videoLink" target="_blank">{{video.videoTitle}}</b-link>
             </b-list-group-item>
           </b-list-group>
         </b-collapse>
