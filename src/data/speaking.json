@@ -481,6 +481,54 @@
     ],
     "otherVideos": [
         {
+            "videoLink": "https://youtu.be/VTtS4-r2oSs",
+            "videoTitle": "Code generation demo",
+            "videoLocation": "YouTube",
+            "videoDate": ["June", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/ErvuUZ8Bl_I",
+            "videoTitle": "Postman Live stream: Working in your IDE and Postman together",
+            "videoLocation": "YouTube",
+            "videoDate": ["June", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/Nu0oMwld5Pk",
+            "videoTitle": "Postman Live stream: Unboxing Philips Hue lights and messing around with their API",
+            "videoLocation": "YouTube",
+            "videoDate": ["June", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/aMG8cFp3sq8",
+            "videoTitle": "Postman Live stream: Exploring the zoom API with Joyce and her boss",
+            "videoLocation": "YouTube",
+            "videoDate": ["May", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/O23L_ctTEzQ",
+            "videoTitle": "Postman Live stream: Automate all the things with Webhooks",
+            "videoLocation": "YouTube",
+            "videoDate": ["May", "2020"]
+        },  
+        {
+            "videoLink": "https://youtu.be/E66R1nP7d-A",
+            "videoTitle": "Postman Live stream: Security hacking with the Big List of Naughty Strings",
+            "videoLocation": "YouTube",
+            "videoDate": ["May", "2020"]
+        },            
+        {
+            "videoLink": "https://youtu.be/ZRp4gZwScUU",
+            "videoTitle": "Postman Live stream: Tracking the trajectory of SpaceX Starlink satellites",
+            "videoLocation": "YouTube",
+            "videoDate": ["May", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/39N7QBkDTpw",
+            "videoTitle": "Postman Live stream: Impact of COVID-19 on stock prices",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2020"]
+        },
+        {
             "videoLink": "https://youtu.be/9Ll_HVHBZnE",
             "videoTitle": "Postman Live stream: Slack notification for COVID data",
             "videoLocation": "YouTube",
