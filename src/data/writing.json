@@ -9,20 +9,20 @@
             "articleBlurb": "Learn how to test and deploy a Node.js app using containers and an orchestration engine"
         },
         {
-            "articleTitle": "Graphing COVID time series data using Chart.js and Postman",
-            "articleLink": "https://medium.com/@joycelin.codes/graphing-covid-time-series-data-using-chart-js-and-postman-5d13eff44761?source=friends_link&sk=879ae5486a37a876ddf52c56e64f9b81",
-            "articlePublication": "Better Practices",
-            "articleDate": ["March", "2020"],
-            "imgSrc": "https://miro.medium.com/max/1000/1*aVJ8kRX3wSgMWy9Pl4gquQ.jpeg",
-            "articleBlurb": "Learn to visualize API and other data using Postman’s visualizer"
+            "articleTitle": "API Rate Limiting with Node and Redis",
+            "articleLink": "https://codeburst.io/api-rate-limiting-with-node-and-redis-95354259c768",
+            "articlePublication": "Codeburst",
+            "articleDate": ["June", "2020"],
+            "imgSrc": "https://miro.medium.com/max/2000/1*1bDAJ5ASFQryFaN9Dygp3A.jpeg",
+            "articleBlurb": "Build a simple rate limiter to improve the availability of your API-based services"
         },
         {
-            "articleTitle": "How your Kubernetes clusters respond to failure with Gremlin and Grafana",
-            "articleLink": "https://medium.com/better-practices/chaos-d3ef238ec328",
-            "articlePublication": "Better Practices",
-            "articleDate": ["August", "2019"],
-            "imgSrc": "https://miro.medium.com/max/10368/1*Yeu19v1w20PpePBBPISaJQ.jpeg",
-            "articleBlurb": "Building resilient APIs with chaos engineering"
+            "articleTitle": "Set up a free Dynamic DNS service with ddclient on Kubernetes",
+            "articleLink": "https://codeburst.io/ddclient-c9a6ac1d8f81",
+            "articlePublication": "Codeburst",
+            "articleDate": ["May", "2020"],
+            "imgSrc": "https://miro.medium.com/max/2000/1*d0GwB2WDaVx_5vZO2ssDOQ.jpeg",
+            "articleBlurb": "Access self-hosted services when you’re away from home and your IP changes"
         }
     ],
     "writing": [
@@ -41,6 +41,21 @@
             "articleDate": ["March", "2020"],
             "imgSrc": "https://miro.medium.com/max/2000/1*dWw6FE2un_ICzR0PSNe6EQ.jpeg",
             "articleBlurb": "Building your own bot to co-opt natural resources"
+        },
+        {
+            "articleTitle": "Graphing COVID time series data using Chart.js and Postman",
+            "articleLink": "https://medium.com/@joycelin.codes/graphing-covid-time-series-data-using-chart-js-and-postman-5d13eff44761?source=friends_link&sk=879ae5486a37a876ddf52c56e64f9b81",
+            "articlePublication": "Better Practices",
+            "articleDate": ["March", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1000/1*aVJ8kRX3wSgMWy9Pl4gquQ.jpeg",
+            "articleBlurb": "Learn to visualize API and other data using Postman’s visualizer"
+        },
+        {
+            "articleTitle": "How your Kubernetes clusters respond to failure with Gremlin and Grafana",
+            "articleLink": "https://medium.com/better-practices/chaos-d3ef238ec328",
+            "articlePublication": "Better Practices",
+            "articleDate": ["August", "2019"],
+            "imgSrc": "https://miro.medium.com/max/10368/1*Yeu19v1w20PpePBBPISaJQ.jpeg"
         },
         {
             "articleTitle": "Law and order for APIs with OpenAPI Specifications",
@@ -180,6 +195,36 @@
         }
     ],
     "otherWriting": [
+        {
+            "articleTitle": "OAuth 2.0: Implicit Flow is Dead, Try PKCE Instead",
+            "articleLink": "https://blog.postman.com/pkce-oauth-how-to/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["June", "2020"]
+        },
+        {
+            "articleTitle": "Securely Using API Keys in Postman",
+            "articleLink": "https://blog.postman.com/how-to-use-api-keys/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["June", "2020"]
+        },
+        {
+            "articleTitle": "Making SOAP Requests with Postman",
+            "articleLink": "https://blog.postman.com/making-http-soap-requests-with-postman/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["April", "2020"]
+        },
+        {
+            "articleTitle": "Generate Code for Your Front-end Apps",
+            "articleLink": "https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/",
+            "articlePublication": "Postman Feature Announcements",
+            "articleDate": ["February", "2020"]
+        },
+        {
+            "articleTitle": "Powerful Debugging with the Postman Console",
+            "articleLink": "https://blog.postman.com/powerful-debugging-with-the-postman-console/",
+            "articlePublication": "Postman Feature Announcements",
+            "articleDate": ["February", "2020"]
+        },
         {
             "articleTitle": "Sweet cosmic karma for your public profile",
             "articleLink": "https://blog.getpostman.com/2019/10/25/sweet-cosmic-karma-for-your-public-profile/",
