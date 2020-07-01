@@ -1,28 +1,8 @@
 {
     "upcoming": [
         {
-            "eventLink": "https://www.learnwithjason.dev/protect-secret-keys-in-jamstack-apps",
-            "eventName": "Learn with Jason",
-            "eventLocation": "live stream",
-            "eventDate": ["May", "2020"],
-            "eventType": "live stream",
-            "imgSrc": "https://cdn.sanity.io/images/vnkupgyb/production/f8d232787a87ef050a774b71ab1ae52475769812-2560x1440.jpg?w=1600&h=900&fit=crop&fm=webp",
-            "talkTitle": "Protect Secret Keys in JAMstack Apps",
-            "talkLink": null
-        },
-        {
-            "eventLink": "https://nordicapis.com/events/austin-api-summit-2020/",
-            "eventName": "Nordic APIs",
-            "eventLocation": "Austin, TX",
-            "eventDate": ["TBD"],
-            "eventType": "conference",
-            "imgSrc": "https://nordicapis.com/wp-content/uploads/logo_small.jpg",
-            "talkTitle": "Democratization of APIs",
-            "talkLink": null
-        },
-        {
             "eventLink": "https://sf2020.devrel.net/",
-            "eventName": "DevRelCon",
+            "eventName": "DevRelCon Earth",
             "eventLocation": "virtual",
             "eventDate": ["TBD"],
             "eventType": "conference",
@@ -480,6 +460,13 @@
         }
     ],
     "otherVideos": [
+        {
+            "videoLink": "https://www.learnwithjason.dev/protect-secret-keys-in-jamstack-apps",
+            "videoTitle": "Protect secret keys in JAMstack apps",
+            "videoLocation": "Learn with Jason",
+            "imgSrc": "https://cdn.sanity.io/images/vnkupgyb/production/f8d232787a87ef050a774b71ab1ae52475769812-2560x1440.jpg?w=1600&h=900&fit=crop&fm=webp",
+            "videoDate": ["May", "2020"]
+        }, 
         {
             "videoLink": "https://youtu.be/VTtS4-r2oSs",
             "videoTitle": "Code generation demo",
