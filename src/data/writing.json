@@ -1,12 +1,38 @@
 {
     "featured": [
         {
+            "articleTitle": "How Postman Engineering does microservices",
+            "articleLink": "https://medium.com/better-practices/how-postman-engineering-does-microservices-aa026a3d682d",
+            "articlePublication": "Better Practices",
+            "articleDate": ["July", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*7j-JcmBvamEYqONLIzUQKg.jpeg",
+            "articleBlurb": "A microservices update about domain-driven squads, CDC testing, and happily ever after"
+        },
+        {
+            "articleTitle": "Run a Minecraft server for free on Kubernetes",
+            "articleLink": "https://codeburst.io/run-a-minecraft-server-for-free-on-kubernetes-ac82a892969e",
+            "articlePublication": "Codeburst",
+            "articleDate": ["July", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*E8CGJR4PzBHArLnrae_ihA.jpeg",
+            "articleBlurb": "Simplify deployment for multiplayer Minecraft"
+        },
+        {
             "articleTitle": "Deploying a scalable web application with Docker and Kubernetes",
             "articleLink": "https://medium.com/better-practices/deploying-a-scalable-web-application-with-docker-and-kubernetes-a5000a06c4e9",
             "articlePublication": "Better Practices",
             "articleDate": ["March", "2019"],
             "imgSrc": "https://miro.medium.com/max/7982/1*_z6K0v2SvBINFuFzWhAHQA.jpeg",
             "articleBlurb": "Learn how to test and deploy a Node.js app using containers and an orchestration engine"
+        }
+    ],
+    "writing": [
+        {
+            "articleTitle": "Enabling Public Access to Connected Devices in your Local Network",
+            "articleLink": "https://codeburst.io/enable-public-access-to-connected-devices-in-your-local-network-c15338da5a3",
+            "articlePublication": "Codeburst",
+            "articleDate": ["July", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*iI4ABgRzpBDMSDi4Om8K9w.jpeg",
+            "articleBlurb": "Three options for public access to a Philips Hue light — go ahead, turn on the lights in my kitchen"
         },
         {
             "articleTitle": "API Rate Limiting with Node and Redis",
@@ -23,9 +49,7 @@
             "articleDate": ["May", "2020"],
             "imgSrc": "https://miro.medium.com/max/2000/1*d0GwB2WDaVx_5vZO2ssDOQ.jpeg",
             "articleBlurb": "Access self-hosted services when you’re away from home and your IP changes"
-        }
-    ],
-    "writing": [
+        },
         {
             "articleTitle": "Adding an Octopus to the Zsh Prompt",
             "articleLink": "https://medium.com/@joycelin.codes/adding-an-octopus-to-the-zsh-prompt-56edf2e9bcad",
@@ -41,14 +65,6 @@
             "articleDate": ["March", "2020"],
             "imgSrc": "https://miro.medium.com/max/2000/1*dWw6FE2un_ICzR0PSNe6EQ.jpeg",
             "articleBlurb": "Building your own bot to co-opt natural resources"
-        },
-        {
-            "articleTitle": "Graphing COVID time series data using Chart.js and Postman",
-            "articleLink": "https://medium.com/@joycelin.codes/graphing-covid-time-series-data-using-chart-js-and-postman-5d13eff44761?source=friends_link&sk=879ae5486a37a876ddf52c56e64f9b81",
-            "articlePublication": "Better Practices",
-            "articleDate": ["March", "2020"],
-            "imgSrc": "https://miro.medium.com/max/1000/1*aVJ8kRX3wSgMWy9Pl4gquQ.jpeg",
-            "articleBlurb": "Learn to visualize API and other data using Postman’s visualizer"
         },
         {
             "articleTitle": "How your Kubernetes clusters respond to failure with Gremlin and Grafana",
@@ -128,73 +144,15 @@
             "articleDate": ["June", "2018"],
             "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/IMG_20180507_192407.jpg",
             "articleBlurb": "Postman recipe for Nanoleaf and other IOT workflows"
-        },
-        {
-            "articleTitle": "Newman: run and test your collections from the command line",
-            "articleLink": "https://blog.getpostman.com/2018/06/21/newman-run-and-test-your-collections-from-the-command-line/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["June", "2018"],
-            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.jpg",
-            "articleBlurb": "Good, better, and best practices for working with Newman"
-        },
-        {
-            "articleTitle": "The lazy dev’s guide to API automation: Airtable to SurveyMonkey uploader",
-            "articleLink": "https://blog.getpostman.com/2018/06/05/airtable-to-surveymonkey/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["June", "2018"],
-            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/lazycat.jpg",
-            "articleBlurb": "Postman recipe for loading SurveyMonkey data into Airtable"
-        },
-        {
-            "articleTitle": "How to make money using Postman: chaining requests",
-            "articleLink": "https://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["March", "2018"],
-            "imgSrc": "https://edit.blog.postman.com/wp-content/uploads/2018/03/26byy8.jpg",
-            "articleBlurb": "Postman recipe to control your workflow with Bitcoin and Twilio APIs"
-        },
-        {
-            "articleTitle": "How Postman feeds my sushi addiction",
-            "articleLink": "https://blog.getpostman.com/2018/04/25/how-postman-feeds-my-sushi-addiction/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["April", "2018"],
-            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/twitterAuthPostman.png",
-            "articleBlurb": "Postman recipe for recommending a nearby sushi spot using Google Places and Twitter APIs"
-        },
-        {
-            "articleTitle": "Looping through a data file in the Postman Collection Runner",
-            "articleLink": "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["April", "2018"],
-            "imgSrc": "https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ramen-running.png",
-            "articleBlurb": "Data file to automate scenario testing"
-        },
-        {
-            "articleTitle": "The Good Collection",
-            "articleLink": "https://blog.getpostman.com/2018/03/08/the-good-collection/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["March", "2018"],
-            "imgSrc": "https://edit.blog.postman.com/wp-content/uploads/2018/03/subway.png",
-            "articleBlurb": "Better practices for using Postman collections"
-        },
-        {
-            "articleTitle": "First 5 things to try if you’re new to Postman",
-            "articleLink": "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["April", "2018"],
-            "imgSrc": "https://edit.blog.postman.com/wp-content/uploads/2018/04/2826ou.jpg",
-            "articleBlurb": "Postman introductory series for beginners"
-        },
-        {
-            "articleTitle": "Fake it till you make it: mocks for agile development",
-            "articleLink": "https://medium.com/better-practices/https-medium-com-postman-engineering-fake-it-till-you-make-it-mocks-for-agile-development-f4d050cad694",
-            "articlePublication": "Better Practices",
-            "articleDate": ["July", "2018"],
-            "imgSrc": "https://miro.medium.com/max/4080/1*FekJAVlovNnqQZ8uOVjlUQ.png",
-            "articleBlurb": "Mock servers for continuous planning, development, and testing"
         }
     ],
     "otherWriting": [
+        {
+            "articleTitle": "Learn HTTP Status Codes with HTTP Cats",
+            "articleLink": "https://blog.postman.com/http-cats-learn-http-status-codes/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["August", "2020"]
+        },
         {
             "articleTitle": "OAuth 2.0: Implicit Flow is Dead, Try PKCE Instead",
             "articleLink": "https://blog.postman.com/pkce-oauth-how-to/",
@@ -212,6 +170,12 @@
             "articleLink": "https://blog.postman.com/making-http-soap-requests-with-postman/",
             "articlePublication": "Postman Blog",
             "articleDate": ["April", "2020"]
+        },
+        {
+            "articleTitle": "Graphing COVID time series data using Chart.js and Postman",
+            "articleLink": "https://medium.com/@joycelin.codes/graphing-covid-time-series-data-using-chart-js-and-postman-5d13eff44761?source=friends_link&sk=879ae5486a37a876ddf52c56e64f9b81",
+            "articlePublication": "Better Practices",
+            "articleDate": ["March", "2020"]
         },
         {
             "articleTitle": "Generate Code for Your Front-end Apps",
@@ -238,6 +202,24 @@
             "articleDate": ["April", "2019"]
         },
         {
+            "articleTitle": "Fake it till you make it: mocks for agile development",
+            "articleLink": "https://medium.com/better-practices/https-medium-com-postman-engineering-fake-it-till-you-make-it-mocks-for-agile-development-f4d050cad694",
+            "articlePublication": "Better Practices",
+            "articleDate": ["July", "2018"]
+        },
+        {
+            "articleTitle": "Newman: run and test your collections from the command line",
+            "articleLink": "https://blog.getpostman.com/2018/06/21/newman-run-and-test-your-collections-from-the-command-line/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["June", "2018"]
+        },
+        {
+            "articleTitle": "The lazy dev’s guide to API automation: Airtable to SurveyMonkey uploader",
+            "articleLink": "https://blog.getpostman.com/2018/06/05/airtable-to-surveymonkey/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["June", "2018"]
+        },
+        {
             "articleTitle": "Share your API with 5 million developers in the Postman community",
             "articleLink": "https://blog.getpostman.com/2018/06/04/share-your-api-with-5-million-developers-in-the-postman-community/",
             "articlePublication": "Postman Feature Announcements",
@@ -260,6 +242,24 @@
             "articleLink": "https://blog.getpostman.com/2018/05/18/cisco-devnet-uses-postman-to-grow-their-developer-community/",
             "articlePublication": "Postman Case Studies",
             "articleDate": ["May", "2018"]
+        },
+        {
+            "articleTitle": "How Postman feeds my sushi addiction",
+            "articleLink": "https://blog.getpostman.com/2018/04/25/how-postman-feeds-my-sushi-addiction/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["April", "2018"]
+        },
+        {
+            "articleTitle": "Looping through a data file in the Postman Collection Runner",
+            "articleLink": "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["April", "2018"]
+        },
+        {
+            "articleTitle": "First 5 things to try if you’re new to Postman",
+            "articleLink": "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["April", "2018"]
         },
         {
             "articleTitle": "Integrations: how Postman plays with some of your favorite tools",
@@ -290,6 +290,18 @@
             "articleLink": "https://blog.getpostman.com/2018/04/03/monetary-uses-millions-of-monitors-with-postman-pro/",
             "articlePublication": "Postman Case Studies",
             "articleDate": ["April", "2018"]
+        },
+        {
+            "articleTitle": "The Good Collection",
+            "articleLink": "https://blog.getpostman.com/2018/03/08/the-good-collection/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["March", "2018"]
+        },
+        {
+            "articleTitle": "How to make money using Postman: chaining requests",
+            "articleLink": "https://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/",
+            "articlePublication": "Postman Blog",
+            "articleDate": ["March", "2018"]
         },
         {
             "articleTitle": "The Eureka team counts on Postman Pro to stay in sync",
