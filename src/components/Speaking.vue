@@ -3,7 +3,7 @@
     <h2>Speaking</h2>
     <!-- UPCOMING -->
     <div class="upcoming mt-3">
-      <h5>UPCOMING</h5>
+        <h5 v-if="events.upcoming.length > 0">UPCOMING</h5>
       <b-card-group deck class="upcoming-contents">
         <b-link v-for="(event,index) in events.upcoming"
           :key="index"

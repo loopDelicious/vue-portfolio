@@ -1,15 +1,6 @@
 {
     "upcoming": [
-        {
-            "eventLink": "https://sf2020.devrel.net/",
-            "eventName": "DevRelCon Earth",
-            "eventLocation": "virtual",
-            "eventDate": ["TBD"],
-            "eventType": "conference",
-            "imgSrc": "https://sessionize.com/image?f=5e42ffe50e26482d15ae830c12f5d25f,1140,400,0,1,1f-8ff1-4fa9-ad54-e5187e3a9f0e.0c139136-b5dd-4180-be68-0706ccd81928.png",
-            "talkTitle": "What's hot with APIs",
-            "talkLink": null
-        }
+
     ],
     "featured": [
         {
@@ -121,6 +112,26 @@
     "speaking": [],
     "otherEvents": [
         {
+            "eventLink": "https://www.heavybit.com/library/podcasts/developer-love/",
+            "eventName": "Developer Love",
+            "eventLocation": "podcast",
+            "eventDate": ["August", "2020"],
+            "eventType": "podcast",
+            "imgSrc": "https://www.heavybit.com/wp-content/uploads/2020/07/developer-love-1024x1024.jpg",
+            "talkTitle": "Collaboration Platforms with Joyce Lin of Postman",
+            "talkVideo": "https://www.heavybit.com/library/podcasts/developer-love/ep-2-collaboration-platforms-with-joyce-lin-of-postman/"
+        },
+        {
+            "eventLink": "https://sf2020.devrel.net/",
+            "eventName": "DevRelCon Earth",
+            "eventLocation": "online",
+            "eventDate": ["July", "2020"],
+            "eventType": "conference",
+            "imgSrc": "https://sessionize.com/image?f=5e42ffe50e26482d15ae830c12f5d25f,1140,400,0,1,1f-8ff1-4fa9-ad54-e5187e3a9f0e.0c139136-b5dd-4180-be68-0706ccd81928.png",
+            "talkTitle": "The Democratization of APIs",
+            "talkLink": "https://2020.devrel.net/speaker/joyce-lin/"
+        },
+        {
             "eventLink": "https://devchat.tv/js-jabber/",
             "eventName": "JavaScript Jabber",
             "eventLocation": "podcast",
@@ -133,7 +144,7 @@
         {
             "eventLink": "https://midwestphp.org/",
             "eventName": "Midwest PHP",
-            "eventLocation": "virtual",
+            "eventLocation": "online",
             "eventDate": ["April", "2020"],
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/ZazS6Jg.png",
@@ -460,6 +471,72 @@
         }
     ],
     "otherVideos": [
+        {
+            "videoLink": "https://youtu.be/sfUjJx6yRAI",
+            "videoTitle": "Postman Live stream: Authorize your apps using OAuth 2.0 with Ping",
+            "videoLocation": "YouTube",
+            "videoDate": ["August", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/sfUjJx6yRAI",
+            "videoTitle": "Postman Live stream: Authorize your apps using OAuth 2.0 with Ping",
+            "videoLocation": "YouTube",
+            "videoDate": ["August", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/u266fbUZ1X4",
+            "videoTitle": "Webinar: Introduction to the Postman API Network",
+            "videoLocation": "YouTube",
+            "videoDate": ["August", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/mw6UNh36ID0",
+            "videoTitle": "Postman Live stream: Work 10x faster in Postman with the Monaco Editor",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/-ny9cUl-Sd4",
+            "videoTitle": "Postman Live stream: Machine learning with Box",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/sB2HHrezQOo",
+            "videoTitle": "Webinar: Continuous Testing with Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/YLNFWCmZyXQ",
+            "videoTitle": "Deploy Friday: Developing APIs with OpenAPI and Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/7pUbezVADQs",
+            "videoTitle": "GraphQL demo",
+            "videoLocation": "YouTube",
+            "videoDate": ["July", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/Qn0kgpQ7eXg",
+            "videoTitle": "CircleCI: Next steps in API integration testing from pipelines with Postman",
+            "videoLocation": "YouTube",
+            "videoDate": ["June", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/DsLa4SSF37o",
+            "videoTitle": "CircleCI: API integration testing from pipelines with Postman and CircleCI",
+            "videoLocation": "YouTube",
+            "videoDate": ["June", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/QLTvj6dDHNU",
+            "videoTitle": "Webinar: Transform into an API-First Business",
+            "videoLocation": "YouTube",
+            "videoDate": ["June", "2020"]
+        }, 
         {
             "videoLink": "https://www.learnwithjason.dev/protect-secret-keys-in-jamstack-apps",
             "videoTitle": "Protect secret keys in JAMstack apps",
