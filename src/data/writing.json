@@ -9,12 +9,12 @@
             "articleBlurb": "A microservices update about domain-driven squads, CDC testing, and happily ever after"
         },
         {
-            "articleTitle": "Run a Minecraft server for free on Kubernetes",
-            "articleLink": "https://codeburst.io/run-a-minecraft-server-for-free-on-kubernetes-ac82a892969e",
-            "articlePublication": "Codeburst",
-            "articleDate": ["July", "2020"],
-            "imgSrc": "https://miro.medium.com/max/1400/1*E8CGJR4PzBHArLnrae_ihA.jpeg",
-            "articleBlurb": "Simplify deployment for multiplayer Minecraft"
+            "articleTitle": "Starlink Satellite SMS Notifications with Python, Kubernetes and Twilio",
+            "articleLink": "https://www.twilio.com/blog/starlink-satellite-sms-notifications-python-kubernetes-twilio",
+            "articlePublication": "Twilio Voices",
+            "articleDate": ["August", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*Pbn1u7N4c6TANTzn-LJDqQ.jpeg",
+            "articleBlurb": "Set up a CronJob to check for satellites"
         },
         {
             "articleTitle": "Deploying a scalable web application with Docker and Kubernetes",
@@ -27,12 +27,20 @@
     ],
     "writing": [
         {
+            "articleTitle": "Run a Minecraft server for free on Kubernetes",
+            "articleLink": "https://codeburst.io/run-a-minecraft-server-for-free-on-kubernetes-ac82a892969e",
+            "articlePublication": "Codeburst",
+            "articleDate": ["July", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*E8CGJR4PzBHArLnrae_ihA.jpeg",
+            "articleBlurb": "Simplify deployment for multiplayer Minecraft"
+        },
+        {
             "articleTitle": "Enabling Public Access to Connected Devices in your Local Network",
             "articleLink": "https://codeburst.io/enable-public-access-to-connected-devices-in-your-local-network-c15338da5a3",
             "articlePublication": "Codeburst",
             "articleDate": ["July", "2020"],
             "imgSrc": "https://miro.medium.com/max/1400/1*iI4ABgRzpBDMSDi4Om8K9w.jpeg",
-            "articleBlurb": "Three options for public access to a Philips Hue light — go ahead, turn on the lights in my kitchen"
+            "articleBlurb": "Three options for public access to a Philips Hue light — turn on the lights in my kitchen"
         },
         {
             "articleTitle": "API Rate Limiting with Node and Redis",
@@ -71,7 +79,8 @@
             "articleLink": "https://medium.com/better-practices/chaos-d3ef238ec328",
             "articlePublication": "Better Practices",
             "articleDate": ["August", "2019"],
-            "imgSrc": "https://miro.medium.com/max/10368/1*Yeu19v1w20PpePBBPISaJQ.jpeg"
+            "imgSrc": "https://miro.medium.com/max/10368/1*Yeu19v1w20PpePBBPISaJQ.jpeg",
+            "articleBlurb": "Building resilient APIs with chaos engineering"
         },
         {
             "articleTitle": "Law and order for APIs with OpenAPI Specifications",
