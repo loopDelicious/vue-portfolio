@@ -472,6 +472,12 @@
     ],
     "otherVideos": [
         {
+            "videoLink": "https://youtu.be/BnSM0iurzM4",
+            "videoTitle": "Postman Live stream: Make your own Batsignal",
+            "videoLocation": "YouTube",
+            "videoDate": ["August", "2020"]
+        }, 
+        {
             "videoLink": "https://youtu.be/sfUjJx6yRAI",
             "videoTitle": "Postman Live stream: Authorize your apps using OAuth 2.0 with Ping",
             "videoLocation": "YouTube",
