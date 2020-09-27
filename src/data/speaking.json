@@ -472,6 +472,24 @@
     ],
     "otherVideos": [
         {
+            "videoLink": "https://youtu.be/qOHZgFy-2ys",
+            "videoTitle": "Postman Live stream: Build an app without a lick of code with Node-RED",
+            "videoLocation": "YouTube",
+            "videoDate": ["September", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/GP4dXl-VePY",
+            "videoTitle": "Webinar: How Ping Identity Uses Postman across the API Lifecycle",
+            "videoLocation": "YouTube",
+            "videoDate": ["September", "2020"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/RLAO_1RuXQU",
+            "videoTitle": "Postman Live stream: Send a WUPHF call for all-channels communications",
+            "videoLocation": "YouTube",
+            "videoDate": ["September", "2020"]
+        }, 
+        {
             "videoLink": "https://youtu.be/BnSM0iurzM4",
             "videoTitle": "Postman Live stream: Make your own Batsignal",
             "videoLocation": "YouTube",
