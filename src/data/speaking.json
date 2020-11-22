@@ -472,6 +472,36 @@
     ],
     "otherVideos": [
         {
+            "videoLink": "https://youtu.be/1n6g4fbaIxA",
+            "videoTitle": "Postman Live stream: What is the Brand New Postman?",
+            "videoLocation": "YouTube",
+            "videoDate": ["November", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/CMyX7RZ21BY",
+            "videoTitle": "Postman Live stream: Change a light based on the mood of your tweets",
+            "videoLocation": "YouTube",
+            "videoDate": ["October", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/Id5HM5D-l_U",
+            "videoTitle": "Postman Live stream: Automate a serverless workflow with HelloSign and Dropbox",
+            "videoLocation": "YouTube",
+            "videoDate": ["October", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/Swjims0aOl4",
+            "videoTitle": "Interceptor demo",
+            "videoLocation": "YouTube",
+            "videoDate": ["October", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/02fDddX9yl0",
+            "videoTitle": "Postman Live stream: Blast off a custom twitch overlay with HTML, CSS, and JavaScript",
+            "videoLocation": "YouTube",
+            "videoDate": ["October", "2020"]
+        },
+        {
             "videoLink": "https://youtu.be/qOHZgFy-2ys",
             "videoTitle": "Postman Live stream: Build an app without a lick of code with Node-RED",
             "videoLocation": "YouTube",

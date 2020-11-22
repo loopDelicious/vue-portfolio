@@ -131,14 +131,6 @@
             "articleBlurb": "How to build secure APIs"
         },
         {
-            "articleTitle": "The Ultimate API Publisher’s Guide",
-            "articleLink": "https://medium.com/better-practices/the-ultimate-api-publishers-guide-be74a2692326",
-            "articlePublication": "Better Practices",
-            "articleDate": ["August", "2018"],
-            "imgSrc": "https://miro.medium.com/max/9792/1*KuZ_U9Yr4KuOuKNZSJysXQ.jpeg",
-            "articleBlurb": "Best practices for documenting your API"
-        },
-        {
             "articleTitle": "API-first software development for modern organizations",
             "articleLink": "https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3",
             "articlePublication": "Better Practices",
@@ -156,6 +148,18 @@
         }
     ],
     "otherWriting": [
+        {
+            "articleTitle": "The Good Documentation Checklist",
+            "articleLink": "https://medium.com/better-practices/the-good-documentation-checklist-1ef992192f15",
+            "articlePublication": "Better Practices",
+            "articleDate": ["November", "2020"]
+        },
+        {
+            "articleTitle": "Visualize Twilio Usage Data with Python, Pandas and Jupyter Notebooks",
+            "articleLink": "https://www.twilio.com/blog/visualize-twilio-usage-data-python-pandas-jupyter-notebooks",
+            "articlePublication": "Twilio Voices",
+            "articleDate": ["September", "2020"]
+        },
         {
             "articleTitle": "Learn HTTP Status Codes with HTTP Cats",
             "articleLink": "https://blog.postman.com/http-cats-learn-http-status-codes/",
@@ -209,6 +213,14 @@
             "articleLink": "https://blog.getpostman.com/2019/04/15/its-a-postman-may-mashup/",
             "articlePublication": "Postman Blog",
             "articleDate": ["April", "2019"]
+        },
+        {
+            "articleTitle": "The Ultimate API Publisher’s Guide",
+            "articleLink": "https://medium.com/better-practices/the-ultimate-api-publishers-guide-be74a2692326",
+            "articlePublication": "Better Practices",
+            "articleDate": ["August", "2018"],
+            "imgSrc": "https://miro.medium.com/max/9792/1*KuZ_U9Yr4KuOuKNZSJysXQ.jpeg",
+            "articleBlurb": "Best practices for documenting your API"
         },
         {
             "articleTitle": "Fake it till you make it: mocks for agile development",
