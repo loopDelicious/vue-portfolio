@@ -15,44 +15,6 @@
             "embedLink": "https://www.youtube.com/embed/GTfLGXi9LDg"
         },
         {
-            "eventLink": "https://developer.cisco.com/devnetcreate/2019/",
-            "eventName": "DevNet Create",
-            "eventLocation": "Mountain View, CA",
-            "eventDate": ["April", "2019"],
-            "eventType": "conference",
-            "imgSrc": "http://i3.ytimg.com/vi/mFww5YaDkZo/hqdefault.jpg",
-            "embedLink": "https://www.youtube.com/embed/mFww5YaDkZo",
-            "talks": [
-                {
-                    "talkTitle": "Community of 6 Million +",
-                    "talkLink": "https://developer.cisco.com/devnetcreate/2019/agenda",
-                    "talkVideo": "https://youtu.be/mFww5YaDkZo"
-                },
-                {
-                    "talkTitle": "SiliconANGLE theCUBE",
-                    "talkLink": null,
-                    "talkVideo": "https://youtu.be/GTfLGXi9LDg",
-                    "imgSrc": "https://i.imgur.com/vi5OLmE.jpg"
-                },
-                {
-                    "talkTitle": "Fake APIs for Real Developers: Mock Servers for Agile Development",
-                    "talkLink": null,
-                    "talkVideo": null
-                }
-            ]
-        },
-        {
-            "eventLink": "https://www.conf42.com/",
-            "eventName": "conf42",
-            "eventLocation": "London",
-            "eventDate": ["January", "2020"],
-            "eventType": "conference",
-            "imgSrc": "https://i.imgur.com/dQPyNY1.png",
-            "talkTitle": "Chaos engineering",
-            "talkLink": "https://youtu.be/ZTbrf47mCEU",
-            "embedLink": "https://www.youtube.com/embed/ZTbrf47mCEU"
-        },
-        {
             "eventLink": "https://fitc.ca/event/webu19/",
             "eventName": "Web Unleashed",
             "eventLocation": "Toronto, CAN",
@@ -170,7 +132,9 @@
             "eventType": "conference",
             "imgSrc": "https://i.imgur.com/dQPyNY1.png",
             "talkTitle": "Chaos engineering",
-            "talkVideo": "https://youtu.be/ZTbrf47mCEU"
+            "talkVideo": "https://youtu.be/ZTbrf47mCEU",
+            "talkLink": "https://youtu.be/ZTbrf47mCEU",
+            "embedLink": "https://www.youtube.com/embed/ZTbrf47mCEU"
         },
         {
             "eventLink": "https://www.apidays.co/paris",
@@ -319,6 +283,8 @@
             "eventType": "conference",
             "imgSrc": "http://i3.ytimg.com/vi/mFww5YaDkZo/hqdefault.jpg",
             "embedLink": "https://www.youtube.com/embed/mFww5YaDkZo",
+            "talkLink": "https://youtu.be/mFww5YaDkZo",
+            "talkVideo": "https://youtu.be/mFww5YaDkZo",
             "talks": [
                 {
                     "talkTitle": "Community of 6 Million +",
@@ -471,6 +437,66 @@
         }
     ],
     "otherVideos": [
+        {
+            "videoLink": "https://youtu.be/WFiYsfSkyXE",
+            "videoTitle": "Postman Level Up: Inheriting Auth Details",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/6xlJUx2ZMy4",
+            "videoTitle": "Postman Level Up: Agent for the Postman Web Client",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/9VBTKwUCsGw",
+            "videoTitle": "Postman Level Up: History",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/C0Z3OMuCGBw",
+            "videoTitle": "Postman Level Up: Provide examples",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/fkYiyCj43uk",
+            "videoTitle": "Postman Level Up: Inline comments",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/QKxukXJWRPI",
+            "videoTitle": "Postman Level Up: Version control for Collections",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/r2DGy4jSuUE",
+            "videoTitle": "Postman Level Up: Generate a Run in Postman button",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/YCsURct9wCk",
+            "videoTitle": "Postman Level Up: Debugging with the Console",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/bi_K4FaHuCw",
+            "videoTitle": "Postman Live stream: Postman for Web - how we built it",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
+        {
+            "videoLink": "https://youtu.be/X8EqHKyDFmg",
+            "videoTitle": "Postman Live stream: Abhinav Asthana, CEO and co-founder of Postman - AMA",
+            "videoLocation": "YouTube",
+            "videoDate": ["December", "2020"]
+        },
         {
             "videoLink": "https://youtu.be/1n6g4fbaIxA",
             "videoTitle": "Postman Live stream: What is the Brand New Postman?",
