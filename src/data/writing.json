@@ -1,12 +1,12 @@
 {
     "featured": [
         {
-            "articleTitle": "How Postman Engineering does microservices",
-            "articleLink": "https://medium.com/better-practices/how-postman-engineering-does-microservices-aa026a3d682d",
+            "articleTitle": "How Postman Engineering handles a million concurrent connections",
+            "articleLink": "https://medium.com/better-practices/how-postman-engineering-handles-a-million-concurrent-connections-15c8807f6393",
             "articlePublication": "Better Practices",
-            "articleDate": ["July", "2020"],
-            "imgSrc": "https://miro.medium.com/max/1400/1*7j-JcmBvamEYqONLIzUQKg.jpeg",
-            "articleBlurb": "A microservices update about domain-driven squads, CDC testing, and happily ever after"
+            "articleDate": ["December", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*YzAN-PbW3j9aDNOWCV0KJA.jpeg",
+            "articleBlurb": "The Server Foundation team at Postman shares the origin story of the Bifrost websocket gateway"
         },
         {
             "articleTitle": "Starlink Satellite SMS Notifications with Python, Kubernetes and Twilio",
@@ -26,6 +26,14 @@
         }
     ],
     "writing": [
+        {
+            "articleTitle": "How Postman Engineering does microservices",
+            "articleLink": "https://medium.com/better-practices/how-postman-engineering-does-microservices-aa026a3d682d",
+            "articlePublication": "Better Practices",
+            "articleDate": ["July", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*7j-JcmBvamEYqONLIzUQKg.jpeg",
+            "articleBlurb": "A microservices update about domain-driven squads, CDC testing, and happily ever after"
+        },
         {
             "articleTitle": "Run a Minecraft server for free on Kubernetes",
             "articleLink": "https://codeburst.io/run-a-minecraft-server-for-free-on-kubernetes-ac82a892969e",
@@ -123,14 +131,6 @@
             "articleBlurb": "AWS Lambda to run concurrent functions"
         },
         {
-            "articleTitle": "Tuck in your APIs safe and sound with these guiding principles for API security",
-            "articleLink": "https://medium.com/better-practices/tuck-in-your-apis-safe-and-sound-with-these-guiding-principles-for-api-security-cd69f71c291e",
-            "articlePublication": "Better Practices",
-            "articleDate": ["September", "2018"],
-            "imgSrc": "https://miro.medium.com/max/2560/1*QRZUaJYGp3h_n4Jfq24OVQ.jpeg",
-            "articleBlurb": "How to build secure APIs"
-        },
-        {
             "articleTitle": "API-first software development for modern organizations",
             "articleLink": "https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3",
             "articlePublication": "Better Practices",
@@ -213,6 +213,14 @@
             "articleLink": "https://blog.getpostman.com/2019/04/15/its-a-postman-may-mashup/",
             "articlePublication": "Postman Blog",
             "articleDate": ["April", "2019"]
+        },
+        {
+            "articleTitle": "Tuck in your APIs safe and sound with these guiding principles for API security",
+            "articleLink": "https://medium.com/better-practices/tuck-in-your-apis-safe-and-sound-with-these-guiding-principles-for-api-security-cd69f71c291e",
+            "articlePublication": "Better Practices",
+            "articleDate": ["September", "2018"],
+            "imgSrc": "https://miro.medium.com/max/2560/1*QRZUaJYGp3h_n4Jfq24OVQ.jpeg",
+            "articleBlurb": "How to build secure APIs"
         },
         {
             "articleTitle": "The Ultimate API Publisher’s Guide",
