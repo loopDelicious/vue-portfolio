@@ -436,7 +436,97 @@
             "eventType": "conference"
         }
     ],
-    "otherVideos": [
+    "otherVideos": [  
+        {
+            "videoLink": "https://youtu.be/eRubPhKa7D8",
+            "videoTitle": "Postman Live stream: Creating a graphical giraffe app with Microsoft Graph",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/43dVu4Ch6IU",
+            "videoTitle": "Join us on Postman Live",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/Ta2iXG5HSLc",
+            "videoTitle": "Postman Live stream: Picking an outfit of the day with the Instagram API",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/Kq8Ra0ugqoY",
+            "videoTitle": "Postman Level Up: Versioning APIs with Tags",
+            "videoLocation": "YouTube",
+            "videoDate": ["April", "2021"]
+        },
+        {
+            "videoLink": "https://youtu.be/adHkRKWCloE",
+            "videoTitle": "Postman Live stream: Where is my cat?",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/RH8b3gbujPY",
+            "videoTitle": "Postman Level Up: Loop through a data file",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2021"]
+        },
+        {
+            "videoLink": "https://youtu.be/eBe8wfMw-ik",
+            "videoTitle": "Postman Live stream: Monitoring your stocks",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/RufLGm6jP0s",
+            "videoTitle": "Postman Live stream: Jumping on the Gamestop bandwagon",
+            "videoLocation": "YouTube",
+            "videoDate": ["March", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/cCruwkHi9o4",
+            "videoTitle": "Postman Level Up: Interactive Lesson in Bootcamp",
+            "videoLocation": "YouTube",
+            "videoDate": ["February", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/rZySZm9XaLM",
+            "videoTitle": "Postman Level Up: Dark Mode",
+            "videoLocation": "YouTube",
+            "videoDate": ["February", "2021"]
+        },  
+        {
+            "videoLink": "https://youtu.be/I6vClap0ajU",
+            "videoTitle": "Postman Level Up: Initial vs Current values for variables",
+            "videoLocation": "YouTube",
+            "videoDate": ["February", "2021"]
+        },   
+        {
+            "videoLink": "https://youtu.be/To7drfoIoqg",
+            "videoTitle": "Postman Live stream: Stalking your favorite band",
+            "videoLocation": "YouTube",
+            "videoDate": ["February", "2021"]
+        },   
+        {
+            "videoLink": "https://youtu.be/qvJEx8Um_jk",
+            "videoTitle": "The 2-Minute Postman Galaxy Orientation",
+            "videoLocation": "YouTube",
+            "videoDate": ["January", "2021"]
+        }, 
+        {
+            "videoLink": "https://youtu.be/c-5UMf6sWk4",
+            "videoTitle": "Postman Live stream: How to break an API",
+            "videoLocation": "YouTube",
+            "videoDate": ["January", "2021"]
+        },    
+        {
+        "videoLink": "https://youtu.be/vW030tA17ng",
+        "videoTitle": "Postman Level Up: Dynamic Variables",
+        "videoLocation": "YouTube",
+        "videoDate": ["December", "2020"]
+        },
         {
             "videoLink": "https://youtu.be/WFiYsfSkyXE",
             "videoTitle": "Postman Level Up: Inheriting Auth Details",
