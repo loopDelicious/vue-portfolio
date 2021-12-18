@@ -74,6 +74,36 @@
     "speaking": [],
     "otherEvents": [
         {
+            "eventLink": "https://anchor.fm/developingcommunities/",
+            "eventName": "Developing Communities: The DevRel Podcast",
+            "eventLocation": "podcast",
+            "eventDate": ["December", "2021"],
+            "eventType": "podcast",
+            "imgSrc": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/14915801/14915801-1619974003288-733f7795660aa.jpg",
+            "talkTitle": "From business growth to DevRel and the lessons along the way with Joyce Lin",
+            "talkVideo": "https://anchor.fm/developingcommunities/episodes/Episode-10-From-business-growth-to-DevRel-and-the-lessons-along-the-way-with-Joyce-Lin-e1bnisp/a-a73jcq3"
+        },
+        {
+            "eventLink": "https://www.devopsparadox.com/",
+            "eventName": "DevOps Paradox",
+            "eventLocation": "podcast",
+            "eventDate": ["November", "2021"],
+            "eventType": "podcast",
+            "imgSrc": "https://www.devopsparadox.com/img/episode/133-social.webp",
+            "talkTitle": "APIs Are Everything",
+            "talkVideo": "https://www.devopsparadox.com/episodes/apis-are-everything-133/"
+        },
+        {
+            "eventLink": "https://soundcloud.com/yoursproductly",
+            "eventName": "Yours Productly",
+            "eventLocation": "podcast",
+            "eventDate": ["November", "2021"],
+            "eventType": "podcast",
+            "imgSrc": "http://i3.ytimg.com/vi/ygI4A9wWAdI/hqdefault.jpg",
+            "talkTitle": "How to build a top-notch API-First Company?",
+            "talkVideo": "https://youtu.be/ygI4A9wWAdI"
+        },
+        {
             "eventLink": "https://www.heavybit.com/library/podcasts/developer-love/",
             "eventName": "Developer Love",
             "eventLocation": "podcast",
