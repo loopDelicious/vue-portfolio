@@ -8,9 +8,10 @@
         </template>
 
         <div class="social-media">
-            <b-link href="https://github.com/loopDelicious" target="_blank"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></b-link>
             <b-link href="https://twitter.com/petuniagray" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']" size="2x" /></b-link>
+            <b-link href="https://github.com/loopDelicious" target="_blank"><font-awesome-icon :icon="['fab', 'github']" size="2x" /></b-link>
             <b-link href="https://www.linkedin.com/in/joyce-lin/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" size="2x" /></b-link>
+            <b-link href="https://www.tiktok.com/@joycejetson" target="_blank"><font-awesome-icon :icon="['fab', 'tiktok']" size="2x" /></b-link>
         </div>
 
     </b-jumbotron>

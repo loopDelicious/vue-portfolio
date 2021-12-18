@@ -7,6 +7,8 @@
         <div class="joyce-list">
           <p><font-awesome-icon :icon="['fas', 'location-arrow']" />  San Francisco, CA</p>
           <p><font-awesome-icon :icon="['fas', 'check-square']" />  Full Stack Engineer with Product Experience</p>
+          <p><font-awesome-icon :icon="['fab', 'twitter']" /><b-link href="https://twitter.com/petuniagray" target="_blank">petuniaGray</b-link></p>
+          <p><font-awesome-icon :icon="['fab', 'tiktok']" /><b-link href="https://www.tiktok.com/@joycejetson" target="_blank">joyceJetson</b-link></p>
         </div>
         <a class="scroll-button" href="#speaking-drawer">
           <div class="scroll-to-anchor">
@@ -77,5 +79,37 @@ li {
 }
 .scroll-to-anchor svg:hover {
   color: lightgray;
+}
+/* animate link */
+/* https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+.joyce-list a:hover {
+  color: lightgray;
+}
+.joyce-list a {
+  position: relative;
+  color: darkgray;
+  text-decoration: none;
+}
+.joyce-list a:hover {
+  color: lightgray;
+}
+.joyce-list a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: mediumaquamarine;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.joyce-list a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 </style>
