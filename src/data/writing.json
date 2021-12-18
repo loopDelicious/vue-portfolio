@@ -9,12 +9,12 @@
             "articleBlurb": "The Server Foundation team at Postman shares the origin story of the Bifrost websocket gateway"
         },
         {
-            "articleTitle": "Starlink Satellite SMS Notifications with Python, Kubernetes and Twilio",
-            "articleLink": "https://www.twilio.com/blog/starlink-satellite-sms-notifications-python-kubernetes-twilio",
-            "articlePublication": "Twilio Voices",
-            "articleDate": ["August", "2020"],
-            "imgSrc": "https://miro.medium.com/max/1400/1*Pbn1u7N4c6TANTzn-LJDqQ.jpeg",
-            "articleBlurb": "Set up a CronJob to check for satellites"
+            "articleTitle": "The most important API metric is time to first call",
+            "articleLink": "https://techcrunch.com/2021/07/12/the-most-important-api-metric-is-time-to-first-call/",
+            "articlePublication": "Tech Crunch",
+            "articleDate": ["July", "2021"],
+            "imgSrc": "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-985635618.jpg?w=1390&crop=1",
+            "articleBlurb": "Invest in TTFC to expand your potential developer base"
         },
         {
             "articleTitle": "Deploying a scalable web application with Docker and Kubernetes",
@@ -43,44 +43,12 @@
             "articleBlurb": "Simplify deployment for multiplayer Minecraft"
         },
         {
-            "articleTitle": "Enabling Public Access to Connected Devices in your Local Network",
-            "articleLink": "https://codeburst.io/enable-public-access-to-connected-devices-in-your-local-network-c15338da5a3",
-            "articlePublication": "Codeburst",
-            "articleDate": ["July", "2020"],
-            "imgSrc": "https://miro.medium.com/max/1400/1*iI4ABgRzpBDMSDi4Om8K9w.jpeg",
-            "articleBlurb": "Three options for public access to a Philips Hue light — turn on the lights in my kitchen"
-        },
-        {
-            "articleTitle": "API Rate Limiting with Node and Redis",
-            "articleLink": "https://codeburst.io/api-rate-limiting-with-node-and-redis-95354259c768",
-            "articlePublication": "Codeburst",
-            "articleDate": ["June", "2020"],
-            "imgSrc": "https://miro.medium.com/max/2000/1*1bDAJ5ASFQryFaN9Dygp3A.jpeg",
-            "articleBlurb": "Build a simple rate limiter to improve the availability of your API-based services"
-        },
-        {
             "articleTitle": "Set up a free Dynamic DNS service with ddclient on Kubernetes",
             "articleLink": "https://codeburst.io/ddclient-c9a6ac1d8f81",
             "articlePublication": "Codeburst",
             "articleDate": ["May", "2020"],
             "imgSrc": "https://miro.medium.com/max/2000/1*d0GwB2WDaVx_5vZO2ssDOQ.jpeg",
             "articleBlurb": "Access self-hosted services when you’re away from home and your IP changes"
-        },
-        {
-            "articleTitle": "Adding an Octopus to the Zsh Prompt",
-            "articleLink": "https://medium.com/@joycelin.codes/adding-an-octopus-to-the-zsh-prompt-56edf2e9bcad",
-            "articlePublication": "Medium",
-            "articleDate": ["April", "2020"],
-            "imgSrc": "https://miro.medium.com/max/2000/1*RjnYWD_mbYiSEBRsBmdtLA.jpeg",
-            "articleBlurb": "Transition from bash to zsh with custom settings, conditional emojis, and git prompt"
-        },
-        {
-            "articleTitle": "How to book a campsite in Yosemite valley",
-            "articleLink": "https://medium.com/@joycelin.codes/how-to-book-a-campsite-in-yosemite-valley-fe18ad5d4d63?source=friends_link&sk=fa232b1c75345210a0e2505786ac4ad5",
-            "articlePublication": "Medium",
-            "articleDate": ["March", "2020"],
-            "imgSrc": "https://miro.medium.com/max/2000/1*dWw6FE2un_ICzR0PSNe6EQ.jpeg",
-            "articleBlurb": "Building your own bot to co-opt natural resources"
         },
         {
             "articleTitle": "How your Kubernetes clusters respond to failure with Gremlin and Grafana",
@@ -91,52 +59,12 @@
             "articleBlurb": "Building resilient APIs with chaos engineering"
         },
         {
-            "articleTitle": "Law and order for APIs with OpenAPI Specifications",
-            "articleLink": "https://medium.com/better-practices/api-specifications-d87588ac874",
-            "articlePublication": "Better Practices",
-            "articleDate": ["November", "2019"],
-            "imgSrc": "https://miro.medium.com/max/12000/1*RSb13ih-eWr9crmpmFKVxw.jpeg",
-            "articleBlurb": "A better way to build and manage APIs using schemas, descriptions, and style guides"
-        },
-        {
-            "articleTitle": "Introducing Better Practices",
-            "articleLink": "https://medium.com/better-practices/introducing-better-practices-e9cf14cf0c88",
-            "articlePublication": "Better Practices",
-            "articleDate": ["April", "2019"],
-            "imgSrc": "https://miro.medium.com/max/3076/1*vOBMJyHlysk2xuVoszs0vw.png",
-            "articleBlurb": "To share better software engineering practices with the Postman community"
-        },
-        {
-            "articleTitle": "Reverse engineering an API",
-            "articleLink": "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303",
-            "articlePublication": "Better Practices",
-            "articleDate": ["January", "2019"],
-            "imgSrc": "https://miro.medium.com/max/2880/1*a61LpBuYq-6S9b0_24d1fw.gif",
-            "articleBlurb": "Understand public or private API, especially ones that aren’t well-documented"
-        },
-        {
             "articleTitle": "Acing your API tests — what you need to know for test automation",
             "articleLink": "https://medium.com/better-practices/acing-your-apis-what-you-need-to-know-for-test-automation-e3fdba3519b9",
             "articlePublication": "Better Practices",
             "articleDate": ["November", "2018"],
             "imgSrc": "https://miro.medium.com/max/10368/1*pJFKwSNu4A0nJCUZ9d4KZw.jpeg",
             "articleBlurb": "We’ll break it down, with examples, so you can test early and often"
-        },
-        {
-            "articleTitle": "Don’t get TechCrunched: performance testing for your HTTP APIs",
-            "articleLink": "https://medium.com/better-practices/dont-get-techcrunched-performance-testing-for-your-http-apis-3196e40f6b70",
-            "articlePublication": "Better Practices",
-            "articleDate": ["October", "2018"],
-            "imgSrc": "https://miro.medium.com/max/3120/1*HW-r4Stc052Sn381sIRMHQ.png",
-            "articleBlurb": "AWS Lambda to run concurrent functions"
-        },
-        {
-            "articleTitle": "API-first software development for modern organizations",
-            "articleLink": "https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3",
-            "articlePublication": "Better Practices",
-            "articleDate": ["August", "2018"],
-            "imgSrc": "https://miro.medium.com/max/12000/1*tjvQ8XV65JcxIETD53CNDg.jpeg",
-            "articleBlurb": "An API-first approach can help you manage the complexity of working in the cloud"
         },
         {
             "articleTitle": "Postman – a beacon of hope in a world of API darkness",
@@ -148,6 +76,20 @@
         }
     ],
     "otherWriting": [
+        {
+            "articleTitle": "The 'Cloud 100' is Pretty Much a List of APIs. Find out why.",
+            "articleLink": "https://hackernoon.com/the-cloud-100-is-pretty-much-a-list-of-apis-find-out-why",
+            "articlePublication": "Hackernoon",
+            "articleDate": ["November", "2021"]
+        },
+        {
+            "articleTitle": "Starlink Satellite SMS Notifications with Python, Kubernetes and Twilio",
+            "articleLink": "https://www.twilio.com/blog/starlink-satellite-sms-notifications-python-kubernetes-twilio",
+            "articlePublication": "Twilio Voices",
+            "articleDate": ["August", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*Pbn1u7N4c6TANTzn-LJDqQ.jpeg",
+            "articleBlurb": "Set up a CronJob to check for satellites"
+        },
         {
             "articleTitle": "The Good Documentation Checklist",
             "articleLink": "https://medium.com/better-practices/the-good-documentation-checklist-1ef992192f15",
@@ -167,6 +109,22 @@
             "articleDate": ["August", "2020"]
         },
         {
+            "articleTitle": "Enabling Public Access to Connected Devices in your Local Network",
+            "articleLink": "https://codeburst.io/enable-public-access-to-connected-devices-in-your-local-network-c15338da5a3",
+            "articlePublication": "Codeburst",
+            "articleDate": ["July", "2020"],
+            "imgSrc": "https://miro.medium.com/max/1400/1*iI4ABgRzpBDMSDi4Om8K9w.jpeg",
+            "articleBlurb": "Three options for public access to a Philips Hue light — turn on the lights in my kitchen"
+        },
+        {
+            "articleTitle": "API Rate Limiting with Node and Redis",
+            "articleLink": "https://codeburst.io/api-rate-limiting-with-node-and-redis-95354259c768",
+            "articlePublication": "Codeburst",
+            "articleDate": ["June", "2020"],
+            "imgSrc": "https://miro.medium.com/max/2000/1*1bDAJ5ASFQryFaN9Dygp3A.jpeg",
+            "articleBlurb": "Build a simple rate limiter to improve the availability of your API-based services"
+        },
+        {
             "articleTitle": "OAuth 2.0: Implicit Flow is Dead, Try PKCE Instead",
             "articleLink": "https://blog.postman.com/pkce-oauth-how-to/",
             "articlePublication": "Postman Blog",
@@ -179,10 +137,26 @@
             "articleDate": ["June", "2020"]
         },
         {
+            "articleTitle": "Adding an Octopus to the Zsh Prompt",
+            "articleLink": "https://medium.com/@joycelin.codes/adding-an-octopus-to-the-zsh-prompt-56edf2e9bcad",
+            "articlePublication": "Medium",
+            "articleDate": ["April", "2020"],
+            "imgSrc": "https://miro.medium.com/max/2000/1*RjnYWD_mbYiSEBRsBmdtLA.jpeg",
+            "articleBlurb": "Transition from bash to zsh with custom settings, conditional emojis, and git prompt"
+        },
+        {
             "articleTitle": "Making SOAP Requests with Postman",
             "articleLink": "https://blog.postman.com/making-http-soap-requests-with-postman/",
             "articlePublication": "Postman Blog",
             "articleDate": ["April", "2020"]
+        },
+        {
+            "articleTitle": "How to book a campsite in Yosemite valley",
+            "articleLink": "https://medium.com/@joycelin.codes/how-to-book-a-campsite-in-yosemite-valley-fe18ad5d4d63?source=friends_link&sk=fa232b1c75345210a0e2505786ac4ad5",
+            "articlePublication": "Medium",
+            "articleDate": ["March", "2020"],
+            "imgSrc": "https://miro.medium.com/max/2000/1*dWw6FE2un_ICzR0PSNe6EQ.jpeg",
+            "articleBlurb": "Building your own bot to co-opt natural resources"
         },
         {
             "articleTitle": "Graphing COVID time series data using Chart.js and Postman",
@@ -203,16 +177,42 @@
             "articleDate": ["February", "2020"]
         },
         {
+            "articleTitle": "Law and order for APIs with OpenAPI Specifications",
+            "articleLink": "https://medium.com/better-practices/api-specifications-d87588ac874",
+            "articlePublication": "Better Practices",
+            "articleDate": ["November", "2019"],
+            "imgSrc": "https://miro.medium.com/max/12000/1*RSb13ih-eWr9crmpmFKVxw.jpeg",
+            "articleBlurb": "A better way to build and manage APIs using schemas, descriptions, and style guides"
+        },
+        {
             "articleTitle": "Sweet cosmic karma for your public profile",
             "articleLink": "https://blog.getpostman.com/2019/10/25/sweet-cosmic-karma-for-your-public-profile/",
             "articlePublication": "Postman Feature Announcements",
             "articleDate": ["October", "2019"]
         },
         {
-            "articleTitle": "It’s a Postman May Mashup!",
-            "articleLink": "https://blog.getpostman.com/2019/04/15/its-a-postman-may-mashup/",
-            "articlePublication": "Postman Blog",
-            "articleDate": ["April", "2019"]
+            "articleTitle": "Introducing Better Practices",
+            "articleLink": "https://medium.com/better-practices/introducing-better-practices-e9cf14cf0c88",
+            "articlePublication": "Better Practices",
+            "articleDate": ["April", "2019"],
+            "imgSrc": "https://miro.medium.com/max/3076/1*vOBMJyHlysk2xuVoszs0vw.png",
+            "articleBlurb": "To share better software engineering practices with the Postman community"
+        },
+        {
+            "articleTitle": "Reverse engineering an API",
+            "articleLink": "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303",
+            "articlePublication": "Better Practices",
+            "articleDate": ["January", "2019"],
+            "imgSrc": "https://miro.medium.com/max/2880/1*a61LpBuYq-6S9b0_24d1fw.gif",
+            "articleBlurb": "Understand public or private API, especially ones that aren’t well-documented"
+        },
+        {
+            "articleTitle": "Don’t get TechCrunched: performance testing for your HTTP APIs",
+            "articleLink": "https://medium.com/better-practices/dont-get-techcrunched-performance-testing-for-your-http-apis-3196e40f6b70",
+            "articlePublication": "Better Practices",
+            "articleDate": ["October", "2018"],
+            "imgSrc": "https://miro.medium.com/max/3120/1*HW-r4Stc052Sn381sIRMHQ.png",
+            "articleBlurb": "AWS Lambda to run concurrent functions"
         },
         {
             "articleTitle": "Tuck in your APIs safe and sound with these guiding principles for API security",
@@ -221,6 +221,14 @@
             "articleDate": ["September", "2018"],
             "imgSrc": "https://miro.medium.com/max/2560/1*QRZUaJYGp3h_n4Jfq24OVQ.jpeg",
             "articleBlurb": "How to build secure APIs"
+        },
+        {
+            "articleTitle": "API-first software development for modern organizations",
+            "articleLink": "https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3",
+            "articlePublication": "Better Practices",
+            "articleDate": ["August", "2018"],
+            "imgSrc": "https://miro.medium.com/max/12000/1*tjvQ8XV65JcxIETD53CNDg.jpeg",
+            "articleBlurb": "An API-first approach can help you manage the complexity of working in the cloud"
         },
         {
             "articleTitle": "The Ultimate API Publisher’s Guide",
