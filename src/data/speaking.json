@@ -74,6 +74,76 @@
     "speaking": [],
     "otherEvents": [
         {
+            "eventLink": "https://shift.infobip.com/us/",
+            "eventName": "Shift",
+            "eventLocation": "Miami",
+            "eventDate": ["June", "2023"],
+            "eventType": "conference",
+            "imgSrc": null,
+            "talkTitle": "APIs Are Eating the Universe",
+            "talkVideo": "https://youtu.be/8aHzQEgM1gg"
+        },
+        {
+            "eventLink": "https://devinterrupted.com/podcast/the-art-of-community-building/",
+            "eventName": "Dev Interrupted",
+            "eventLocation": "podcast",
+            "eventDate": ["April", "2023"],
+            "eventType": "podcast",
+            "imgSrc": null,
+            "talkTitle": "The Art of Community Building with Postman",
+            "talkVideo": "https://youtu.be/lpYniFOO4hg"
+        },
+        {
+            "eventLink": "https://topenddevs.com/podcasts/javascript-jabber/episodes/jsj-577",
+            "eventName": "JavaScript Jabber",
+            "eventLocation": "podcast",
+            "eventDate": ["April", "2023"],
+            "eventType": "podcast",
+            "imgSrc": null,
+            "talkTitle": "Reverse Engineering",
+            "talkVideo": "https://topenddevs.com/podcasts/javascript-jabber/episodes/jsj-577"
+        },
+        {
+            "eventLink": "https://podrocket.logrocket.com/private-api",
+            "eventName": "PodRocket",
+            "eventLocation": "podcast",
+            "eventDate": ["October", "2022"],
+            "eventType": "podcast",
+            "imgSrc": null,
+            "talkTitle": "Reverse engineering a private API",
+            "talkVideo": "https://podrocket.logrocket.com/private-api"
+        },
+        {
+            "eventLink": "https://nordicapis.com/events/api-first/",
+            "eventName": "Nordic APIs: LiveCast",
+            "eventLocation": "webinar",
+            "eventDate": ["October", "2022"],
+            "eventType": "webinar",
+            "imgSrc": "https://nordicapis.com/wp-content/uploads/What-It-Means-to-Go-API-First.png",
+            "talkTitle": "What It Means to Go API-First",
+            "talkVideo": "https://youtu.be/v3K-ev8iu0s"
+        },
+        {
+            "eventLink": "https://www.heavybit.com/library/video/the-roi-of-great-technical-onboarding-with-postman-joyce-lin",
+            "eventName": "The Heavybit Library",
+            "eventLocation": "webinar",
+            "eventDate": ["October", "2022"],
+            "eventType": "webinar",
+            "imgSrc": null,
+            "talkTitle": "The ROI of Great Technical Onboarding",
+            "talkVideo": "https://www.heavybit.com/library/video/the-roi-of-great-technical-onboarding-with-postman-joyce-lin"
+        },
+        {
+            "eventLink": "https://2022.cascadiajs.com/speakers/joyce-lin",
+            "eventName": "CascadiaJS",
+            "eventLocation": "Sun River",
+            "eventDate": ["August", "2022"],
+            "eventType": "conference",
+            "imgSrc": "https://2022.cascadiajs.com/images/graphic-recordings/joyce-lin.jpg",
+            "talkTitle": "Reverse Engineering a Private API",
+            "talkVideo": "https://youtu.be/mAjvWZASyEI"
+        },
+        {
             "eventLink": "https://anchor.fm/developingcommunities/",
             "eventName": "Developing Communities: The DevRel Podcast",
             "eventLocation": "podcast",
