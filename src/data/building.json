@@ -1,6 +1,25 @@
 {
     "featured": [
         {
+            "projectTitle": "30 days of Postman - for developers",
+            "projectLink": "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview",
+            "projectArticle": "https://blog.postman.com/who-survived-the-30-days-of-postman-challenge/",
+            "projectVideo": "https://youtu.be/bmQdaXaFjmM",
+            "githubLink": null,
+            "projectDescription": "Coding challenge for developers",
+            "imgSrc": "https://blog.postman.com/wp-content/uploads/2021/08/30bar.png"
+        },
+        {
+            "projectTitle": "15 days of Postman - for testers",
+            "projectLink": "https://www.postman.com/postman/workspace/15-days-of-postman-for-testers/overview",
+            "projectArticle": "https://blog.postman.com/15-days-of-postman-test-challenge-for-api-testing-professionals/",
+            "githubLink": null,
+            "projectDescription": "Coding challenge for testers",
+            "imgSrc": "https://blog.postman.com/wp-content/uploads/2023/01/image1.png"
+        }
+    ],
+    "building": [
+                {
             "projectTitle": "catURL",
             "projectLink": "https://caturl.herokuapp.com/",
             "projectArticle": null,
@@ -16,9 +35,7 @@
             "githubLink": "https://github.com/loopDelicious/dataviz",
             "projectDescription": "Dropout rate from 30 days of coding - only 8.2% make it.",
             "imgSrc": "https://miro.medium.com/max/4832/1*Ze5JYej8xxpeJM9i0G3WiQ.png"
-        }
-    ],
-    "building": [
+        },
         {
             "projectTitle": "Regional Differences in Programming",
             "projectLink": "http://indeed.meowsergirl.com/",
